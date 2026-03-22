@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Circular Farmland Detection with Multispectral Imagery",
+    "desc": "Análisis de imágenes multiespectrales de Wyvern para detectar granjas de riego circular, dentro del #30DayMapChallenge (día 29, tema: raster).",
+    "autor": "Milan Janosov",
+    "cat": null,
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": null,
+    "liUrl": null,
+    "body": "<p>Este artículo forma parte del #30DayMapChallenge y se centra en el análisis de imágenes multiespectrales de alta resolución proporcionadas por Wyvern.</p><p>El autor utiliza estas imágenes para identificar patrones de riego por pivote central visibles desde satélite.</p>"
+  },
+  {
+    "title": "OpenStreetMap vs Global Building Atlas — Tutorial Python",
+    "desc": "Comparación visual y analítica entre las huellas de edificios de OpenStreetMap y el Global Building Atlas de Google mediante Python.",
+    "autor": "Milan Janosov",
+    "cat": null,
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": null,
+    "liUrl": null,
+    "body": "<p>Este tutorial compara dos de las principales fuentes abiertas de huellas de edificios: OSM y GBA de Google.</p><p>El análisis visual muestra diferencias de cobertura y completitud entre ambos datasets.</p>"
+  },
+  {
+    "title": "A Comprehensive List of Satellite Indices",
+    "desc": "Referencia completa de más de 15 índices derivados de imágenes satelitales: NDVI, NDBI, NDWI, SAVI y más.",
+    "autor": "Milan Janosov",
+    "cat": null,
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": null,
+    "liUrl": null,
+    "body": "<p>Recopilación de los principales índices espectrales: NDVI, ENDVI, NDBI, NDWI, MNDWI, NDSI, SAVI, GNDVI, RECI, NDRE, ESI, MSAVI, GCVI y más.</p>"
+  },
+  {
+    "title": "25 Must-Read Papers on GeoAI",
+    "desc": "Lista curada de 25 artículos académicos fundamentales sobre inteligencia artificial geoespacial (GeoAI).",
+    "autor": "Milan Janosov",
+    "cat": null,
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": null,
+    "liUrl": null,
+    "body": "<p>Compilación de 25 papers esenciales sobre GeoAI, desde fundamentos teóricos hasta aplicaciones urbanas.</p>"
+  },
+  {
+    "title": "What is GeoAI? — Free Lesson on Neural Networks, Tensors and Convolution",
+    "desc": "Lección introductoria gratuita de un curso sobre GeoAI: fundamentos de redes neuronales, tensores y convolución.",
+    "autor": "Milan Janosov",
+    "cat": null,
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": null,
+    "liUrl": null,
+    "body": "<p>Lección gratuita que cubre qué es GeoAI, cómo los datos espaciales se convierten en tensores, y qué significa la convolución de forma visual e intuitiva.</p>"
+  },
+  {
+    "title": "20 Geospatial Papers You Shouldn't Miss — March 2026 | Part 2",
+    "desc": "Selección curada de 20 papers geoespaciales recientes (marzo 2026).",
+    "autor": "Milan Janosov",
+    "cat": null,
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": null,
+    "liUrl": null,
+    "body": "<p>Selección de 20 artículos geoespaciales recientes cubriendo planificación urbana, movilidad, cambio climático y percepción del entorno.</p>"
+  }
+]
