@@ -8,7 +8,8 @@
     "paperUrl": null,
     "linkUrl": null,
     "liUrl": null,
-    "body": "<p>Este artículo forma parte del #30DayMapChallenge y se centra en el análisis de imágenes multiespectrales de alta resolución proporcionadas por Wyvern.</p><p>El autor utiliza estas imágenes para identificar patrones de riego por pivote central visibles desde satélite.</p>"
+    "body": "<p>Este artículo forma parte del #30DayMapChallenge y se centra en el análisis de imágenes multiespectrales de alta resolución proporcionadas por Wyvern.</p><p>El autor utiliza estas imágenes para identificar patrones de riego por pivote central visibles desde satélite.</p>",
+    "fecha": "2026-03-17"
   },
   {
     "title": "OpenStreetMap vs Global Building Atlas — Tutorial Python",
@@ -19,7 +20,8 @@
     "paperUrl": null,
     "linkUrl": null,
     "liUrl": null,
-    "body": "<p>Este tutorial compara dos de las principales fuentes abiertas de huellas de edificios: OSM y GBA de Google.</p><p>El análisis visual muestra diferencias de cobertura y completitud entre ambos datasets.</p>"
+    "body": "<p>Este tutorial compara dos de las principales fuentes abiertas de huellas de edificios: OSM y GBA de Google.</p><p>El análisis visual muestra diferencias de cobertura y completitud entre ambos datasets.</p>",
+    "fecha": "2026-03-17"
   },
   {
     "title": "A Comprehensive List of Satellite Indices",
@@ -30,7 +32,8 @@
     "paperUrl": null,
     "linkUrl": null,
     "liUrl": null,
-    "body": "<p>Recopilación de los principales índices espectrales: NDVI, ENDVI, NDBI, NDWI, MNDWI, NDSI, SAVI, GNDVI, RECI, NDRE, ESI, MSAVI, GCVI y más.</p>"
+    "body": "<p>Recopilación de los principales índices espectrales: NDVI, ENDVI, NDBI, NDWI, MNDWI, NDSI, SAVI, GNDVI, RECI, NDRE, ESI, MSAVI, GCVI y más.</p>",
+    "fecha": "2026-03-17"
   },
   {
     "title": "25 Must-Read Papers on GeoAI",
@@ -41,7 +44,8 @@
     "paperUrl": null,
     "linkUrl": null,
     "liUrl": null,
-    "body": "<p>Compilación de 25 papers esenciales sobre GeoAI, desde fundamentos teóricos hasta aplicaciones urbanas.</p>"
+    "body": "<p>Compilación de 25 papers esenciales sobre GeoAI, desde fundamentos teóricos hasta aplicaciones urbanas.</p>",
+    "fecha": "2026-03-17"
   },
   {
     "title": "What is GeoAI? — Free Lesson on Neural Networks, Tensors and Convolution",
@@ -52,7 +56,8 @@
     "paperUrl": null,
     "linkUrl": null,
     "liUrl": null,
-    "body": "<p>Lección gratuita que cubre qué es GeoAI, cómo los datos espaciales se convierten en tensores, y qué significa la convolución de forma visual e intuitiva.</p>"
+    "body": "<p>Lección gratuita que cubre qué es GeoAI, cómo los datos espaciales se convierten en tensores, y qué significa la convolución de forma visual e intuitiva.</p>",
+    "fecha": "2026-03-17"
   },
   {
     "title": "20 Geospatial Papers You Shouldn't Miss — March 2026 | Part 2",
@@ -63,7 +68,8 @@
     "paperUrl": null,
     "linkUrl": null,
     "liUrl": null,
-    "body": "<p>Selección de 20 artículos geoespaciales recientes cubriendo planificación urbana, movilidad, cambio climático y percepción del entorno.</p>"
+    "body": "<p>Selección de 20 artículos geoespaciales recientes cubriendo planificación urbana, movilidad, cambio climático y percepción del entorno.</p>",
+    "fecha": "2026-03-17"
   },
   {
     "title": "GeospatialML Blog — Caleb Robinson",

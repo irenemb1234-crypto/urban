@@ -289,10 +289,6 @@ tr.expand-row td{padding:0 14px 14px;border-bottom:1px solid var(--border);backg
     Los datos se cargan desde /data/*.json (GitHub Pages)
     ============================================================ */
 
-// ── Configuración de fechas ──────────────────────────────────
-var TODAY      = '2026-03-22';
-var TODAY_AC   = '2026-03-22';
-
 // ── Variables globales ───────────────────────────────────────
 var tools = [];           // se llena con fetch
 var academicItems = [];   // se llena con fetch + tools académicos
@@ -351,9 +347,8 @@ Promise.all([
   var rawAcademic = results[1];
   var rawOtros = results[2];
 
-  // Asignar fecha a cada herramienta (si no la trae el JSON)
+  // Normalizar campos opcionales
   rawTools.forEach(function(t){
-    if(!t.fecha) t.fecha = TODAY;
     if(!t.enlaces) t.enlaces = [];
     if(!t.programas) t.programas = [];
   });
@@ -364,11 +359,6 @@ Promise.all([
   var fromTools = tools.filter(function(t){return t.tipo==='Framework académico'}).map(function(t){
     var pl=(t.enlaces||[]).find(function(e){return/paper|arxiv|doi/i.test(e.url||e.label)});
     return{title:t.nombre,desc:t.descripcion,autor:t.autor,fecha:t.fecha,cat:t.categoria,badges:catBadges(t),paperUrl:pl?pl.url:null,linkUrl:t.link,liUrl:t.url&&t.url.indexOf('linkedin')!==-1?t.url:null,body:null};
-  });
-
-  // Asignar fecha a los académicos
-  rawAcademic.forEach(function(a){
-    if(!a.fecha) a.fecha = TODAY_AC;
   });
 
   academicItems = fromTools.concat(rawAcademic);
@@ -449,7 +439,7 @@ function initAcademico(){
 
 // ── Otros ────────────────────────────────────────────────────
 function initOtros(otrosData){
-  otrosData.forEach(function(nr){var d=document.createElement('div');d.className='nr-item';d.innerHTML='<a href="'+nr.url+'" target="_blank" rel="noopener" class="nr-author">'+nr.autor+'</a><span class="nr-reason">'+nr.razon+'</span><span style="font-size:.68rem;color:var(--text-muted);white-space:nowrap">'+formatDate(TODAY)+'</span><a href="'+nr.url+'" target="_blank" rel="noopener" class="nr-link">Ver post →</a>';document.getElementById('nrList').appendChild(d)});
+  otrosData.forEach(function(nr){var d=document.createElement('div');d.className='nr-item';d.innerHTML='<a href="'+nr.url+'" target="_blank" rel="noopener" class="nr-author">'+nr.autor+'</a><span class="nr-reason">'+nr.razon+'</span><span style="font-size:.68rem;color:var(--text-muted);white-space:nowrap">'+formatDate(nr.fecha)+'</span><a href="'+nr.url+'" target="_blank" rel="noopener" class="nr-link">Ver post →</a>';document.getElementById('nrList').appendChild(d)});
 }
 
 // ── Global Search ─────────────────────────────────────────────

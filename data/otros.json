@@ -1,47 +1,272 @@
 [
-  {"autor":"Alae Ibnou Cheikh","razon":"DataLens — herramienta de privacidad","url":"https://www.linkedin.com/feed/update/urn:li:activity:7437799595922980866"},
-  {"autor":"Charly Wargnier","razon":"Playbook general Claude Skills","url":"https://www.linkedin.com/feed/update/urn:li:activity:7435955387377451008"},
-  {"autor":"Eugene Trofimov","razon":"Curación portfolios UX/UI","url":"https://www.linkedin.com/feed/update/urn:li:activity:7331216016309489664"},
-  {"autor":"Eugene Trofimov","razon":"Curación portfolios UX/UI (2)","url":"https://www.linkedin.com/feed/update/urn:li:activity:7371444876602851328"},
-  {"autor":"Eugene Trofimov","razon":"Curación portfolios UX/UI (3)","url":"https://www.linkedin.com/feed/update/urn:li:activity:7376888194757197824"},
-  {"autor":"Raymond Berger","razon":"Reseña 'Women Changing Cities'","url":"https://www.linkedin.com/feed/update/urn:li:activity:7427167664097153025"},
-  {"autor":"Aman Agrawal","razon":"Guía principiantes Grasshopper","url":"https://www.linkedin.com/feed/update/urn:li:activity:7431695184012259328"},
-  {"autor":"ESMARTCITY","razon":"Convocatoria financiación DUT","url":"https://www.linkedin.com/feed/update/urn:li:activity:7371094166501675008"},
-  {"autor":"Raul Bielsa","razon":"Taller GIS Liverpool","url":"https://www.linkedin.com/feed/update/urn:li:activity:7391053748996861952"},
-  {"autor":"Remco Deelstra","razon":"NYC Urban Design Handbook","url":"https://www.linkedin.com/feed/update/urn:li:activity:7397944454101356544"},
-  {"autor":"MIAUTICS","razon":"Ensayo urbanismo computacional","url":"https://www.linkedin.com/feed/update/urn:li:activity:7396282211634806784"},
-  {"autor":"All Things Urban","razon":"Taller AI+GIS – evento","url":"https://www.linkedin.com/feed/update/urn:li:activity:7412895421922000896"},
-  {"autor":"Matt Forrest","razon":"Mercado laboral geoespacial","url":"https://www.linkedin.com/feed/update/urn:li:activity:7382047285708333056"},
-  {"autor":"Matt Forrest","razon":"Hoja de ruta IA geoespacial","url":"https://www.linkedin.com/feed/update/urn:li:activity:7382973289339527168"},
-  {"autor":"Pierre Blanchet","razon":"Resumen de aprendizajes","url":"https://www.linkedin.com/feed/update/urn:li:activity:7367539315158982656"},
-  {"autor":"Ida Benedetto","razon":"Guía system prompts IA","url":"https://www.linkedin.com/feed/update/urn:li:activity:7365779832237899778"},
-  {"autor":"Yair Titelboim","razon":"Infraestructura Denver QGIS","url":"https://www.linkedin.com/feed/update/urn:li:activity:7375555448604864512"},
-  {"autor":"Alejandro Quinto","razon":"Densidad municipios España","url":"https://www.linkedin.com/feed/update/urn:li:activity:7371441075489681408"},
-  {"autor":"Alejandro Quinto","razon":"Dinosaur Game + datos ciudades","url":"https://www.linkedin.com/feed/update/urn:li:activity:7374007977181257728"},
-  {"autor":"Dario Ávila","razon":"23 consejos de QGIS","url":"https://www.linkedin.com/feed/update/urn:li:activity:7378430241368678400"},
-  {"autor":"Timo Harboe Zollner","razon":"Script Python para GH","url":"https://www.linkedin.com/feed/update/urn:li:activity:7364364534389555201"},
-  {"autor":"Florian Huemer","razon":"Blueprint Digital Twin","url":"https://www.linkedin.com/feed/update/urn:li:activity:7381584829789925376"},
-  {"autor":"Milan Janosov","razon":"UX Mobility showcase","url":"https://www.linkedin.com/feed/update/urn:li:activity:7436103908927791104"},
-  {"autor":"All Things Urban","razon":"Recursos taller AI+GIS","url":"https://www.linkedin.com/feed/update/urn:li:activity:7383842646185656320"},
-  {"autor":"Qiusheng Wu","razon":"Foreword Cloud Native Geospatial","url":"https://www.linkedin.com/feed/update/urn:li:activity:7379702824097718272"},
-  {"autor":"Hasanain Al-Asadi","razon":"Experimentación con VoxCity","url":"https://www.linkedin.com/feed/update/urn:li:activity:7404048359755538402"},
-  {"autor":"NUS Urban Analytics Lab","razon":"Anuncio VoxCity duplicado","url":"https://www.linkedin.com/feed/update/urn:li:activity:7396014376450895872"},
-  {"autor":"Zainab Tariq","razon":"Repost NanoBanana Pro","url":"https://www.linkedin.com/feed/update/urn:li:activity:7411707709110108160"},
-  {"autor":"Martin Kleppe","razon":"Anuncio Google Maps Places","url":"https://www.linkedin.com/feed/update/urn:li:activity:7378893306354692098"},
-  {"autor":"Itziar Navarro","razon":"Post sobre urbanismo/planificación","url":"https://www.linkedin.com/feed/update/urn:li:activity:7439986626841243648"},
-  {"autor":"C40 Cities Europe","razon":"Noticias de ciudades sostenibles","url":"https://www.linkedin.com/feed/update/urn:li:activity:7440711600279490560"},
-  {"autor":"Jose Sánchez","razon":"Reflexión sobre IA generativa y restricción geométrica en renders","url":"https://www.linkedin.com/feed/update/urn:li:activity:7439567480089427968"},
-  {"autor":"Nicolas Azel","razon":"Contribución a proyecto open source de diseño urbano","url":"https://www.linkedin.com/feed/update/urn:li:activity:7432092798130065408"},
-  {"autor":"Andy Roberts","razon":"Principios de diseño urbano — uso de nodos","url":"https://www.linkedin.com/feed/update/urn:li:activity:7439937112423972864"},
-  {"autor":"Harvard Urban AI","razon":"Anuncio conferencia HUAI 2026 — panel Neighborhood Level","url":"https://www.linkedin.com/feed/update/urn:li:activity:7440781717176549376"},
-  {"autor":"Peter Atwood","razon":"Técnica de terreno prebaked shading en ArcGIS Pro 3D","url":"https://www.linkedin.com/feed/update/urn:li:activity:7440814647378874368"},
-  {"autor":"Studio Tim Fu","razon":"Reflexión sobre herramientas IA urbanas como configuradores","url":"https://www.linkedin.com/feed/update/urn:li:activity:7440822430853447680"},
-  {"autor":"SANGHEE SHIN","razon":"Experimento Unity + Cesium con malla 3D de 81GB","url":"https://www.linkedin.com/feed/update/urn:li:activity:7430861128966131712"},
-  {"autor":"Milan Janosov","razon":"Lista de plugins de QGIS recomendados","url":"https://www.linkedin.com/feed/update/urn:li:activity:7440310099052728320"},
-  {"autor":"Omar Alhusaini","razon":"Post sobre GIS/urbanismo","url":"https://www.linkedin.com/feed/update/urn:li:activity:7439591490324029440"},
-  {"autor":"Jianne Libunao","razon":"Visualización de datos y Power BI","url":"https://www.linkedin.com/feed/update/urn:li:activity:7440674745941045248"},
-  {"autor":"Darío Ávila Briceño","razon":"Lista de 14 plugins de QGIS útiles","url":"https://www.linkedin.com/feed/update/urn:li:activity:7439671915566354433"},
-  {"autor":"Jorge Beneitez","razon":"Post sobre arquitectura/urbanismo","url":"https://www.linkedin.com/feed/update/urn:li:activity:7440697379625951232"},
-  {"autor":"Abhinav Bhardwaj","razon":"Post sobre diseño computacional y IA","url":"https://www.linkedin.com/feed/update/urn:li:activity:7441019661892153344"},
-  {"autor":"unica360","razon":"Análisis de demanda retail por localización","url":"https://www.linkedin.com/feed/update/urn:li:activity:7439551098153078784"}
+  {
+    "autor": "Alae Ibnou Cheikh",
+    "razon": "DataLens — herramienta de privacidad",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7437799595922980866",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Charly Wargnier",
+    "razon": "Playbook general Claude Skills",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7435955387377451008",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Eugene Trofimov",
+    "razon": "Curación portfolios UX/UI",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7331216016309489664",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Eugene Trofimov",
+    "razon": "Curación portfolios UX/UI (2)",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7371444876602851328",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Eugene Trofimov",
+    "razon": "Curación portfolios UX/UI (3)",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7376888194757197824",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Raymond Berger",
+    "razon": "Reseña 'Women Changing Cities'",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7427167664097153025",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Aman Agrawal",
+    "razon": "Guía principiantes Grasshopper",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7431695184012259328",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "ESMARTCITY",
+    "razon": "Convocatoria financiación DUT",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7371094166501675008",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Raul Bielsa",
+    "razon": "Taller GIS Liverpool",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7391053748996861952",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Remco Deelstra",
+    "razon": "NYC Urban Design Handbook",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7397944454101356544",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "MIAUTICS",
+    "razon": "Ensayo urbanismo computacional",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7396282211634806784",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "All Things Urban",
+    "razon": "Taller AI+GIS – evento",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7412895421922000896",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Matt Forrest",
+    "razon": "Mercado laboral geoespacial",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7382047285708333056",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Matt Forrest",
+    "razon": "Hoja de ruta IA geoespacial",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7382973289339527168",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Pierre Blanchet",
+    "razon": "Resumen de aprendizajes",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7367539315158982656",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Ida Benedetto",
+    "razon": "Guía system prompts IA",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7365779832237899778",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Yair Titelboim",
+    "razon": "Infraestructura Denver QGIS",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7375555448604864512",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Alejandro Quinto",
+    "razon": "Densidad municipios España",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7371441075489681408",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Alejandro Quinto",
+    "razon": "Dinosaur Game + datos ciudades",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7374007977181257728",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Dario Ávila",
+    "razon": "23 consejos de QGIS",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7378430241368678400",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Timo Harboe Zollner",
+    "razon": "Script Python para GH",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7364364534389555201",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Florian Huemer",
+    "razon": "Blueprint Digital Twin",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7381584829789925376",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Milan Janosov",
+    "razon": "UX Mobility showcase",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7436103908927791104",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "All Things Urban",
+    "razon": "Recursos taller AI+GIS",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7383842646185656320",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Qiusheng Wu",
+    "razon": "Foreword Cloud Native Geospatial",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7379702824097718272",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Hasanain Al-Asadi",
+    "razon": "Experimentación con VoxCity",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7404048359755538402",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "NUS Urban Analytics Lab",
+    "razon": "Anuncio VoxCity duplicado",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7396014376450895872",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Zainab Tariq",
+    "razon": "Repost NanoBanana Pro",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7411707709110108160",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Martin Kleppe",
+    "razon": "Anuncio Google Maps Places",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7378893306354692098",
+    "fecha": "2026-03-16"
+  },
+  {
+    "autor": "Itziar Navarro",
+    "razon": "Post sobre urbanismo/planificación",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439986626841243648",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "C40 Cities Europe",
+    "razon": "Noticias de ciudades sostenibles",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7440711600279490560",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Jose Sánchez",
+    "razon": "Reflexión sobre IA generativa y restricción geométrica en renders",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439567480089427968",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Nicolas Azel",
+    "razon": "Contribución a proyecto open source de diseño urbano",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7432092798130065408",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Andy Roberts",
+    "razon": "Principios de diseño urbano — uso de nodos",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439937112423972864",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Harvard Urban AI",
+    "razon": "Anuncio conferencia HUAI 2026 — panel Neighborhood Level",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7440781717176549376",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Peter Atwood",
+    "razon": "Técnica de terreno prebaked shading en ArcGIS Pro 3D",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7440814647378874368",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Studio Tim Fu",
+    "razon": "Reflexión sobre herramientas IA urbanas como configuradores",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7440822430853447680",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "SANGHEE SHIN",
+    "razon": "Experimento Unity + Cesium con malla 3D de 81GB",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7430861128966131712",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Milan Janosov",
+    "razon": "Lista de plugins de QGIS recomendados",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7440310099052728320",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Omar Alhusaini",
+    "razon": "Post sobre GIS/urbanismo",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439591490324029440",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Jianne Libunao",
+    "razon": "Visualización de datos y Power BI",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7440674745941045248",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Darío Ávila Briceño",
+    "razon": "Lista de 14 plugins de QGIS útiles",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439671915566354433",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Jorge Beneitez",
+    "razon": "Post sobre arquitectura/urbanismo",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7440697379625951232",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Abhinav Bhardwaj",
+    "razon": "Post sobre diseño computacional y IA",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7441019661892153344",
+    "fecha": "2026-03-22"
+  },
+  {
+    "autor": "unica360",
+    "razon": "Análisis de demanda retail por localización",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439551098153078784",
+    "fecha": "2026-03-22"
+  }
 ]
