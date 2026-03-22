@@ -64,5 +64,71 @@
     "linkUrl": null,
     "liUrl": null,
     "body": "<p>Selección de 20 artículos geoespaciales recientes cubriendo planificación urbana, movilidad, cambio climático y percepción del entorno.</p>"
+  },
+  {
+    "title": "GeospatialML Blog — Caleb Robinson",
+    "desc": "Blog sobre machine learning aplicado a datos geoespaciales, con tutoriales y reflexiones del equipo Microsoft AI for Good.",
+    "autor": "Caleb Robinson",
+    "cat": "IA / Machine Learning",
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": null,
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7439656796237045761",
+    "body": "<p>Blog educativo con artículos sobre aprendizaje automático geoespacial, incluyendo modelos fundacionales y aplicaciones en teledetección.</p>"
+  },
+  {
+    "title": "Análisis de espacios verdes urbanos — TU München",
+    "desc": "Estudio sobre espacios verdes y resiliencia climática en ciudades usando IA y datos digitales.",
+    "autor": "Nikolas Neubert",
+    "cat": "Simulación ambiental",
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": null,
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7440802505023950848",
+    "body": "<p>Investigación de la TU München sobre el uso de IA para evaluar y mejorar espacios verdes urbanos como estrategia de resiliencia climática.</p>"
+  },
+  {
+    "title": "Dockless Bikeshare User Behaviors — Ithaca, NY",
+    "desc": "Estudio sobre comportamiento de usuarios de bikeshare sin estación (Lime) en Ithaca, publicado en Transportation Research Part A.",
+    "autor": "Waishan QIU",
+    "cat": "Movilidad y accesibilidad",
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": null,
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7440774405145653248",
+    "body": "<p>Tercer artículo de una serie sobre los patrones de uso de bikeshare dockless (Lime) en Ithaca, Nueva York. Publicado en Transportation Research Part A tras 1.5 años de revisión por pares.</p>"
+  },
+  {
+    "title": "Turismo y dinámica urbana — Máster Ciudades UCM",
+    "desc": "Paper sobre impacto del turismo en la dinámica urbana, compartido por el Máster en Ciudades Inteligentes y Sostenibles de la UCM.",
+    "autor": "Máster en Ciudades Inteligentes y Sostenibles - UCM",
+    "cat": "Inteligencia territorial",
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": null,
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7439765103840858112",
+    "body": "<p>Artículo académico sobre la relación entre turismo y dinámicas urbanas en el contexto de ciudades inteligentes.</p>"
+  },
+  {
+    "title": "Urban Dynamics — Jesús López-Baeza",
+    "desc": "Investigación sobre dinámicas urbanas utilizando datos espaciales y temporales para comprender el comportamiento de las ciudades.",
+    "autor": "Jesús López-Baeza",
+    "cat": "Morfología urbana",
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": null,
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7439933042305036289",
+    "body": "<p>Paper sobre dinámicas urbanas que analiza patrones espaciales y temporales en entornos urbanos.</p>"
+  },
+  {
+    "title": "Guía de datos abiertos en Singapur — NUS Urban Analytics Lab",
+    "desc": "Guía completa sobre el paisaje de datos abiertos en Singapur, relevante para urbanismo, transporte e investigación geoespacial.",
+    "autor": "Filip Biljecki",
+    "cat": "Datos abiertos",
+    "badges": "",
+    "paperUrl": "https://lnkd.in/gcnRQ24g",
+    "linkUrl": "http://data.gov.sg",
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7439235684986482688",
+    "body": "<p>Guía educativa escrita en 2020 sobre datos abiertos en Singapur relevantes para urbanismo, cartografía y análisis geoespacial. Incluye referencias a data.gov.sg y Open Government Products.</p>"
   }
 ]
