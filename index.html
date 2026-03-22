@@ -197,6 +197,28 @@ tr.expand-row td{padding:0 14px 14px;border-bottom:1px solid var(--border);backg
 .ac-card-body.open{display:block}
 .ac-card-body p{margin-bottom:12px}.ac-card-body ol{padding-left:20px;margin-bottom:12px}.ac-card-body ol li{margin-bottom:8px}.ac-card-body ol li a{color:var(--accent-green);font-size:.68rem;word-break:break-all}.ac-card-body strong{color:var(--text);font-weight:600}
 
+/* GLOBAL SEARCH */
+.global-search-wrap{position:relative;margin-right:4px}
+.global-search-input{background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:0;padding:6px 10px 6px 28px;font-size:.75rem;font-family:var(--font-mono);width:200px;transition:border-color var(--transition),width var(--transition),background .3s ease}
+.global-search-input::placeholder{color:var(--text-muted)}
+.global-search-input:focus{outline:none;border-color:var(--text);width:280px}
+.global-search-icon{position:absolute;left:8px;top:50%;transform:translateY(-50%);width:14px;height:14px;color:var(--text-muted);pointer-events:none}
+.global-search-results{display:none;position:absolute;top:100%;right:0;width:420px;max-height:70vh;overflow-y:auto;background:var(--bg-white);border:1px solid var(--border);border-top:none;box-shadow:var(--shadow-lg);z-index:500}
+.global-search-results.open{display:block}
+.gsr-section{border-bottom:1px solid var(--border)}
+.gsr-section:last-child{border-bottom:none}
+.gsr-section-title{font-family:var(--font-mono);font-size:.6rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);padding:10px 16px 6px;background:var(--bg);border-bottom:1px solid var(--border)}
+.gsr-item{display:block;padding:10px 16px;border-bottom:1px solid var(--border);cursor:pointer;transition:background var(--transition);text-decoration:none;color:var(--text)}
+.gsr-item:last-child{border-bottom:none}
+.gsr-item:hover{background:var(--hover-row)}
+.gsr-item-title{font-family:var(--font-display);font-weight:600;font-size:.8rem;color:var(--text);margin-bottom:2px}
+.gsr-item-desc{font-family:var(--font-mono);font-size:.68rem;color:var(--text-muted);line-height:1.4;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.gsr-empty{padding:20px 16px;font-family:var(--font-mono);font-size:.75rem;color:var(--text-muted);text-align:center}
+@media(max-width:768px){
+.global-search-input{width:140px}.global-search-input:focus{width:180px}
+.global-search-results{width:calc(100vw - 32px);right:-60px}
+}
+
 /* MODAL */
 #toolModal{display:none;position:fixed;inset:0;z-index:9999;background:var(--modal-bg);align-items:center;justify-content:center;transition:background .3s ease}
 .modal-inner{background:var(--bg-white);border:1px solid var(--border);max-width:640px;width:92%;max-height:88vh;overflow-y:auto;font-family:var(--font-mono);box-shadow:var(--shadow-lg);transition:all .3s ease}
@@ -223,6 +245,11 @@ tr.expand-row td{padding:0 14px 14px;border-bottom:1px solid var(--border);backg
 <div class="topnav-dropdown" id="herrDropdown"><button class="topnav-btn" data-page="herramientas" onclick="showPage('herramientas');closeMobileMenu()">Herramientas &#9662;</button><div class="dropdown-menu"><button class="dropdown-item" onclick="showPage('herramientas');showSection('tabla');closeMobileMenu()">Tabla</button><button class="dropdown-item" onclick="showPage('herramientas');showSection('graficos');closeMobileMenu()">Gráficos</button><button class="dropdown-item" onclick="showPage('herramientas');showSection('relaciones');closeMobileMenu()">Mapa de relaciones</button></div></div>
 <button class="topnav-btn" data-page="academico" onclick="showPage('academico');closeMobileMenu()">Académico</button>
 <button class="topnav-btn" data-page="otros" onclick="showPage('otros');closeMobileMenu()">Otros</button>
+</div>
+<div class="global-search-wrap" id="globalSearchWrap">
+<svg class="global-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+<input type="text" class="global-search-input" id="globalSearchInput" placeholder="Buscar en todo…" autocomplete="off">
+<div class="global-search-results" id="globalSearchResults"></div>
 </div>
 <button class="theme-toggle" id="themeToggle" title="Cambiar tema">☀</button>
 </div>
@@ -269,6 +296,7 @@ var TODAY_AC   = '2026-03-17';
 // ── Variables globales ───────────────────────────────────────
 var tools = [];           // se llena con fetch
 var academicItems = [];   // se llena con fetch + tools académicos
+var otrosItems = [];      // se llena con fetch
 var sortCol = null, sortDir = 'asc';
 var currentLevel = 'all';
 
@@ -344,6 +372,8 @@ Promise.all([
   });
 
   academicItems = fromTools.concat(rawAcademic);
+
+  otrosItems = rawOtros;
 
   // ── Inicializar todo ──
   initHeroStats();
@@ -421,6 +451,123 @@ function initAcademico(){
 function initOtros(otrosData){
   otrosData.forEach(function(nr){var d=document.createElement('div');d.className='nr-item';d.innerHTML='<a href="'+nr.url+'" target="_blank" rel="noopener" class="nr-author">'+nr.autor+'</a><span class="nr-reason">'+nr.razon+'</span><span style="font-size:.68rem;color:var(--text-muted);white-space:nowrap">'+formatDate(TODAY)+'</span><a href="'+nr.url+'" target="_blank" rel="noopener" class="nr-link">Ver post →</a>';document.getElementById('nrList').appendChild(d)});
 }
+
+// ── Global Search ─────────────────────────────────────────────
+(function(){
+  var input=document.getElementById('globalSearchInput');
+  var results=document.getElementById('globalSearchResults');
+  var wrap=document.getElementById('globalSearchWrap');
+  var debounceTimer;
+
+  input.addEventListener('input',function(){
+    clearTimeout(debounceTimer);
+    debounceTimer=setTimeout(doGlobalSearch,200);
+  });
+
+  input.addEventListener('focus',function(){
+    if(input.value.trim().length>=2)doGlobalSearch();
+  });
+
+  document.addEventListener('click',function(e){
+    if(!wrap.contains(e.target)){results.classList.remove('open');results.innerHTML=''}
+  });
+
+  function doGlobalSearch(){
+    var q=input.value.trim().toLowerCase();
+    if(q.length<2){results.classList.remove('open');results.innerHTML='';return}
+
+    var html='';
+
+    // Search tools
+    var toolHits=tools.filter(function(t){
+      return[t.nombre,t.autor,t.descripcion,(t.subcategorias||[]).join(' '),(t.programas||[]).join(' '),t.tipo,t.categoria,t.acceso].join(' ').toLowerCase().indexOf(q)!==-1;
+    }).slice(0,8);
+    if(toolHits.length){
+      html+='<div class="gsr-section"><div class="gsr-section-title">Herramientas ('+toolHits.length+')</div>';
+      toolHits.forEach(function(t){
+        html+='<div class="gsr-item" data-type="tool" data-name="'+t.nombre.replace(/"/g,'&quot;')+'">'
+          +'<div class="gsr-item-title">'+highlight(t.nombre,q)+'</div>'
+          +'<div class="gsr-item-desc">'+highlight(t.descripcion,q)+'</div></div>';
+      });
+      html+='</div>';
+    }
+
+    // Search academic
+    var acHits=academicItems.filter(function(a){
+      var bodyText=(a.body||'').replace(/<[^>]*>/g,' ');
+      return[a.title,a.desc,a.autor,bodyText].join(' ').toLowerCase().indexOf(q)!==-1;
+    }).slice(0,6);
+    if(acHits.length){
+      html+='<div class="gsr-section"><div class="gsr-section-title">Académico ('+acHits.length+')</div>';
+      acHits.forEach(function(a){
+        html+='<div class="gsr-item" data-type="academic" data-title="'+a.title.replace(/"/g,'&quot;')+'">'
+          +'<div class="gsr-item-title">'+highlight(a.title,q)+'</div>'
+          +'<div class="gsr-item-desc">'+highlight(a.desc,q)+'</div></div>';
+      });
+      html+='</div>';
+    }
+
+    // Search otros
+    var otHits=otrosItems.filter(function(o){
+      return[o.autor,o.razon].join(' ').toLowerCase().indexOf(q)!==-1;
+    }).slice(0,6);
+    if(otHits.length){
+      html+='<div class="gsr-section"><div class="gsr-section-title">Otros ('+otHits.length+')</div>';
+      otHits.forEach(function(o){
+        html+='<div class="gsr-item" data-type="otros" data-url="'+o.url+'">'
+          +'<div class="gsr-item-title">'+highlight(o.autor,q)+'</div>'
+          +'<div class="gsr-item-desc">'+highlight(o.razon,q)+'</div></div>';
+      });
+      html+='</div>';
+    }
+
+    if(!html)html='<div class="gsr-empty">Sin resultados para &ldquo;'+escHtml(q)+'&rdquo;</div>';
+    results.innerHTML=html;
+    results.classList.add('open');
+
+    // Click handlers for results
+    results.querySelectorAll('.gsr-item').forEach(function(el){
+      el.addEventListener('click',function(){
+        var type=el.dataset.type;
+        results.classList.remove('open');
+        input.value='';
+        if(type==='tool'){
+          showPage('herramientas');showSection('tabla');
+          var name=el.dataset.name;
+          setTimeout(function(){
+            var rows=document.querySelectorAll('#toolsBody tr.data-row');
+            for(var i=0;i<rows.length;i++){
+              var a=rows[i].querySelector('.tool-name a');
+              if(a&&a.textContent===name){rows[i].click();rows[i].scrollIntoView({behavior:'smooth',block:'center'});break}
+            }
+          },100);
+        }else if(type==='academic'){
+          showPage('academico');
+          var title=el.dataset.title;
+          setTimeout(function(){
+            var cards=document.querySelectorAll('.ac-card-title');
+            for(var i=0;i<cards.length;i++){
+              if(cards[i].textContent===title){cards[i].closest('.ac-card').scrollIntoView({behavior:'smooth',block:'center'});break}
+            }
+          },100);
+        }else if(type==='otros'){
+          showPage('otros');
+          window.open(el.dataset.url,'_blank');
+        }
+      });
+    });
+  }
+
+  function highlight(text,q){
+    if(!text)return'';
+    var safe=escHtml(text);
+    var idx=safe.toLowerCase().indexOf(q);
+    if(idx===-1)return safe;
+    return safe.substring(0,idx)+'<mark style="background:rgba(45,95,58,.15);color:var(--text);padding:0 1px">'+safe.substring(idx,idx+q.length)+'</mark>'+safe.substring(idx+q.length);
+  }
+
+  function escHtml(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+})();
 
 // ── Charts ───────────────────────────────────────────────────
 function resizeCharts(){Object.values(Chart.instances||{}).forEach(function(c){c.resize()})}
