@@ -73,7 +73,7 @@
   },
   {
     "title": "GeospatialML Blog — Caleb Robinson",
-    "desc": "Blog sobre machine learning aplicado a datos geoespaciales, con tutoriales y reflexiones del equipo Microsoft AI for Good.",
+    "desc": "Blog on machine learning applied to geospatial data, with tutorials and insights from the Microsoft AI for Good team.",
     "autor": "Caleb Robinson",
     "fecha": "2026-03-22",
     "cat": "IA / Machine Learning",
@@ -81,11 +81,11 @@
     "paperUrl": null,
     "linkUrl": null,
     "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7439656796237045761",
-    "body": "<p>Blog educativo con artículos sobre aprendizaje automático geoespacial, incluyendo modelos fundacionales y aplicaciones en teledetección.</p>"
+    "body": "<p>Educational blog with articles on geospatial machine learning, including foundation models and remote sensing applications.</p>"
   },
   {
-    "title": "Análisis de espacios verdes urbanos — TU München",
-    "desc": "Estudio sobre espacios verdes y resiliencia climática en ciudades usando IA y datos digitales.",
+    "title": "Urban Green Spaces Analysis — TU München",
+    "desc": "Study on green spaces and climate resilience in cities using AI and digital data.",
     "autor": "Nikolas Neubert",
     "fecha": "2026-03-22",
     "cat": "Simulación ambiental",
@@ -93,11 +93,11 @@
     "paperUrl": null,
     "linkUrl": null,
     "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7440802505023950848",
-    "body": "<p>Investigación de la TU München sobre el uso de IA para evaluar y mejorar espacios verdes urbanos como estrategia de resiliencia climática.</p>"
+    "body": "<p>TU München research on using AI to assess and improve urban green spaces as a climate resilience strategy.</p>"
   },
   {
     "title": "Dockless Bikeshare User Behaviors — Ithaca, NY",
-    "desc": "Estudio sobre comportamiento de usuarios de bikeshare sin estación (Lime) en Ithaca, publicado en Transportation Research Part A.",
+    "desc": "Study on dockless bikeshare (Lime) user behaviors in Ithaca, published in Transportation Research Part A.",
     "autor": "Waishan QIU",
     "fecha": "2026-03-22",
     "cat": "Movilidad y accesibilidad",
@@ -105,7 +105,7 @@
     "paperUrl": null,
     "linkUrl": null,
     "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7440774405145653248",
-    "body": "<p>Tercer artículo de una serie sobre los patrones de uso de bikeshare dockless (Lime) en Ithaca, Nueva York. Publicado en Transportation Research Part A tras 1.5 años de revisión por pares.</p>"
+    "body": "<p>Third article in a series on dockless bikeshare (Lime) usage patterns in Ithaca, New York. Published in Transportation Research Part A after 1.5 years of peer review.</p>"
   },
   {
     "title": "Turismo y dinámica urbana — Máster Ciudades UCM",
@@ -132,8 +132,8 @@
     "body": "<p>Paper sobre dinámicas urbanas que analiza patrones espaciales y temporales en entornos urbanos.</p>"
   },
   {
-    "title": "Guía de datos abiertos en Singapur — NUS Urban Analytics Lab",
-    "desc": "Guía completa sobre el paisaje de datos abiertos en Singapur, relevante para urbanismo, transporte e investigación geoespacial.",
+    "title": "Open Data Guide in Singapore — NUS Urban Analytics Lab",
+    "desc": "Comprehensive guide on Singapore's open data landscape, relevant for urbanism, transport, and geospatial research.",
     "autor": "Filip Biljecki",
     "fecha": "2026-03-22",
     "cat": "Datos abiertos",
@@ -141,6 +141,6 @@
     "paperUrl": "https://lnkd.in/gcnRQ24g",
     "linkUrl": "http://data.gov.sg",
     "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7439235684986482688",
-    "body": "<p>Guía educativa escrita en 2020 sobre datos abiertos en Singapur relevantes para urbanismo, cartografía y análisis geoespacial. Incluye referencias a data.gov.sg y Open Government Products.</p>"
+    "body": "<p>Educational guide written in 2020 on open data in Singapore relevant for urbanism, cartography, and geospatial analysis. Includes references to data.gov.sg and Open Government Products.</p>"
   }
 ]
