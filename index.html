@@ -58,8 +58,9 @@ a{color:var(--accent-green);text-decoration:none;transition:color var(--transiti
 .topnav-links.open{display:flex}
 .topnav-btn{border-left:none;border-bottom:1px solid var(--border);width:100%;text-align:left;padding:0 24px;height:48px}
 .topnav-dropdown:hover .dropdown-menu{display:none}
-.topnav-dropdown.mobile-open .dropdown-menu{display:block;position:relative;border:none;border-top:1px solid var(--border);min-width:100%;box-shadow:none}
-.dropdown-item{padding:12px 40px}
+.topnav-dropdown .topnav-btn{display:flex;align-items:center;justify-content:space-between}
+.topnav-dropdown.mobile-open .dropdown-menu{display:block;position:relative;border:none;border-top:1px solid var(--border);min-width:100%;box-shadow:none;background:var(--bg)}
+.dropdown-item{padding:10px 24px 10px 36px;font-size:.65rem;color:var(--text-muted);border-bottom:1px solid var(--border)}.dropdown-item:last-child{border-bottom:none}
 .global-search-wrap{order:1}
 .theme-toggle{order:2;width:40px;border-left:none}
 }
@@ -274,7 +275,7 @@ tr.expand-row td{padding:0 14px 14px;border-bottom:1px solid var(--border);backg
 <div class="topnav-right">
 <button class="mobile-toggle" onclick="document.querySelector('.topnav-links').classList.toggle('open')"><svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
 <div class="topnav-links">
-<div class="topnav-dropdown" id="herrDropdown"><button class="topnav-btn" data-page="herramientas" onclick="showPage('herramientas');closeMobileMenu()">Herramientas &#9662;</button><div class="dropdown-menu"><button class="dropdown-item" onclick="showPage('herramientas');showSection('tabla');closeMobileMenu()">Tabla</button><button class="dropdown-item" onclick="showPage('herramientas');showSection('graficos');closeMobileMenu()">Gráficos</button><button class="dropdown-item" onclick="showPage('herramientas');showSection('relaciones');closeMobileMenu()">Mapa de relaciones</button></div></div>
+<div class="topnav-dropdown" id="herrDropdown"><button class="topnav-btn" data-page="herramientas" id="herrBtn">Herramientas &#9662;</button><div class="dropdown-menu"><button class="dropdown-item" onclick="showPage('herramientas');showSection('tabla');closeMobileMenu()">Tabla</button><button class="dropdown-item" onclick="showPage('herramientas');showSection('graficos');closeMobileMenu()">Gráficos</button><button class="dropdown-item" onclick="showPage('herramientas');showSection('relaciones');closeMobileMenu()">Mapa de relaciones</button></div></div>
 <button class="topnav-btn" data-page="academico" onclick="showPage('academico');closeMobileMenu()">Académico</button>
 <button class="topnav-btn" data-page="otros" onclick="showPage('otros');closeMobileMenu()">Otros</button>
 </div>
@@ -343,7 +344,7 @@ var currentLevel = 'all';
 
 // ── Nav helpers ──────────────────────────────────────────────
 function closeMobileMenu(){document.querySelector('.topnav-links').classList.remove('open');document.querySelectorAll('.topnav-dropdown').forEach(function(d){d.classList.remove('mobile-open')})}
-document.addEventListener('DOMContentLoaded',function(){var dd=document.getElementById('herrDropdown');if(dd){var btn=dd.querySelector('.topnav-btn');btn.addEventListener('click',function(e){if(window.innerWidth<=768){e.stopPropagation();dd.classList.toggle('mobile-open')}})}})
+document.addEventListener('DOMContentLoaded',function(){var dd=document.getElementById('herrDropdown');if(dd){var btn=document.getElementById('herrBtn');btn.addEventListener('click',function(e){if(window.innerWidth<=768){e.preventDefault();e.stopPropagation();dd.classList.toggle('mobile-open')}else{showPage('herramientas');closeMobileMenu()}})}})
 function showPage(id){document.querySelectorAll('.tab-page').forEach(function(p){p.classList.remove('active')});document.querySelectorAll('.topnav-btn').forEach(function(b){b.classList.remove('active')});var pg=document.getElementById('page-'+id);if(pg)pg.classList.add('active');var btn=document.querySelector('.topnav-btn[data-page="'+id+'"]');if(btn)btn.classList.add('active');if(id==='herramientas'){var s=document.querySelector('.section-tab.active');if(s&&s.dataset.sec==='graficos')setTimeout(resizeCharts,150);if(s&&s.dataset.sec==='relaciones')setTimeout(function(){renderGraph(currentLevel)},150)}}
 function showSection(id){document.querySelectorAll('.section-tab').forEach(function(t){t.classList.remove('active')});document.querySelectorAll('.section-content').forEach(function(c){c.classList.remove('active')});document.querySelector('.section-tab[data-sec="'+id+'"]').classList.add('active');document.getElementById('sec-'+id).classList.add('active');if(id==='graficos')setTimeout(resizeCharts,150);if(id==='relaciones')setTimeout(function(){renderGraph(currentLevel)},150)}
 
