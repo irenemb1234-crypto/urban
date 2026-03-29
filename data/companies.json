@@ -1,32 +1,2354 @@
 [
-{"nombre":"Architypes Talent Ltd","tipo":"Consultora","sector":"Arquitectura","descripcion":"Agencia de reclutamiento especializada en talento para estudios de arquitectura y diseño.","url":"https://www.linkedin.com/company/architypes-talent-ltd","fecha":"2026-03-21"},
-{"nombre":"Madrid Urban & Cities Design","tipo":"Consultora","sector":"Urbanismo","descripcion":"Estudio de diseño urbano y planificación de ciudades con sede en Madrid.","url":"https://www.linkedin.com/company/madrid-urban-cities-design","fecha":"2026-03-21"},
-{"nombre":"Studio Tim Fu","tipo":"Estudio de arquitectura","sector":"Arquitectura","descripcion":"Estudio de diseño computacional y arquitectura paramétrica.","url":"https://www.linkedin.com/company/studio-tim-fu","fecha":"2026-03-21"},
-{"nombre":"Speckle","tipo":"Empresa privada","sector":"Smart Cities / Tecnología","descripcion":"Plataforma open-source de interoperabilidad de datos para AEC (arquitectura, ingeniería y construcción).","url":"https://www.linkedin.com/company/speckle","fecha":"2026-03-14"},
-{"nombre":"Harvard Urban AI","tipo":"Laboratorio de investigación","sector":"Urbanismo","descripcion":"Iniciativa de Harvard sobre inteligencia artificial aplicada al diseño y análisis urbano.","url":"https://www.linkedin.com/company/harvard-urban-ai","fecha":"2026-03-06"},
-{"nombre":"Council on Vertical Urbanism (CVU)","tipo":"Red / Asociación","sector":"Urbanismo","descripcion":"Red global dedicada a la investigación y promoción del urbanismo vertical.","url":"https://www.linkedin.com/company/council-on-vertical-urbanism","fecha":"2026-02-27"},
-{"nombre":"Council on Vertical Urbanism(CVU) Iberia Chapter","tipo":"Red / Asociación","sector":"Urbanismo","descripcion":"Capítulo ibérico del Council on Vertical Urbanism.","url":"https://www.linkedin.com/company/council-on-vertical-urbanism-cvu-iberia-chapter","fecha":"2026-02-27"},
-{"nombre":"City Syntax Lab","tipo":"Laboratorio de investigación","sector":"Urbanismo","descripcion":"Laboratorio de investigación en análisis espacial urbano y sintaxis espacial.","url":"https://www.linkedin.com/company/city-syntax-lab","fecha":"2026-02-17"},
-{"nombre":"Urban Climate Design Lab","tipo":"Laboratorio de investigación","sector":"Sostenibilidad / Medio ambiente","descripcion":"Laboratorio de investigación sobre diseño urbano y adaptación climática.","url":"https://www.linkedin.com/company/urban-climate-design-lab","fecha":"2026-02-17"},
-{"nombre":"Centro de Urbanismo CDU","tipo":"Red / Asociación","sector":"Urbanismo","descripcion":"Centro dedicado a la investigación y difusión del urbanismo contemporáneo.","url":"https://www.linkedin.com/company/centro-de-urbanismo-cdu","fecha":"2026-02-01"},
-{"nombre":"Cesium","tipo":"Empresa privada","sector":"GIS / Geoespacial","descripcion":"Plataforma de visualización 3D geoespacial y estándares abiertos como 3D Tiles y CesiumJS.","url":"https://www.linkedin.com/company/cesium","fecha":"2025-12-22"},
-{"nombre":"Apache Sedona","tipo":"Empresa privada","sector":"Datos / Analítica","descripcion":"Motor de análisis geoespacial distribuido basado en Apache Spark y Flink.","url":"https://www.linkedin.com/company/apache-sedona","fecha":"2025-12-22"},
-{"nombre":"Laboratorio de Ideas Sostenibles","tipo":"ONG / Fundación","sector":"Sostenibilidad / Medio ambiente","descripcion":"Think tank enfocado en innovación y sostenibilidad urbana y territorial.","url":"https://www.linkedin.com/company/laboratorio-de-ideas-sostenibles","fecha":"2025-12-05"},
-{"nombre":"Urban MOSAIC Lab","tipo":"Laboratorio de investigación","sector":"Urbanismo","descripcion":"Laboratorio de investigación sobre morfología urbana, modelado espacial y análisis de ciudades.","url":"https://www.linkedin.com/company/urban-mosaic-lab","fecha":"2025-11-28"},
-{"nombre":"Máster en Ciudades Inteligentes y Sostenibles - UCM","tipo":"Universidad / Academia","sector":"Smart Cities / Tecnología","descripcion":"Programa de posgrado de la Universidad Complutense de Madrid sobre ciudades inteligentes y sostenibilidad urbana.","url":"https://www.linkedin.com/company/master-en-ciudades-inteligentes-y-sostenibles-ucm","fecha":"2025-11-21"},
-{"nombre":"IDDTEK","tipo":"Consultora","sector":"Smart Cities / Tecnología","descripcion":"Consultora tecnológica especializada en soluciones de innovación y transformación digital.","url":"https://www.linkedin.com/company/iddtek","fecha":"2025-11-20"},
-{"nombre":"Systemiq Ltd.","tipo":"Consultora","sector":"Sostenibilidad / Medio ambiente","descripcion":"Consultora de sistemas enfocada en soluciones para cambio climático, economía circular y uso del suelo.","url":"https://www.linkedin.com/company/systemiq","fecha":"2025-11-20"},
-{"nombre":"KnowUrbanNet","tipo":"Red / Asociación","sector":"Urbanismo","descripcion":"Red de conocimiento urbano para el intercambio de investigación y buenas prácticas en ciudades.","url":"https://www.linkedin.com/company/knowurbannet","fecha":"2025-11-20"},
-{"nombre":"Urban Studies Journal","tipo":"Medio / Publicación","sector":"Urbanismo","descripcion":"Revista académica internacional de referencia en estudios urbanos y planificación.","url":"https://www.linkedin.com/company/urban-studies-journal","fecha":"2025-11-19"},
-{"nombre":"CITY: analysis of urban change, theory, action","tipo":"Medio / Publicación","sector":"Urbanismo","descripcion":"Revista académica sobre análisis del cambio urbano, teoría y acción en ciudades.","url":"https://www.linkedin.com/company/city-analysis-of-urban-change-theory-action","fecha":"2025-11-19"},
-{"nombre":"MedCities / MedCités","tipo":"Red / Asociación","sector":"Urbanismo","descripcion":"Red de ciudades mediterráneas para la cooperación en desarrollo urbano sostenible.","url":"https://www.linkedin.com/company/medcities","fecha":"2025-11-19"},
-{"nombre":"NTT DATA","tipo":"Empresa privada","sector":"Smart Cities / Tecnología","descripcion":"Multinacional japonesa de servicios de TI y consultoría digital con proyectos en smart cities.","url":"https://www.linkedin.com/company/ntt-data","fecha":"2025-11-18"},
-{"nombre":"NUS Urban Analytics Lab","tipo":"Laboratorio de investigación","sector":"Datos / Analítica","descripcion":"Laboratorio de la National University of Singapore especializado en analítica urbana y gemelos digitales.","url":"https://www.linkedin.com/company/nus-urban-analytics-lab","fecha":"2025-11-17"},
-{"nombre":"Google Maps Platform","tipo":"Empresa privada","sector":"GIS / Geoespacial","descripcion":"Plataforma de Google para APIs de mapas, rutas y datos geoespaciales.","url":"https://www.linkedin.com/company/google-maps-platform","fecha":"2025-11-15"},
-{"nombre":"LA FACTORÍA, gestión y consultoría","tipo":"Consultora","sector":"Urbanismo","descripcion":"Empresa de gestión y consultoría en urbanismo y desarrollo territorial en España.","url":"https://www.linkedin.com/company/la-factoria-gestion-y-consultoria","fecha":"2025-11-14"},
-{"nombre":"ARNAIZ","tipo":"Estudio de arquitectura","sector":"Arquitectura","descripcion":"Estudio de arquitectura y urbanismo con proyectos de diseño y planificación.","url":"https://www.linkedin.com/company/arnaiz","fecha":"2025-11-13"},
-{"nombre":"Project for Public Spaces","tipo":"ONG / Fundación","sector":"Urbanismo","descripcion":"Organización sin ánimo de lucro dedicada a la creación y mejora de espacios públicos en ciudades.","url":"https://www.linkedin.com/company/project-for-public-spaces","fecha":"2025-11-12"},
-{"nombre":"Mott MacDonald","tipo":"Consultora","sector":"Urbanismo","descripcion":"Consultora global de ingeniería, gestión y desarrollo con proyectos en infraestructura y ciudades.","url":"https://www.linkedin.com/company/mott-macdonald","fecha":"2025-11-07"},
-{"nombre":"Urban Living Lab Center","tipo":"Laboratorio de investigación","sector":"Urbanismo","descripcion":"Centro de investigación sobre laboratorios urbanos vivientes y co-creación ciudadana.","url":"https://www.linkedin.com/company/urban-living-lab-center","fecha":"2025-10-23"},
-{"nombre":"Institute for Urban Excellence","tipo":"Laboratorio de investigación","sector":"Urbanismo","descripcion":"Instituto dedicado a la excelencia en investigación y práctica del urbanismo.","url":"https://www.linkedin.com/company/institute-for-urban-excellence","fecha":"2025-10-23"}
+{
+"nombre": "Architypes Talent Ltd",
+"tipo": "Consultora",
+"sector": "Arquitectura",
+"descripcion": "Agencia de reclutamiento especializada en talento para estudios de arquitectura y diseño.",
+"url": "https://www.linkedin.com/company/architypes-talent-ltd",
+"fecha": "2026-03-21"
+},
+{
+"nombre": "Madrid Urban & Cities Design",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Estudio de diseño urbano y planificación de ciudades con sede en Madrid.",
+"url": "https://www.linkedin.com/company/madrid-urban-cities-design",
+"fecha": "2026-03-21"
+},
+{
+"nombre": "Studio Tim Fu",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de diseño computacional y arquitectura paramétrica.",
+"url": "https://www.linkedin.com/company/studio-tim-fu",
+"fecha": "2026-03-21"
+},
+{
+"nombre": "Speckle",
+"tipo": "Empresa privada",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Plataforma open-source de interoperabilidad de datos para AEC (arquitectura, ingeniería y construcción).",
+"url": "https://www.linkedin.com/company/speckle",
+"fecha": "2026-03-14"
+},
+{
+"nombre": "Harvard Urban AI",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Iniciativa de Harvard sobre inteligencia artificial aplicada al diseño y análisis urbano.",
+"url": "https://www.linkedin.com/company/harvard-urban-ai",
+"fecha": "2026-03-06"
+},
+{
+"nombre": "Council on Vertical Urbanism (CVU)",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Red global dedicada a la investigación y promoción del urbanismo vertical.",
+"url": "https://www.linkedin.com/company/council-on-vertical-urbanism",
+"fecha": "2026-02-27"
+},
+{
+"nombre": "Council on Vertical Urbanism(CVU) Iberia Chapter",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Capítulo ibérico del Council on Vertical Urbanism.",
+"url": "https://www.linkedin.com/company/council-on-vertical-urbanism-cvu-iberia-chapter",
+"fecha": "2026-02-27"
+},
+{
+"nombre": "City Syntax Lab",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Laboratorio de investigación en análisis espacial urbano y sintaxis espacial.",
+"url": "https://www.linkedin.com/company/city-syntax-lab",
+"fecha": "2026-02-17"
+},
+{
+"nombre": "Urban Climate Design Lab",
+"tipo": "Laboratorio de investigación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Laboratorio de investigación sobre diseño urbano y adaptación climática.",
+"url": "https://www.linkedin.com/company/urban-climate-design-lab",
+"fecha": "2026-02-17"
+},
+{
+"nombre": "Centro de Urbanismo CDU",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Centro dedicado a la investigación y difusión del urbanismo contemporáneo.",
+"url": "https://www.linkedin.com/company/centro-de-urbanismo-cdu",
+"fecha": "2026-02-01"
+},
+{
+"nombre": "Cesium",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Plataforma de visualización 3D geoespacial y estándares abiertos como 3D Tiles y CesiumJS.",
+"url": "https://www.linkedin.com/company/cesium",
+"fecha": "2025-12-22"
+},
+{
+"nombre": "Apache Sedona",
+"tipo": "Empresa privada",
+"sector": "Datos / Analítica",
+"descripcion": "Motor de análisis geoespacial distribuido basado en Apache Spark y Flink.",
+"url": "https://www.linkedin.com/company/apache-sedona",
+"fecha": "2025-12-22"
+},
+{
+"nombre": "Laboratorio de Ideas Sostenibles",
+"tipo": "ONG / Fundación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Think tank enfocado en innovación y sostenibilidad urbana y territorial.",
+"url": "https://www.linkedin.com/company/laboratorio-de-ideas-sostenibles",
+"fecha": "2025-12-05"
+},
+{
+"nombre": "Urban MOSAIC Lab",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Laboratorio de investigación sobre morfología urbana, modelado espacial y análisis de ciudades.",
+"url": "https://www.linkedin.com/company/urban-mosaic-lab",
+"fecha": "2025-11-28"
+},
+{
+"nombre": "Máster en Ciudades Inteligentes y Sostenibles - UCM",
+"tipo": "Universidad / Academia",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Programa de posgrado de la Universidad Complutense de Madrid sobre ciudades inteligentes y sostenibilidad urbana.",
+"url": "https://www.linkedin.com/company/master-en-ciudades-inteligentes-y-sostenibles-ucm",
+"fecha": "2025-11-21"
+},
+{
+"nombre": "IDDTEK",
+"tipo": "Consultora",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Consultora tecnológica especializada en soluciones de innovación y transformación digital.",
+"url": "https://www.linkedin.com/company/iddtek",
+"fecha": "2025-11-20"
+},
+{
+"nombre": "Systemiq Ltd.",
+"tipo": "Consultora",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Consultora de sistemas enfocada en soluciones para cambio climático, economía circular y uso del suelo.",
+"url": "https://www.linkedin.com/company/systemiq",
+"fecha": "2025-11-20"
+},
+{
+"nombre": "KnowUrbanNet",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Red de conocimiento urbano para el intercambio de investigación y buenas prácticas en ciudades.",
+"url": "https://www.linkedin.com/company/knowurbannet",
+"fecha": "2025-11-20"
+},
+{
+"nombre": "Urban Studies Journal",
+"tipo": "Medio / Publicación",
+"sector": "Urbanismo",
+"descripcion": "Revista académica internacional de referencia en estudios urbanos y planificación.",
+"url": "https://www.linkedin.com/company/urban-studies-journal",
+"fecha": "2025-11-19"
+},
+{
+"nombre": "CITY: analysis of urban change, theory, action",
+"tipo": "Medio / Publicación",
+"sector": "Urbanismo",
+"descripcion": "Revista académica sobre análisis del cambio urbano, teoría y acción en ciudades.",
+"url": "https://www.linkedin.com/company/city-analysis-of-urban-change-theory-action",
+"fecha": "2025-11-19"
+},
+{
+"nombre": "MedCities / MedCités",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Red de ciudades mediterráneas para la cooperación en desarrollo urbano sostenible.",
+"url": "https://www.linkedin.com/company/medcities",
+"fecha": "2025-11-19"
+},
+{
+"nombre": "NTT DATA",
+"tipo": "Empresa privada",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Multinacional japonesa de servicios de TI y consultoría digital con proyectos en smart cities.",
+"url": "https://www.linkedin.com/company/ntt-data",
+"fecha": "2025-11-18"
+},
+{
+"nombre": "NUS Urban Analytics Lab",
+"tipo": "Laboratorio de investigación",
+"sector": "Datos / Analítica",
+"descripcion": "Laboratorio de la National University of Singapore especializado en analítica urbana y gemelos digitales.",
+"url": "https://www.linkedin.com/company/nus-urban-analytics-lab",
+"fecha": "2025-11-17"
+},
+{
+"nombre": "Google Maps Platform",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Plataforma de Google para APIs de mapas, rutas y datos geoespaciales.",
+"url": "https://www.linkedin.com/company/google-maps-platform",
+"fecha": "2025-11-15"
+},
+{
+"nombre": "LA FACTORÍA, gestión y consultoría",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Empresa de gestión y consultoría en urbanismo y desarrollo territorial en España.",
+"url": "https://www.linkedin.com/company/la-factoria-gestion-y-consultoria",
+"fecha": "2025-11-14"
+},
+{
+"nombre": "ARNAIZ",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de arquitectura y urbanismo con proyectos de diseño y planificación.",
+"url": "https://www.linkedin.com/company/arnaiz",
+"fecha": "2025-11-13"
+},
+{
+"nombre": "Project for Public Spaces",
+"tipo": "ONG / Fundación",
+"sector": "Urbanismo",
+"descripcion": "Organización sin ánimo de lucro dedicada a la creación y mejora de espacios públicos en ciudades.",
+"url": "https://www.linkedin.com/company/project-for-public-spaces",
+"fecha": "2025-11-12"
+},
+{
+"nombre": "Mott MacDonald",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora global de ingeniería, gestión y desarrollo con proyectos en infraestructura y ciudades.",
+"url": "https://www.linkedin.com/company/mott-macdonald",
+"fecha": "2025-11-07"
+},
+{
+"nombre": "Urban Living Lab Center",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Centro de investigación sobre laboratorios urbanos vivientes y co-creación ciudadana.",
+"url": "https://www.linkedin.com/company/urban-living-lab-center",
+"fecha": "2025-10-23"
+},
+{
+"nombre": "Institute for Urban Excellence",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Instituto dedicado a la excelencia en investigación y práctica del urbanismo.",
+"url": "https://www.linkedin.com/company/institute-for-urban-excellence",
+"fecha": "2025-10-23"
+},
+{
+"nombre": "European Urban Knowledge Network",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Red europea para el intercambio de conocimiento sobre políticas urbanas.",
+"url": "https://www.linkedin.com/company/european-urban-knowledge-network",
+"fecha": "2025-10-20"
+},
+{
+"nombre": "VisualUrb",
+"tipo": "Empresa privada",
+"sector": "Urbanismo",
+"descripcion": "Herramienta de visualización y análisis de datos urbanos.",
+"url": "https://www.linkedin.com/company/visualurb",
+"fecha": "2025-10-18"
+},
+{
+"nombre": "Azora",
+"tipo": "Empresa privada",
+"sector": "Inmobiliario",
+"descripcion": "Gestora de inversiones inmobiliarias y de infraestructuras en España.",
+"url": "https://www.linkedin.com/company/azora",
+"fecha": "2025-10-16"
+},
+{
+"nombre": "UNDP Careers",
+"tipo": "Institución pública",
+"sector": "Cooperación internacional",
+"descripcion": "Portal de empleo del Programa de las Naciones Unidas para el Desarrollo.",
+"url": "https://www.linkedin.com/company/undp-careers",
+"fecha": "2025-10-16"
+},
+{
+"nombre": "WSP",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora global de ingeniería y medio ambiente con proyectos en infraestructura y ciudades sostenibles.",
+"url": "https://www.linkedin.com/company/wsp",
+"fecha": "2025-10-15"
+},
+{
+"nombre": "Harvard University Graduate School of Design",
+"tipo": "Universidad / Academia",
+"sector": "Arquitectura",
+"descripcion": "Escuela de posgrado de Harvard en arquitectura, urbanismo y diseño del paisaje.",
+"url": "https://www.linkedin.com/company/harvard-gsd",
+"fecha": "2025-10-12"
+},
+{
+"nombre": "KPMG Real Estate",
+"tipo": "Consultora",
+"sector": "Inmobiliario",
+"descripcion": "División inmobiliaria de KPMG con servicios de asesoría y valoración de activos.",
+"url": "https://www.linkedin.com/company/kpmg-real-estate",
+"fecha": "2025-10-12"
+},
+{
+"nombre": "Muppy",
+"tipo": "Empresa privada",
+"sector": "Inmobiliario",
+"descripcion": "Plataforma digital de coliving y alquiler flexible para jóvenes profesionales.",
+"url": "https://www.linkedin.com/company/muppy",
+"fecha": "2025-10-12"
+},
+{
+"nombre": "Take Point Real Estate",
+"tipo": "Empresa privada",
+"sector": "Inmobiliario",
+"descripcion": "Empresa inmobiliaria especializada en inversión y gestión de propiedades.",
+"url": "https://www.linkedin.com/company/take-point-real-estate",
+"fecha": "2025-10-12"
+},
+{
+"nombre": "Euro-Funding",
+"tipo": "Consultora",
+"sector": "Otro",
+"descripcion": "Consultora especializada en captación de fondos europeos y financiación para innovación.",
+"url": "https://www.linkedin.com/company/euro-funding",
+"fecha": "2025-10-12"
+},
+{
+"nombre": "Atelier itd",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Taller de innovación social y desarrollo territorial vinculado a la UPM.",
+"url": "https://www.linkedin.com/company/atelier-itd",
+"fecha": "2025-10-11"
+},
+{
+"nombre": "Centro de Innovación en Tecnología para el Desarrollo Humano itdUPM",
+"tipo": "Laboratorio de investigación",
+"sector": "Cooperación internacional",
+"descripcion": "Centro de la UPM que conecta tecnología e innovación con desarrollo humano y sostenible.",
+"url": "https://www.linkedin.com/company/itdupm",
+"fecha": "2025-10-11"
+},
+{
+"nombre": "Urban Partners",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultoría de urbanismo y planificación estratégica para ciudades.",
+"url": "https://www.linkedin.com/company/urban-partners",
+"fecha": "2025-10-10"
+},
+{
+"nombre": "snapland",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Plataforma de captura y análisis de datos geoespaciales mediante drones y sensores.",
+"url": "https://www.linkedin.com/company/snapland",
+"fecha": "2025-10-09"
+},
+{
+"nombre": "LAND",
+"tipo": "Estudio de arquitectura",
+"sector": "Paisajismo",
+"descripcion": "Estudio internacional de arquitectura del paisaje y diseño urbano sostenible.",
+"url": "https://www.linkedin.com/company/land-srl",
+"fecha": "2025-10-08"
+},
+{
+"nombre": "Finch",
+"tipo": "Empresa privada",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Plataforma de análisis de sostenibilidad y evaluación ambiental para proyectos de construcción.",
+"url": "https://www.linkedin.com/company/finch3d",
+"fecha": "2025-10-08"
+},
+{
+"nombre": "urbanAlibi",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Estudio de urbanismo y estrategia urbana con enfoque en participación ciudadana.",
+"url": "https://www.linkedin.com/company/urbanalibi",
+"fecha": "2025-10-07"
+},
+{
+"nombre": "Healthy Cities.",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Iniciativa dedicada a promover la salud urbana a través del diseño de ciudades saludables.",
+"url": "https://www.linkedin.com/company/healthy-cities",
+"fecha": "2025-10-06"
+},
+{
+"nombre": "Bax Innovation",
+"tipo": "Consultora",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Consultora de innovación especializada en sostenibilidad, economía circular y smart cities.",
+"url": "https://www.linkedin.com/company/bax-innovation",
+"fecha": "2025-10-06"
+},
+{
+"nombre": "CITYMAKERS",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora de diseño urbano y procesos participativos para la transformación de ciudades.",
+"url": "https://www.linkedin.com/company/citymakers",
+"fecha": "2025-10-06"
+},
+{
+"nombre": "Ubilabs",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Empresa especializada en soluciones de mapas, geolocalización y visualización geoespacial.",
+"url": "https://www.linkedin.com/company/ubilabs",
+"fecha": "2025-10-06"
+},
+{
+"nombre": "DELT·A",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Estudio de urbanismo, paisaje y diseño territorial.",
+"url": "https://www.linkedin.com/company/delta-urban",
+"fecha": "2025-10-05"
+},
+{
+"nombre": "Red Española de Ciudades Inteligentes (RECI)",
+"tipo": "Red / Asociación",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Red de ciudades españolas que promueve la innovación y la transformación digital urbana.",
+"url": "https://www.linkedin.com/company/red-espanola-de-ciudades-inteligentes",
+"fecha": "2025-10-05"
+},
+{
+"nombre": "datos.gob.es - Dirección General del Dato",
+"tipo": "Institución pública",
+"sector": "Datos / Analítica",
+"descripcion": "Portal de datos abiertos del Gobierno de España gestionado por la Dirección General del Dato.",
+"url": "https://www.linkedin.com/company/datos-gob-es",
+"fecha": "2025-10-05"
+},
+{
+"nombre": "MB3",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora de urbanismo y gestión de proyectos de desarrollo urbano.",
+"url": "https://www.linkedin.com/company/mb3",
+"fecha": "2025-10-05"
+},
+{
+"nombre": "Chapman Taylor Madrid Studio",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Oficina madrileña de Chapman Taylor, estudio internacional de arquitectura y masterplanning.",
+"url": "https://www.linkedin.com/company/chapman-taylor-madrid-studio",
+"fecha": "2025-10-05"
+},
+{
+"nombre": "SICE",
+"tipo": "Empresa privada",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Empresa tecnológica española especializada en sistemas inteligentes de transporte y smart cities.",
+"url": "https://www.linkedin.com/company/sice",
+"fecha": "2025-10-05"
+},
+{
+"nombre": "EY-Parthenon",
+"tipo": "Consultora",
+"sector": "Otro",
+"descripcion": "División de consultoría estratégica de Ernst & Young para transformación empresarial.",
+"url": "https://www.linkedin.com/company/ey-parthenon",
+"fecha": "2025-10-05"
+},
+{
+"nombre": "MIT Norman B. Leventhal Center for Advanced Urbanism",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Centro del MIT dedicado a la investigación avanzada en urbanismo, diseño y tecnología urbana.",
+"url": "https://www.linkedin.com/company/mit-center-for-advanced-urbanism",
+"fecha": "2025-10-03"
+},
+{
+"nombre": "C40 Cities Europe",
+"tipo": "Red / Asociación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Capítulo europeo de la red C40 de grandes ciudades contra el cambio climático.",
+"url": "https://www.linkedin.com/company/c40-cities-europe",
+"fecha": "2025-10-03"
+},
+{
+"nombre": "Dark Matter Labs",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Laboratorio de diseño estratégico que trabaja en transiciones sistémicas para ciudades y territorios.",
+"url": "https://www.linkedin.com/company/dark-matter-labs",
+"fecha": "2025-10-03"
+},
+{
+"nombre": "MMMAPA",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Estudio de cartografía y visualización de datos geográficos.",
+"url": "https://www.linkedin.com/company/mmmapa",
+"fecha": "2025-10-01"
+},
+{
+"nombre": "Urban Planning",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Comunidad profesional de LinkedIn dedicada al urbanismo y la planificación urbana.",
+"url": "https://www.linkedin.com/company/urban-planning",
+"fecha": "2025-09-30"
+},
+{
+"nombre": "PROES Consultores",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora española de ingeniería, urbanismo y medio ambiente.",
+"url": "https://www.linkedin.com/company/proes-consultores",
+"fecha": "2025-09-24"
+},
+{
+"nombre": "PERALTA URBANISME",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Despacho de urbanismo y planificación territorial en Cataluña.",
+"url": "https://www.linkedin.com/company/peralta-urbanisme",
+"fecha": "2025-09-24"
+},
+{
+"nombre": "IDOM | Consulting",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Firma española de consultoría, ingeniería y arquitectura con proyectos internacionales.",
+"url": "https://www.linkedin.com/company/idom",
+"fecha": "2025-09-23"
+},
+{
+"nombre": "Smart City Expo Kuala Lumpur",
+"tipo": "Red / Asociación",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Evento internacional sobre ciudades inteligentes y soluciones urbanas innovadoras.",
+"url": "https://www.linkedin.com/company/smart-city-expo-kuala-lumpur",
+"fecha": "2025-09-19"
+},
+{
+"nombre": "Deutsches Institut für Urbanistik (Difu)",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Instituto alemán de urbanismo, principal centro de investigación urbana municipal en Alemania.",
+"url": "https://www.linkedin.com/company/difu",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "Urban Future",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Plataforma y conferencia europea sobre el futuro de las ciudades sostenibles.",
+"url": "https://www.linkedin.com/company/urban-future",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "Energy Cities",
+"tipo": "Red / Asociación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Red europea de ciudades en transición energética con más de 1.000 municipios miembros.",
+"url": "https://www.linkedin.com/company/energy-cities",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "Urban Design Forum",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Organización cívica de Nueva York dedicada al debate sobre diseño urbano y políticas urbanas.",
+"url": "https://www.linkedin.com/company/urban-design-forum",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "EIT Urban Mobility",
+"tipo": "Institución pública",
+"sector": "Transporte / Movilidad",
+"descripcion": "Iniciativa del Instituto Europeo de Innovación y Tecnología para la movilidad urbana sostenible.",
+"url": "https://www.linkedin.com/company/eit-urban-mobility",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "POLIS network",
+"tipo": "Red / Asociación",
+"sector": "Transporte / Movilidad",
+"descripcion": "Red de ciudades y regiones europeas para la innovación en transporte urbano.",
+"url": "https://www.linkedin.com/company/polis-network",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "New European Bauhaus",
+"tipo": "Institución pública",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Iniciativa de la Comisión Europea que conecta sostenibilidad, estética y comunidad.",
+"url": "https://www.linkedin.com/company/new-european-bauhaus",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "NetZeroCitiesEU",
+"tipo": "Red / Asociación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Programa de la UE para ayudar a 100 ciudades europeas a alcanzar la neutralidad climática en 2030.",
+"url": "https://www.linkedin.com/company/netzerocitieseu",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "PLATFORMA",
+"tipo": "Red / Asociación",
+"sector": "Cooperación internacional",
+"descripcion": "Coalición paneuropea de gobiernos locales y regionales para la cooperación al desarrollo.",
+"url": "https://www.linkedin.com/company/platforma",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "Jobs in Brussels",
+"tipo": "Otro",
+"sector": "Empleo / Carreras",
+"descripcion": "Portal de empleo especializado en posiciones en instituciones europeas y ONGs en Bruselas.",
+"url": "https://www.linkedin.com/company/jobs-in-brussels",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "Talent Hub for Cities and Regions",
+"tipo": "Otro",
+"sector": "Empleo / Carreras",
+"descripcion": "Plataforma de empleo para profesionales del sector urbano y gobiernos locales y regionales.",
+"url": "https://www.linkedin.com/company/talent-hub-for-cities-and-regions",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "Council of European Municipalities and Regions (CEMR)",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Mayor asociación de gobiernos locales y regionales de Europa.",
+"url": "https://www.linkedin.com/company/cemr",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "ALMAR CONSULTING",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora española de ingeniería civil, urbanismo e infraestructuras.",
+"url": "https://www.linkedin.com/company/almar-consulting",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "RCCyP Arquitectura y Planeamiento",
+"tipo": "Estudio de arquitectura",
+"sector": "Urbanismo",
+"descripcion": "Estudio de arquitectura y planeamiento urbano en España.",
+"url": "https://www.linkedin.com/company/rccyp",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "Grupo SC",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Grupo de consultoría e ingeniería española en urbanismo y medio ambiente.",
+"url": "https://www.linkedin.com/company/grupo-sc",
+"fecha": "2025-09-17"
+},
+{
+"nombre": "AtkinsRéalis",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Multinacional de ingeniería y consultoría (antes SNC-Lavalin/Atkins) en infraestructura y ciudades.",
+"url": "https://www.linkedin.com/company/atkinsrealis",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "Grupo GIS-Omicron",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Empresa española de sistemas de información geográfica y soluciones geoespaciales.",
+"url": "https://www.linkedin.com/company/grupo-gis-omicron",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "GIP Europe des projets architecturaux et urbains",
+"tipo": "Institución pública",
+"sector": "Urbanismo",
+"descripcion": "Organismo público francés de promoción de proyectos arquitectónicos y urbanos europeos.",
+"url": "https://www.linkedin.com/company/gip-europe",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "Europan Europe",
+"tipo": "Red / Asociación",
+"sector": "Arquitectura",
+"descripcion": "Concurso europeo de ideas arquitectónicas y urbanísticas para jóvenes profesionales.",
+"url": "https://www.linkedin.com/company/europan-europe",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "LANDLAB, laboratorio de paisajes",
+"tipo": "Estudio de arquitectura",
+"sector": "Paisajismo",
+"descripcion": "Estudio de paisajismo y diseño del paisaje con enfoque en biodiversidad y sostenibilidad.",
+"url": "https://www.linkedin.com/company/landlab-laboratorio-de-paisajes",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "WSP Global",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Sede global de WSP, consultora de ingeniería ambiental e infraestructura sostenible.",
+"url": "https://www.linkedin.com/company/wsp-global",
+"fecha": "2025-09-23"
+},
+{
+"nombre": "TerritorisXLM",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora de planificación territorial y desarrollo urbano sostenible.",
+"url": "https://www.linkedin.com/company/territorisxlm",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "Accumin Intelligence Real Estate Solutions",
+"tipo": "Empresa privada",
+"sector": "Inmobiliario",
+"descripcion": "Soluciones de inteligencia de datos para el sector inmobiliario.",
+"url": "https://www.linkedin.com/company/accumin",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "SVAM Arquitectos y Consultores, S.L.P.",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de arquitectura y consultoría técnica en edificación y urbanismo.",
+"url": "https://www.linkedin.com/company/svam-arquitectos",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "Colectivo CCRS",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Colectivo de arquitectura con enfoque en proyectos comunitarios y espacio público.",
+"url": "https://www.linkedin.com/company/colectivo-ccrs",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "Spacio",
+"tipo": "Empresa privada",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Plataforma tecnológica de gestión y análisis de espacios urbanos.",
+"url": "https://www.linkedin.com/company/spacio",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "unmap",
+"tipo": "Empresa privada",
+"sector": "Datos / Analítica",
+"descripcion": "Estudio de visualización de datos y cartografía creativa.",
+"url": "https://www.linkedin.com/company/unmap",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "Consultores Urbanísticos",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Despacho de consultoría urbanística y planificación territorial en España.",
+"url": "https://www.linkedin.com/company/consultores-urbanisticos",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "Piperty",
+"tipo": "Empresa privada",
+"sector": "Inmobiliario",
+"descripcion": "Plataforma tecnológica para inversión y gestión inmobiliaria.",
+"url": "https://www.linkedin.com/company/piperty",
+"fecha": "2025-09-16"
+},
+{
+"nombre": "CONURMA Ingenieros Consultores",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Ingeniería y consultoría española en urbanismo, medio ambiente y obra civil.",
+"url": "https://www.linkedin.com/company/conurma",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Arcadis",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora global de diseño, ingeniería y gestión ambiental para ciudades resilientes.",
+"url": "https://www.linkedin.com/company/arcadis",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Cities at KTH",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Plataforma de investigación urbana del KTH Royal Institute of Technology de Estocolmo.",
+"url": "https://www.linkedin.com/company/cities-at-kth",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "CARNET",
+"tipo": "Laboratorio de investigación",
+"sector": "Transporte / Movilidad",
+"descripcion": "Hub de investigación en movilidad urbana futura impulsado por SEAT, UPC y Volkswagen.",
+"url": "https://www.linkedin.com/company/carnet",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "ArchiTech Network",
+"tipo": "Red / Asociación",
+"sector": "Arquitectura",
+"descripcion": "Red profesional que conecta tecnología y arquitectura.",
+"url": "https://www.linkedin.com/company/architech-network",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Marvel",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de arquitectura de Nueva York especializado en diseño cívico y espacio público.",
+"url": "https://www.linkedin.com/company/marvel-architects",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Pratt Center for Community Development",
+"tipo": "ONG / Fundación",
+"sector": "Urbanismo",
+"descripcion": "Centro de desarrollo comunitario de Pratt Institute que promueve la justicia urbana.",
+"url": "https://www.linkedin.com/company/pratt-center",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Perkins&Will",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio global de arquitectura y diseño con enfoque en sostenibilidad e investigación.",
+"url": "https://www.linkedin.com/company/perkinswill",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Grimshaw",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio internacional de arquitectura conocido por proyectos de infraestructura y transporte.",
+"url": "https://www.linkedin.com/company/grimshaw",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Savills España",
+"tipo": "Empresa privada",
+"sector": "Inmobiliario",
+"descripcion": "Oficina española de Savills, consultora global de servicios inmobiliarios.",
+"url": "https://www.linkedin.com/company/savills-espana",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "CBRE España",
+"tipo": "Empresa privada",
+"sector": "Inmobiliario",
+"descripcion": "División española de CBRE, líder mundial en servicios inmobiliarios comerciales.",
+"url": "https://www.linkedin.com/company/cbre-espana",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Clikalia",
+"tipo": "Empresa privada",
+"sector": "Inmobiliario",
+"descripcion": "Proptech española de compraventa de viviendas con modelo iBuyer.",
+"url": "https://www.linkedin.com/company/clikalia",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Savills",
+"tipo": "Empresa privada",
+"sector": "Inmobiliario",
+"descripcion": "Consultora global de servicios inmobiliarios con presencia en más de 70 países.",
+"url": "https://www.linkedin.com/company/savills",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Fundación Conama",
+"tipo": "ONG / Fundación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Fundación española que organiza el Congreso Nacional de Medio Ambiente.",
+"url": "https://www.linkedin.com/company/fundacion-conama",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "SÓLIDA",
+"tipo": "Empresa privada",
+"sector": "Inmobiliario",
+"descripcion": "Promotora inmobiliaria española de proyectos residenciales.",
+"url": "https://www.linkedin.com/company/solida",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "GAIAMBIENTE",
+"tipo": "Consultora",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Consultora ambiental española especializada en evaluación de impacto y sostenibilidad.",
+"url": "https://www.linkedin.com/company/gaiambiente",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Centro de Observación y Teledetección Espacial S.A.U. - COTESA",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Empresa española de teledetección, cartografía y servicios geoespaciales.",
+"url": "https://www.linkedin.com/company/cotesa",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Smart Dataprod",
+"tipo": "Empresa privada",
+"sector": "Datos / Analítica",
+"descripcion": "Empresa de soluciones de datos e inteligencia artificial para smart cities.",
+"url": "https://www.linkedin.com/company/smart-dataprod",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Ayesa",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Multinacional española de ingeniería y tecnología con proyectos en infraestructura y ciudades.",
+"url": "https://www.linkedin.com/company/ayesa",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Buchanan Consultores",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora de urbanismo, transporte y planificación territorial.",
+"url": "https://www.linkedin.com/company/buchanan-consultores",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "La Urbanoteca",
+"tipo": "Medio / Publicación",
+"sector": "Urbanismo",
+"descripcion": "Plataforma de divulgación y recursos sobre urbanismo y ciudad.",
+"url": "https://www.linkedin.com/company/la-urbanoteca",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Metropolis, World Association of the Major Metropolises",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Asociación mundial de grandes metrópolis para la gobernanza y el desarrollo urbano.",
+"url": "https://www.linkedin.com/company/metropolis-world",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Raona",
+"tipo": "Empresa privada",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Empresa tecnológica española de transformación digital y soluciones Microsoft.",
+"url": "https://www.linkedin.com/company/raona",
+"fecha": "2025-09-15"
+},
+{
+"nombre": "Libelium",
+"tipo": "Empresa privada",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Empresa española de IoT que fabrica sensores y plataformas para smart cities.",
+"url": "https://www.linkedin.com/company/libelium",
+"fecha": "2025-09-11"
+},
+{
+"nombre": "ESMARTCITY",
+"tipo": "Medio / Publicación",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Portal de noticias y referencia en español sobre ciudades inteligentes.",
+"url": "https://www.linkedin.com/company/esmartcity",
+"fecha": "2025-09-11"
+},
+{
+"nombre": "unica360 data intelligence",
+"tipo": "Empresa privada",
+"sector": "Datos / Analítica",
+"descripcion": "Empresa de inteligencia de datos y analítica avanzada.",
+"url": "https://www.linkedin.com/company/unica360",
+"fecha": "2025-09-11"
+},
+{
+"nombre": "TYPSA",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Grupo español de ingeniería y consultoría en infraestructura, urbanismo y medio ambiente.",
+"url": "https://www.linkedin.com/company/typsa",
+"fecha": "2025-09-10"
+},
+{
+"nombre": "HOK",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio global de arquitectura, ingeniería y planificación urbana.",
+"url": "https://www.linkedin.com/company/hok",
+"fecha": "2025-09-09"
+},
+{
+"nombre": "Norman Foster Institute",
+"tipo": "Universidad / Academia",
+"sector": "Arquitectura",
+"descripcion": "Instituto fundado por Norman Foster para formar líderes en diseño sostenible de ciudades.",
+"url": "https://www.linkedin.com/company/norman-foster-institute",
+"fecha": "2025-09-09"
+},
+{
+"nombre": "IES Ltd.",
+"tipo": "Empresa privada",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Empresa de software de simulación energética y rendimiento de edificios.",
+"url": "https://www.linkedin.com/company/ies-ltd",
+"fecha": "2025-09-08"
+},
+{
+"nombre": "Khora Urban Thinkers",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Colectivo de pensamiento urbano y consultoría en estrategia y diseño de ciudades.",
+"url": "https://www.linkedin.com/company/khora-urban-thinkers",
+"fecha": "2025-09-08"
+},
+{
+"nombre": "G4 Group Architecture, Engineering and Design",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Grupo multidisciplinar de arquitectura, ingeniería y diseño.",
+"url": "https://www.linkedin.com/company/g4-group",
+"fecha": "2025-09-08"
+},
+{
+"nombre": "ICLEI Europe",
+"tipo": "Red / Asociación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Red europea de gobiernos locales comprometidos con el desarrollo urbano sostenible.",
+"url": "https://www.linkedin.com/company/iclei-europe",
+"fecha": "2025-09-08"
+},
+{
+"nombre": "United Cities and Local Governments (UCLG)",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Organización mundial de ciudades y gobiernos locales y regionales.",
+"url": "https://www.linkedin.com/company/uclg",
+"fecha": "2025-09-05"
+},
+{
+"nombre": "spacelab_",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de arquitectura y diseño espacial.",
+"url": "https://www.linkedin.com/company/spacelab_",
+"fecha": "2025-09-05"
+},
+{
+"nombre": "Aedas",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio internacional de arquitectura con sede en Hong Kong y proyectos a gran escala.",
+"url": "https://www.linkedin.com/company/aedas",
+"fecha": "2025-09-05"
+},
+{
+"nombre": "Aedes",
+"tipo": "Red / Asociación",
+"sector": "Inmobiliario",
+"descripcion": "Asociación de promotores inmobiliarios de España.",
+"url": "https://www.linkedin.com/company/aedes",
+"fecha": "2025-09-05"
+},
+{
+"nombre": "Future Cities Laboratory Global",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Programa de investigación global del ETH de Zúrich sobre el futuro de las ciudades.",
+"url": "https://www.linkedin.com/company/future-cities-laboratory-global",
+"fecha": "2025-09-05"
+},
+{
+"nombre": "BABLE Smart Cities",
+"tipo": "Empresa privada",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Plataforma que conecta ciudades con soluciones inteligentes y proveedores de tecnología urbana.",
+"url": "https://www.linkedin.com/company/bable-smartcities",
+"fecha": "2025-09-05"
+},
+{
+"nombre": "Integrating Cities",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Iniciativa europea sobre integración de migrantes a través de políticas urbanas.",
+"url": "https://www.linkedin.com/company/integrating-cities",
+"fecha": "2025-09-02"
+},
+{
+"nombre": "European Urban Initiative",
+"tipo": "Institución pública",
+"sector": "Urbanismo",
+"descripcion": "Iniciativa de la UE que apoya el desarrollo urbano sostenible e innovador en Europa.",
+"url": "https://www.linkedin.com/company/european-urban-initiative",
+"fecha": "2025-09-02"
+},
+{
+"nombre": "IDOM Consulting, Engineering, Architecture",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Firma española multidisciplinar de consultoría, ingeniería y arquitectura.",
+"url": "https://www.linkedin.com/company/idom-consulting-engineering-architecture",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "Ezquiaga Arquitectura Sociedad y Territorio SL.",
+"tipo": "Estudio de arquitectura",
+"sector": "Urbanismo",
+"descripcion": "Estudio español de arquitectura y urbanismo dirigido por José María Ezquiaga.",
+"url": "https://www.linkedin.com/company/ezquiaga-arquitectura",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "KPF",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Kohn Pedersen Fox, estudio global de arquitectura conocido por rascacielos y masterplanning.",
+"url": "https://www.linkedin.com/company/kpf",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "Digital+Sustainable Innovation Lab",
+"tipo": "Laboratorio de investigación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Laboratorio de innovación en digitalización y sostenibilidad para el entorno construido.",
+"url": "https://www.linkedin.com/company/digital-sustainable-innovation-lab",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "Integrated Projects",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora de gestión de proyectos integrados en urbanismo e infraestructura.",
+"url": "https://www.linkedin.com/company/integrated-projects",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "Civic Data Design Lab",
+"tipo": "Laboratorio de investigación",
+"sector": "Datos / Analítica",
+"descripcion": "Laboratorio del MIT que utiliza datos y diseño para mejorar la vida cívica y urbana.",
+"url": "https://www.linkedin.com/company/civic-data-design-lab",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "Spatial Pixel",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Estudio de visualización de datos geoespaciales y cartografía digital.",
+"url": "https://www.linkedin.com/company/spatial-pixel",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "Invest in Open Infrastructure",
+"tipo": "ONG / Fundación",
+"sector": "Otro",
+"descripcion": "Iniciativa que promueve la inversión en infraestructura digital abierta y sostenible.",
+"url": "https://www.linkedin.com/company/invest-in-open-infrastructure",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "Superbloom",
+"tipo": "ONG / Fundación",
+"sector": "Otro",
+"descripcion": "Organización dedicada a apoyar el ecosistema de software libre y abierto.",
+"url": "https://www.linkedin.com/company/superbloom",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "LG유플러스 (LG Uplus)",
+"tipo": "Empresa privada",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Operador de telecomunicaciones surcoreano con proyectos en smart cities y 5G.",
+"url": "https://www.linkedin.com/company/lg-uplus",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "Barcelona Institute for Global Health (ISGlobal)",
+"tipo": "Laboratorio de investigación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Instituto de investigación en salud global con estudios sobre salud urbana y medio ambiente.",
+"url": "https://www.linkedin.com/company/isglobal",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "IOM - UN Migration",
+"tipo": "Institución pública",
+"sector": "Cooperación internacional",
+"descripcion": "Organización Internacional para las Migraciones de las Naciones Unidas.",
+"url": "https://www.linkedin.com/company/iom",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "Bofill Taller de Arquitectura",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio fundado por Ricardo Bofill, referente de la arquitectura posmoderna y monumental.",
+"url": "https://www.linkedin.com/company/bofill-taller-de-arquitectura",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "Clean Cities ClimAccelerator",
+"tipo": "Red / Asociación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Aceleradora europea para startups de ciudades limpias y neutralidad climática.",
+"url": "https://www.linkedin.com/company/clean-cities-climaccelerator",
+"fecha": "2025-08-31"
+},
+{
+"nombre": "CDP",
+"tipo": "ONG / Fundación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Organización global de divulgación ambiental para empresas, ciudades y gobiernos.",
+"url": "https://www.linkedin.com/company/cdp-worldwide",
+"fecha": "2025-08-30"
+},
+{
+"nombre": "CARTO",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Plataforma española de inteligencia geoespacial y análisis de datos de localización.",
+"url": "https://www.linkedin.com/company/carto",
+"fecha": "2025-08-30"
+},
+{
+"nombre": "Pla Estratègic Metropolità de Barcelona (PEMB)",
+"tipo": "Institución pública",
+"sector": "Urbanismo",
+"descripcion": "Plan estratégico metropolitano de Barcelona para el desarrollo urbano a largo plazo.",
+"url": "https://www.linkedin.com/company/pemb",
+"fecha": "2025-08-28"
+},
+{
+"nombre": "Gehl - Making Cities for People",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora danesa de diseño urbano fundada por Jan Gehl, referente en ciudades a escala humana.",
+"url": "https://www.linkedin.com/company/gehl",
+"fecha": "2025-08-27"
+},
+{
+"nombre": "The Academy of Urbanism (AoU)",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Academia británica que premia y promueve las mejores prácticas en urbanismo.",
+"url": "https://www.linkedin.com/company/the-academy-of-urbanism",
+"fecha": "2025-08-27"
+},
+{
+"nombre": "TC Cuadernos- revista de arquitectura",
+"tipo": "Medio / Publicación",
+"sector": "Arquitectura",
+"descripcion": "Revista española de arquitectura que documenta obras contemporáneas de referencia.",
+"url": "https://www.linkedin.com/company/tc-cuadernos",
+"fecha": "2025-08-27"
+},
+{
+"nombre": "Centre for Cities",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Think tank británico dedicado a la investigación económica y política de las ciudades.",
+"url": "https://www.linkedin.com/company/centre-for-cities",
+"fecha": "2025-08-27"
+},
+{
+"nombre": "Urban Design Group",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Organización profesional del Reino Unido que promueve el diseño urbano de calidad.",
+"url": "https://www.linkedin.com/company/urban-design-group",
+"fecha": "2025-08-27"
+},
+{
+"nombre": "Instituto Geográfico Nacional de España y O.A. CNIG",
+"tipo": "Institución pública",
+"sector": "GIS / Geoespacial",
+"descripcion": "Organismo público español de cartografía, geodesia y datos geográficos nacionales.",
+"url": "https://www.linkedin.com/company/ign-cnig",
+"fecha": "2025-08-24"
+},
+{
+"nombre": "COTA CERO Estudios Urbanos y Territoriales SLP",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Estudio de urbanismo y planificación territorial en España.",
+"url": "https://www.linkedin.com/company/cota-cero",
+"fecha": "2025-08-24"
+},
+{
+"nombre": "International Federation of Landscape Architects (IFLA)",
+"tipo": "Red / Asociación",
+"sector": "Paisajismo",
+"descripcion": "Federación internacional de arquitectos paisajistas que promueve la profesión globalmente.",
+"url": "https://www.linkedin.com/company/ifla-world",
+"fecha": "2025-08-24"
+},
+{
+"nombre": "IFLA AFRICA (Landscape architecture)",
+"tipo": "Red / Asociación",
+"sector": "Paisajismo",
+"descripcion": "Capítulo africano de la Federación Internacional de Arquitectos Paisajistas.",
+"url": "https://www.linkedin.com/company/ifla-africa",
+"fecha": "2025-08-24"
+},
+{
+"nombre": "paisatge.org",
+"tipo": "Red / Asociación",
+"sector": "Paisajismo",
+"descripcion": "Observatorio del paisaje de Cataluña dedicado a la protección y gestión del paisaje.",
+"url": "https://www.linkedin.com/company/paisatge-org",
+"fecha": "2025-08-24"
+},
+{
+"nombre": "AECOM",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Multinacional de infraestructura, ingeniería y diseño urbano presente en más de 150 países.",
+"url": "https://www.linkedin.com/company/aecom",
+"fecha": "2025-08-24"
+},
+{
+"nombre": "The World Bank",
+"tipo": "Institución pública",
+"sector": "Cooperación internacional",
+"descripcion": "Institución financiera internacional que financia proyectos de desarrollo urbano y reducción de pobreza.",
+"url": "https://www.linkedin.com/company/the-world-bank",
+"fecha": "2025-08-23"
+},
+{
+"nombre": "MIT Senseable City Lab",
+"tipo": "Laboratorio de investigación",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Laboratorio del MIT que investiga cómo las tecnologías digitales transforman las ciudades.",
+"url": "https://www.linkedin.com/company/mit-senseable-city-lab",
+"fecha": "2025-08-18"
+},
+{
+"nombre": "UNESCO Chair in Urban Landscape",
+"tipo": "Universidad / Academia",
+"sector": "Paisajismo",
+"descripcion": "Cátedra UNESCO dedicada a la investigación y enseñanza sobre paisaje urbano.",
+"url": "https://www.linkedin.com/company/unesco-chair-urban-landscape",
+"fecha": "2025-08-18"
+},
+{
+"nombre": "Center for Digital Visual Studies - University of Zurich - Max Planck Society",
+"tipo": "Laboratorio de investigación",
+"sector": "Datos / Analítica",
+"descripcion": "Centro de investigación en estudios visuales digitales de la Universidad de Zúrich y Max Planck.",
+"url": "https://www.linkedin.com/company/center-for-digital-visual-studies",
+"fecha": "2025-08-18"
+},
+{
+"nombre": "Esri España",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Filial española de Esri, líder mundial en software GIS y ArcGIS.",
+"url": "https://www.linkedin.com/company/esri-espana",
+"fecha": "2025-08-18"
+},
+{
+"nombre": "MASS MADERA Built-by-nature",
+"tipo": "Red / Asociación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Iniciativa para promover la construcción masiva en madera y la edificación sostenible.",
+"url": "https://www.linkedin.com/company/mass-madera",
+"fecha": "2025-08-06"
+},
+{
+"nombre": "Smart&City Solutions",
+"tipo": "Consultora",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Consultora de soluciones inteligentes para la gestión y planificación de ciudades.",
+"url": "https://www.linkedin.com/company/smart-city-solutions",
+"fecha": "2025-07-03"
+},
+{
+"nombre": "urbanNext",
+"tipo": "Medio / Publicación",
+"sector": "Urbanismo",
+"descripcion": "Plataforma editorial sobre urbanismo, arquitectura y cultura contemporánea del espacio.",
+"url": "https://www.linkedin.com/company/urbannext",
+"fecha": "2025-05-07"
+},
+{
+"nombre": "Inclusive Communities, Thriving Cities Programme | by UN-Habitat",
+"tipo": "Institución pública",
+"sector": "Cooperación internacional",
+"descripcion": "Programa de UN-Habitat para comunidades inclusivas y ciudades prósperas.",
+"url": "https://www.linkedin.com/company/inclusive-communities-thriving-cities",
+"fecha": "2025-04-20"
+},
+{
+"nombre": "Our City Plans | by UN-Habitat",
+"tipo": "Institución pública",
+"sector": "Urbanismo",
+"descripcion": "Iniciativa de UN-Habitat para apoyar la planificación urbana participativa y accesible.",
+"url": "https://www.linkedin.com/company/our-city-plans",
+"fecha": "2025-04-20"
+},
+{
+"nombre": "UN-Habitat Urban Lab",
+"tipo": "Institución pública",
+"sector": "Urbanismo",
+"descripcion": "Laboratorio de innovación urbana de UN-Habitat para soluciones de desarrollo sostenible.",
+"url": "https://www.linkedin.com/company/un-habitat-urban-lab",
+"fecha": "2025-04-20"
+},
+{
+"nombre": "UNOPS",
+"tipo": "Institución pública",
+"sector": "Cooperación internacional",
+"descripcion": "Oficina de las Naciones Unidas de Servicios para Proyectos de infraestructura y desarrollo.",
+"url": "https://www.linkedin.com/company/unops",
+"fecha": "2025-04-20"
+},
+{
+"nombre": "Bloomberg Harvard City Leadership Initiative",
+"tipo": "Universidad / Academia",
+"sector": "Urbanismo",
+"descripcion": "Programa de Harvard y Bloomberg para formar alcaldes y líderes urbanos.",
+"url": "https://www.linkedin.com/company/bloomberg-harvard-city-leadership-initiative",
+"fecha": "2025-04-20"
+},
+{
+"nombre": "Bloomberg Center for Cities at Harvard University",
+"tipo": "Universidad / Academia",
+"sector": "Urbanismo",
+"descripcion": "Centro de Harvard dedicado a la investigación y formación en liderazgo y gestión de ciudades.",
+"url": "https://www.linkedin.com/company/bloomberg-center-for-cities",
+"fecha": "2025-04-20"
+},
+{
+"nombre": "NEOM",
+"tipo": "Empresa privada",
+"sector": "Urbanismo",
+"descripcion": "Megaproyecto urbano y tecnológico de Arabia Saudí que incluye The Line y ciudades del futuro.",
+"url": "https://www.linkedin.com/company/neom",
+"fecha": "2025-03-12"
+},
+{
+"nombre": "Revue Urbanisme",
+"tipo": "Medio / Publicación",
+"sector": "Urbanismo",
+"descripcion": "Revista francesa de referencia sobre urbanismo, planificación y políticas territoriales.",
+"url": "https://www.linkedin.com/company/revue-urbanisme",
+"fecha": "2025-03-09"
+},
+{
+"nombre": "Society and Urban Form (SURF) Research Lab",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Laboratorio de investigación sobre forma urbana y su relación con la sociedad.",
+"url": "https://www.linkedin.com/company/surf-research-lab",
+"fecha": "2025-03-01"
+},
+{
+"nombre": "14th International Space Syntax Symposium",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Simposio internacional sobre sintaxis espacial y análisis de redes urbanas.",
+"url": "https://www.linkedin.com/company/14th-international-space-syntax-symposium",
+"fecha": "2025-03-01"
+},
+{
+"nombre": "TWIN2EXPAND",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Proyecto europeo de hermanamiento para la expansión de redes urbanas e investigación.",
+"url": "https://www.linkedin.com/company/twin2expand",
+"fecha": "2025-03-01"
+},
+{
+"nombre": "Hexagonal LAB / Foundation / Consulting",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Laboratorio y consultora de urbanismo, innovación social y transformación territorial.",
+"url": "https://www.linkedin.com/company/hexagonal-lab",
+"fecha": "2025-02-13"
+},
+{
+"nombre": "Institut Metròpoli | UAB",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Instituto de estudios metropolitanos de la Universidad Autónoma de Barcelona.",
+"url": "https://www.linkedin.com/company/institut-metropoli",
+"fecha": "2025-02-08"
+},
+{
+"nombre": "International Institute for Environment and Development (IIED)",
+"tipo": "ONG / Fundación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Instituto de investigación y acción sobre desarrollo sostenible, ciudades y cambio climático.",
+"url": "https://www.linkedin.com/company/iied",
+"fecha": "2025-02-08"
+},
+{
+"nombre": "Anteverti",
+"tipo": "Consultora",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Consultora española de innovación, smart cities y estrategia tecnológica.",
+"url": "https://www.linkedin.com/company/anteverti",
+"fecha": "2025-02-08"
+},
+{
+"nombre": "Ajuntament de Barcelona",
+"tipo": "Institución pública",
+"sector": "Urbanismo",
+"descripcion": "Ayuntamiento de Barcelona, referente en políticas de urbanismo y superilles.",
+"url": "https://www.linkedin.com/company/ajuntament-de-barcelona",
+"fecha": "2025-02-08"
+},
+{
+"nombre": "OECD Centre for Entrepreneurship, SMEs, Regions & Cities",
+"tipo": "Institución pública",
+"sector": "Urbanismo",
+"descripcion": "Centro de la OCDE para políticas de emprendimiento, pymes y desarrollo regional y urbano.",
+"url": "https://www.linkedin.com/company/oecd-cfe",
+"fecha": "2025-02-05"
+},
+{
+"nombre": "United Nations Office for Disaster Risk Reduction (UNDRR)",
+"tipo": "Institución pública",
+"sector": "Cooperación internacional",
+"descripcion": "Oficina de la ONU para la reducción del riesgo de desastres y resiliencia urbana.",
+"url": "https://www.linkedin.com/company/undrr",
+"fecha": "2025-02-05"
+},
+{
+"nombre": "OECD - OCDE",
+"tipo": "Institución pública",
+"sector": "Cooperación internacional",
+"descripcion": "Organización para la Cooperación y el Desarrollo Económicos con trabajo en políticas urbanas.",
+"url": "https://www.linkedin.com/company/oecd",
+"fecha": "2025-02-05"
+},
+{
+"nombre": "Space Syntax",
+"tipo": "Empresa privada",
+"sector": "Datos / Analítica",
+"descripcion": "Empresa pionera en análisis de sintaxis espacial aplicado al diseño y planificación urbana.",
+"url": "https://www.linkedin.com/company/space-syntax",
+"fecha": "2025-02-04"
+},
+{
+"nombre": "All Things Urban",
+"tipo": "Medio / Publicación",
+"sector": "Urbanismo",
+"descripcion": "Plataforma de contenido y recursos sobre urbanismo y diseño de ciudades.",
+"url": "https://www.linkedin.com/company/all-things-urban",
+"fecha": "2025-01-30"
+},
+{
+"nombre": "EU of Opportunities",
+"tipo": "Otro",
+"sector": "Empleo / Carreras",
+"descripcion": "Portal de oportunidades profesionales en instituciones y proyectos de la Unión Europea.",
+"url": "https://www.linkedin.com/company/eu-of-opportunities",
+"fecha": "2025-01-30"
+},
+{
+"nombre": "Eurocities",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Red de grandes ciudades europeas que colaboran en políticas urbanas y calidad de vida.",
+"url": "https://www.linkedin.com/company/eurocities",
+"fecha": "2025-01-30"
+},
+{
+"nombre": "Springco Urban Analytics",
+"tipo": "Empresa privada",
+"sector": "Datos / Analítica",
+"descripcion": "Empresa de analítica urbana y modelos de datos para ciudades.",
+"url": "https://www.linkedin.com/company/springco-urban-analytics",
+"fecha": "2024-12-17"
+},
+{
+"nombre": "Aretian Urban Analytics and Design",
+"tipo": "Consultora",
+"sector": "Datos / Analítica",
+"descripcion": "Consultora de Harvard que aplica analítica urbana avanzada al diseño de ciudades.",
+"url": "https://www.linkedin.com/company/aretian",
+"fecha": "2024-12-17"
+},
+{
+"nombre": "Architects Climate Action Network (ACAN)",
+"tipo": "Red / Asociación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Red de arquitectos del Reino Unido que impulsa la acción climática en el sector de la construcción.",
+"url": "https://www.linkedin.com/company/architects-climate-action-network",
+"fecha": "2024-11-20"
+},
+{
+"nombre": "UK NZC Buildings Standard",
+"tipo": "Red / Asociación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Estándar británico de edificios de cero emisiones netas de carbono.",
+"url": "https://www.linkedin.com/company/uk-nzc-buildings-standard",
+"fecha": "2024-11-20"
+},
+{
+"nombre": "Reusefully Ltd",
+"tipo": "Empresa privada",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Empresa dedicada a la reutilización de materiales de construcción y economía circular.",
+"url": "https://www.linkedin.com/company/reusefully",
+"fecha": "2024-11-20"
+},
+{
+"nombre": "Recursos Urbans",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Consultora catalana de urbanismo y gestión de recursos urbanos.",
+"url": "https://www.linkedin.com/company/recursos-urbans",
+"fecha": "2024-11-20"
+},
+{
+"nombre": "Davos Baukultur Alliance",
+"tipo": "Red / Asociación",
+"sector": "Arquitectura",
+"descripcion": "Alianza internacional para promover la calidad del entorno construido basada en la Declaración de Davos.",
+"url": "https://www.linkedin.com/company/davos-baukultur-alliance",
+"fecha": "2024-11-03"
+},
+{
+"nombre": "Urban Agenda for the EU",
+"tipo": "Institución pública",
+"sector": "Urbanismo",
+"descripcion": "Agenda urbana de la UE que promueve políticas urbanas integradas entre estados miembros.",
+"url": "https://www.linkedin.com/company/urban-agenda-for-the-eu",
+"fecha": "2024-11-03"
+},
+{
+"nombre": "JPI Urban Europe",
+"tipo": "Institución pública",
+"sector": "Urbanismo",
+"descripcion": "Iniciativa de programación conjunta europea para la investigación en transformación urbana.",
+"url": "https://www.linkedin.com/company/jpi-urban-europe",
+"fecha": "2024-11-03"
+},
+{
+"nombre": "City Diplomacy Lab",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Laboratorio de investigación sobre diplomacia de ciudades y gobernanza urbana global.",
+"url": "https://www.linkedin.com/company/city-diplomacy-lab",
+"fecha": "2024-11-03"
+},
+{
+"nombre": "Cities@Heart",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Iniciativa que coloca las ciudades en el centro de las políticas europeas.",
+"url": "https://www.linkedin.com/company/cities-at-heart",
+"fecha": "2024-11-03"
+},
+{
+"nombre": "URBACT",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Programa europeo de cooperación e intercambio de conocimiento entre ciudades.",
+"url": "https://www.linkedin.com/company/urbact",
+"fecha": "2024-11-03"
+},
+{
+"nombre": "Universitat Politècnica de Catalunya (UPC)",
+"tipo": "Universidad / Academia",
+"sector": "Arquitectura",
+"descripcion": "Universidad politécnica de referencia en España en arquitectura, urbanismo e ingeniería.",
+"url": "https://www.linkedin.com/company/upc",
+"fecha": "2024-10-19"
+},
+{
+"nombre": "Esri",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Líder mundial en software de sistemas de información geográfica (ArcGIS).",
+"url": "https://www.linkedin.com/company/esri",
+"fecha": "2024-09-22"
+},
+{
+"nombre": "MIT Media Lab",
+"tipo": "Laboratorio de investigación",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Laboratorio del MIT pionero en investigación interdisciplinar en tecnología, diseño y ciudades.",
+"url": "https://www.linkedin.com/company/mit-media-lab",
+"fecha": "2024-09-22"
+},
+{
+"nombre": "Xiji Incubator",
+"tipo": "Empresa privada",
+"sector": "Smart Cities / Tecnología",
+"descripcion": "Incubadora tecnológica enfocada en innovación urbana y desarrollo de startups.",
+"url": "https://www.linkedin.com/company/xiji-incubator",
+"fecha": "2024-09-17"
+},
+{
+"nombre": "Centre for Liveable Cities",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Centro de investigación de Singapur sobre ciudades habitables y gobernanza urbana.",
+"url": "https://www.linkedin.com/company/centre-for-liveable-cities",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "Cities Alliance",
+"tipo": "Red / Asociación",
+"sector": "Cooperación internacional",
+"descripcion": "Alianza global que promueve ciudades inclusivas y reducción de la pobreza urbana.",
+"url": "https://www.linkedin.com/company/cities-alliance",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "Women In Urbanism",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Red que promueve la visibilidad y liderazgo de las mujeres en urbanismo y planificación.",
+"url": "https://www.linkedin.com/company/women-in-urbanism",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "IJURR Foundation",
+"tipo": "ONG / Fundación",
+"sector": "Urbanismo",
+"descripcion": "Fundación del International Journal of Urban and Regional Research para investigación urbana.",
+"url": "https://www.linkedin.com/company/ijurr-foundation",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "LSE Cities",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Centro de investigación de la London School of Economics sobre urbanización y ciudades.",
+"url": "https://www.linkedin.com/company/lse-cities",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "CITIES FORUM",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Foro de la Comisión Europea para el debate sobre políticas urbanas y cohesión territorial.",
+"url": "https://www.linkedin.com/company/cities-forum",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "C40 Cities",
+"tipo": "Red / Asociación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Red global de casi 100 alcaldes de grandes ciudades contra el cambio climático.",
+"url": "https://www.linkedin.com/company/c40-cities",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "United Nations Careers",
+"tipo": "Institución pública",
+"sector": "Empleo / Carreras",
+"descripcion": "Portal oficial de empleo de las Naciones Unidas.",
+"url": "https://www.linkedin.com/company/united-nations-careers",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "International Careers Updates",
+"tipo": "Otro",
+"sector": "Empleo / Carreras",
+"descripcion": "Portal de oportunidades de empleo en organizaciones internacionales.",
+"url": "https://www.linkedin.com/company/international-careers-updates",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "UN Jobs",
+"tipo": "Otro",
+"sector": "Empleo / Carreras",
+"descripcion": "Plataforma de empleo para posiciones en agencias de las Naciones Unidas.",
+"url": "https://www.linkedin.com/company/un-jobs",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "Global Opportunities Network",
+"tipo": "Otro",
+"sector": "Empleo / Carreras",
+"descripcion": "Red de oportunidades de empleo y prácticas en organizaciones internacionales.",
+"url": "https://www.linkedin.com/company/global-opportunities-network",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "Resilient Cities Network",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Red global de ciudades que trabajan en resiliencia urbana, sucesora de 100 Resilient Cities.",
+"url": "https://www.linkedin.com/company/resilient-cities-network",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "RMIT School of Global, Urban and Social Studies",
+"tipo": "Universidad / Academia",
+"sector": "Urbanismo",
+"descripcion": "Escuela de estudios globales, urbanos y sociales de RMIT University en Melbourne.",
+"url": "https://www.linkedin.com/company/rmit-guss",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "African Centre for Cities",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Centro de investigación de la Universidad de Ciudad del Cabo sobre urbanización africana.",
+"url": "https://www.linkedin.com/company/african-centre-for-cities",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "Urban Resilience Dialogues",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Plataforma de diálogo sobre resiliencia urbana y adaptación al cambio climático.",
+"url": "https://www.linkedin.com/company/urban-resilience-dialogues",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "The Bartlett Development Planning Unit, UCL",
+"tipo": "Universidad / Academia",
+"sector": "Urbanismo",
+"descripcion": "Unidad de planificación del desarrollo urbano de The Bartlett, UCL, referente en urbanismo del sur global.",
+"url": "https://www.linkedin.com/company/bartlett-dpu",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "Melbourne Centre for Cities",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Centro de investigación urbana de la Universidad de Melbourne.",
+"url": "https://www.linkedin.com/company/melbourne-centre-for-cities",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "RMIT Centre for Urban Research",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Centro de investigación urbana de RMIT University sobre gobernanza, planificación y vivienda.",
+"url": "https://www.linkedin.com/company/rmit-cur",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "RMIT Europe",
+"tipo": "Universidad / Academia",
+"sector": "Otro",
+"descripcion": "Campus europeo de RMIT University con sede en Barcelona.",
+"url": "https://www.linkedin.com/company/rmit-europe",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "Urban Design Lab",
+"tipo": "Laboratorio de investigación",
+"sector": "Urbanismo",
+"descripcion": "Laboratorio de diseño urbano enfocado en investigación y divulgación sobre ciudades sostenibles.",
+"url": "https://www.linkedin.com/company/urban-design-lab",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "UN-Habitat (United Nations Human Settlements Programme)",
+"tipo": "Institución pública",
+"sector": "Urbanismo",
+"descripcion": "Programa de la ONU para asentamientos humanos y desarrollo urbano sostenible.",
+"url": "https://www.linkedin.com/company/un-habitat",
+"fecha": "2024-07-28"
+},
+{
+"nombre": "RAFAEL DE LA-HOZ Arquitectos",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio madrileño de arquitectura fundado por Rafael de La-Hoz, con proyectos emblemáticos.",
+"url": "https://www.linkedin.com/company/rafael-de-la-hoz",
+"fecha": "2024-05-27"
+},
+{
+"nombre": "同济大学",
+"tipo": "Universidad / Academia",
+"sector": "Urbanismo",
+"descripcion": "Universidad Tongji de Shanghái, referente en arquitectura, urbanismo e ingeniería en China.",
+"url": "https://www.linkedin.com/company/tongji-university",
+"fecha": "2024-04-27"
+},
+{
+"nombre": "TRANSyT-UPM, Centro de Investigación del Transporte",
+"tipo": "Laboratorio de investigación",
+"sector": "Transporte / Movilidad",
+"descripcion": "Centro de investigación en transporte de la Universidad Politécnica de Madrid.",
+"url": "https://www.linkedin.com/company/transyt-upm",
+"fecha": "2024-04-23"
+},
+{
+"nombre": "The London School of Economics and Political Science (LSE)",
+"tipo": "Universidad / Academia",
+"sector": "Urbanismo",
+"descripcion": "Universidad británica de referencia en ciencias sociales, economía y estudios urbanos.",
+"url": "https://www.linkedin.com/company/the-london-school-of-economics-and-political-science-lse-",
+"fecha": "2024-03-29"
+},
+{
+"nombre": "Urbanistan",
+"tipo": "Medio / Publicación",
+"sector": "Urbanismo",
+"descripcion": "Plataforma de contenido y debate sobre urbanismo y ciudades del futuro.",
+"url": "https://www.linkedin.com/company/urbanistan",
+"fecha": "2024-03-27"
+},
+{
+"nombre": "Urban AI",
+"tipo": "Empresa privada",
+"sector": "Datos / Analítica",
+"descripcion": "Organización dedicada a la investigación y aplicación de IA en contextos urbanos.",
+"url": "https://www.linkedin.com/company/urban-ai",
+"fecha": "2024-03-27"
+},
+{
+"nombre": "Data Urbana",
+"tipo": "Empresa privada",
+"sector": "Datos / Analítica",
+"descripcion": "Empresa de analítica de datos urbanos y geoespaciales para la toma de decisiones.",
+"url": "https://www.linkedin.com/company/data-urbana",
+"fecha": "2024-03-27"
+},
+{
+"nombre": "trescientosmil",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Estudio de urbanismo, análisis territorial y diseño de políticas urbanas.",
+"url": "https://www.linkedin.com/company/trescientosmil",
+"fecha": "2024-03-27"
+},
+{
+"nombre": "Urban Resilience Hub by UN-Habitat's CRGP",
+"tipo": "Institución pública",
+"sector": "Urbanismo",
+"descripcion": "Hub de resiliencia urbana del programa de reducción de riesgos de UN-Habitat.",
+"url": "https://www.linkedin.com/company/urban-resilience-hub",
+"fecha": "2024-03-12"
+},
+{
+"nombre": "Lacol",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Cooperativa de arquitectura de Barcelona especializada en vivienda cooperativa y participación.",
+"url": "https://www.linkedin.com/company/lacol",
+"fecha": "2024-02-29"
+},
+{
+"nombre": "SUMA arquitectura",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de arquitectura con proyectos residenciales y equipamientos en España.",
+"url": "https://www.linkedin.com/company/suma-arquitectura",
+"fecha": "2024-02-27"
+},
+{
+"nombre": "MIAUTICS",
+"tipo": "Empresa privada",
+"sector": "GIS / Geoespacial",
+"descripcion": "Empresa de tecnología geoespacial, drones y gemelos digitales para análisis urbano.",
+"url": "https://www.linkedin.com/company/miautics",
+"fecha": "2024-02-27"
+},
+{
+"nombre": "Gensler",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Mayor estudio de arquitectura y diseño del mundo por facturación, con enfoque en experiencia urbana.",
+"url": "https://www.linkedin.com/company/gensler",
+"fecha": "2024-02-25"
+},
+{
+"nombre": "RPBW Renzo Piano Building Workshop",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio del premio Pritzker Renzo Piano, referente en arquitectura cultural y urbana.",
+"url": "https://www.linkedin.com/company/rpbw",
+"fecha": "2024-02-25"
+},
+{
+"nombre": "David Chipperfield Architects",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio del premio Pritzker David Chipperfield, conocido por su arquitectura contextual y cívica.",
+"url": "https://www.linkedin.com/company/david-chipperfield-architects",
+"fecha": "2024-02-25"
+},
+{
+"nombre": "Arup",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Multinacional de ingeniería, diseño y consultoría para ciudades sostenibles e infraestructura.",
+"url": "https://www.linkedin.com/company/arup",
+"fecha": "2024-02-25"
+},
+{
+"nombre": "El Croquis. Revista Internacional de Arquitectura",
+"tipo": "Medio / Publicación",
+"sector": "Arquitectura",
+"descripcion": "Prestigiosa revista española de arquitectura que documenta la obra de los arquitectos más relevantes.",
+"url": "https://www.linkedin.com/company/el-croquis",
+"fecha": "2024-02-20"
+},
+{
+"nombre": "Nieto Sobejano Arquitectos",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de arquitectura español reconocido por proyectos culturales y museísticos.",
+"url": "https://www.linkedin.com/company/nieto-sobejano-arquitectos",
+"fecha": "2024-02-20"
+},
+{
+"nombre": "Herzog & de Meuron",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio suizo premio Pritzker conocido por proyectos icónicos como la Tate Modern y el Nido de Pájaro.",
+"url": "https://www.linkedin.com/company/herzog-de-meuron",
+"fecha": "2024-02-20"
+},
+{
+"nombre": "MVRDV",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio holandés de arquitectura y urbanismo conocido por proyectos innovadores y visionarios.",
+"url": "https://www.linkedin.com/company/mvrdv",
+"fecha": "2024-02-20"
+},
+{
+"nombre": "BIG - Bjarke Ingels Group",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio danés de arquitectura liderado por Bjarke Ingels, conocido por su enfoque hedonista y sostenible.",
+"url": "https://www.linkedin.com/company/big-bjarke-ingels-group",
+"fecha": "2024-02-20"
+},
+{
+"nombre": "OMA",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Office for Metropolitan Architecture, estudio de Rem Koolhaas referente en arquitectura contemporánea.",
+"url": "https://www.linkedin.com/company/oma",
+"fecha": "2024-02-20"
+},
+{
+"nombre": "METROPOLI",
+"tipo": "Medio / Publicación",
+"sector": "Urbanismo",
+"descripcion": "Publicación y plataforma sobre urbanismo, arquitectura y diseño de metrópolis.",
+"url": "https://www.linkedin.com/company/metropoli",
+"fecha": "2024-02-18"
+},
+{
+"nombre": "ACCIONA",
+"tipo": "Empresa privada",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Multinacional española de infraestructura, energía renovable y servicios urbanos.",
+"url": "https://www.linkedin.com/company/acciona",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Foster + Partners",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio global de Norman Foster, premio Pritzker, referente en arquitectura sostenible y tecnológica.",
+"url": "https://www.linkedin.com/company/foster-partners",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "United Nations",
+"tipo": "Institución pública",
+"sector": "Cooperación internacional",
+"descripcion": "Organización internacional para la paz, desarrollo y cooperación global.",
+"url": "https://www.linkedin.com/company/united-nations",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "ICCROM",
+"tipo": "Institución pública",
+"sector": "Patrimonio / Conservación",
+"descripcion": "Centro internacional para el estudio de la preservación y restauración del patrimonio cultural.",
+"url": "https://www.linkedin.com/company/iccrom",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "UNESCO",
+"tipo": "Institución pública",
+"sector": "Patrimonio / Conservación",
+"descripcion": "Organización de la ONU para la educación, ciencia, cultura y protección del patrimonio mundial.",
+"url": "https://www.linkedin.com/company/unesco",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "International Council on Monuments and Sites (ICOMOS)",
+"tipo": "Red / Asociación",
+"sector": "Patrimonio / Conservación",
+"descripcion": "Consejo internacional de monumentos y sitios, asesor de UNESCO en patrimonio mundial.",
+"url": "https://www.linkedin.com/company/icomos",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Patrimonio Nacional",
+"tipo": "Institución pública",
+"sector": "Patrimonio / Conservación",
+"descripcion": "Organismo público español que gestiona los bienes del patrimonio de la Corona.",
+"url": "https://www.linkedin.com/company/patrimonio-nacional",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "The Institute Of Historic Building Conservation (IHBC)",
+"tipo": "Red / Asociación",
+"sector": "Patrimonio / Conservación",
+"descripcion": "Instituto británico para la conservación de edificios históricos y patrimonio construido.",
+"url": "https://www.linkedin.com/company/ihbc",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "American Institute for Conservation & Foundation for Advancement in Conservation",
+"tipo": "Red / Asociación",
+"sector": "Patrimonio / Conservación",
+"descripcion": "Instituto estadounidense para la conservación de obras y bienes culturales.",
+"url": "https://www.linkedin.com/company/american-institute-for-conservation",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Icon - The Institute of Conservation",
+"tipo": "Red / Asociación",
+"sector": "Patrimonio / Conservación",
+"descripcion": "Instituto británico de profesionales de la conservación del patrimonio.",
+"url": "https://www.linkedin.com/company/icon-conservation",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "ICOMOS-ESPAÑA (Comité Nacional Español de ICOMOS)",
+"tipo": "Red / Asociación",
+"sector": "Patrimonio / Conservación",
+"descripcion": "Comité español de ICOMOS dedicado a la protección del patrimonio monumental.",
+"url": "https://www.linkedin.com/company/icomos-espana",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Plataforma Patrimonio Abierto: Investigación y Sociedad",
+"tipo": "Red / Asociación",
+"sector": "Patrimonio / Conservación",
+"descripcion": "Plataforma española para la investigación y difusión del patrimonio cultural.",
+"url": "https://www.linkedin.com/company/plataforma-patrimonio-abierto",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Plataforma del Tercer Sector",
+"tipo": "ONG / Fundación",
+"sector": "Otro",
+"descripcion": "Plataforma que agrupa a las principales organizaciones del tercer sector social en España.",
+"url": "https://www.linkedin.com/company/plataforma-del-tercer-sector",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Fundación Arquia",
+"tipo": "ONG / Fundación",
+"sector": "Arquitectura",
+"descripcion": "Fundación de la Caja de Arquitectos que promueve la cultura arquitectónica en España.",
+"url": "https://www.linkedin.com/company/fundacion-arquia",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "HIC arquitectura",
+"tipo": "Medio / Publicación",
+"sector": "Arquitectura",
+"descripcion": "Plataforma digital de divulgación y crítica arquitectónica en español.",
+"url": "https://www.linkedin.com/company/hic-arquitectura",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Col·legi d'Arquitectes de Catalunya - COAC",
+"tipo": "Red / Asociación",
+"sector": "Arquitectura",
+"descripcion": "Colegio oficial de arquitectos de Cataluña.",
+"url": "https://www.linkedin.com/company/coac",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Colegio Oficial de Arquitectos de Madrid - COAM",
+"tipo": "Red / Asociación",
+"sector": "Arquitectura",
+"descripcion": "Colegio profesional de arquitectos de Madrid, referente en la profesión en España.",
+"url": "https://www.linkedin.com/company/coam",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Tectónica",
+"tipo": "Medio / Publicación",
+"sector": "Arquitectura",
+"descripcion": "Revista española de arquitectura centrada en la construcción y los detalles técnicos.",
+"url": "https://www.linkedin.com/company/tectonica",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Escola Sert",
+"tipo": "Universidad / Academia",
+"sector": "Arquitectura",
+"descripcion": "Escuela de formación continua del COAC para arquitectos y profesionales del diseño.",
+"url": "https://www.linkedin.com/company/escola-sert",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Asociación Provivienda",
+"tipo": "ONG / Fundación",
+"sector": "Vivienda",
+"descripcion": "Asociación española que trabaja por el derecho a la vivienda y la inclusión residencial.",
+"url": "https://www.linkedin.com/company/asociacion-provivienda",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Norman Foster Foundation",
+"tipo": "ONG / Fundación",
+"sector": "Arquitectura",
+"descripcion": "Fundación de Norman Foster dedicada a la formación y el futuro de la arquitectura y ciudades.",
+"url": "https://www.linkedin.com/company/norman-foster-foundation",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "UNS",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de arquitectura y diseño.",
+"url": "https://www.linkedin.com/company/uns",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Morph",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de arquitectura y diseño con enfoque en innovación y fabricación digital.",
+"url": "https://www.linkedin.com/company/morph",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "HOGAR SÍ",
+"tipo": "ONG / Fundación",
+"sector": "Vivienda",
+"descripcion": "Organización española que trabaja para erradicar el sinhogarismo con el modelo Housing First.",
+"url": "https://www.linkedin.com/company/hogar-si",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Cano y Escario Arquitectura",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio madrileño de arquitectura con proyectos residenciales y de equipamientos.",
+"url": "https://www.linkedin.com/company/cano-y-escario-arquitectura",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Cabana | Architecture Studio",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de arquitectura con enfoque en diseño contemporáneo y vivienda.",
+"url": "https://www.linkedin.com/company/cabana-architecture-studio",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Snøhetta",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio noruego de arquitectura y paisaje conocido por la Ópera de Oslo y proyectos cívicos.",
+"url": "https://www.linkedin.com/company/snohetta",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "n'UNDO",
+"tipo": "ONG / Fundación",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Plataforma que promueve la acción de 'no construir' y la reversibilidad en la intervención territorial.",
+"url": "https://www.linkedin.com/company/nundo",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Grupo Tragsa",
+"tipo": "Empresa privada",
+"sector": "Sostenibilidad / Medio ambiente",
+"descripcion": "Grupo empresarial público español de servicios ambientales, obra civil y desarrollo rural.",
+"url": "https://www.linkedin.com/company/grupo-tragsa",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "NOMO STUDIO",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de arquitectura con sede en Menorca y proyectos residenciales contemporáneos.",
+"url": "https://www.linkedin.com/company/nomo-studio",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "ERRE",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio español de arquitectura con proyectos de vivienda y espacio público.",
+"url": "https://www.linkedin.com/company/erre",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Mesura",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio catalán de arquitectura premiado por proyectos residenciales y de paisaje.",
+"url": "https://www.linkedin.com/company/mesura",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Zuloark",
+"tipo": "Estudio de arquitectura",
+"sector": "Urbanismo",
+"descripcion": "Colectivo de arquitectura y urbanismo participativo con proyectos de innovación social.",
+"url": "https://www.linkedin.com/company/zuloark",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Laboqueria Arquitectura",
+"tipo": "Estudio de arquitectura",
+"sector": "Arquitectura",
+"descripcion": "Estudio de arquitectura con enfoque en equipamientos públicos y espacio colectivo.",
+"url": "https://www.linkedin.com/company/laboqueria",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Ecosistema Urbano",
+"tipo": "Estudio de arquitectura",
+"sector": "Urbanismo",
+"descripcion": "Estudio madrileño de diseño urbano y arquitectura ecosistémica con proyectos participativos.",
+"url": "https://www.linkedin.com/company/ecosistema-urbano",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "LandLAB_",
+"tipo": "Estudio de arquitectura",
+"sector": "Paisajismo",
+"descripcion": "Estudio de arquitectura del paisaje y diseño de espacios abiertos.",
+"url": "https://www.linkedin.com/company/landlab_",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "Urbanbat",
+"tipo": "Red / Asociación",
+"sector": "Urbanismo",
+"descripcion": "Festival de urbanismo y plataforma para el debate sobre ciudad, comunidad y espacio público.",
+"url": "https://www.linkedin.com/company/urbanbat",
+"fecha": "2024-02-15"
+},
+{
+"nombre": "paisaje transversal",
+"tipo": "Consultora",
+"sector": "Urbanismo",
+"descripcion": "Oficina de innovación urbana pionera en urbanismo participativo y regeneración urbana integral.",
+"url": "https://www.linkedin.com/company/paisaje-transversal",
+"fecha": "2024-02-15"
+}
 ]
