@@ -491,7 +491,7 @@ function renderCards(data){var g=document.getElementById('cardsView');g.innerHTM
 function applyFilters(){var d=getFilteredData();if(currentView==='table')renderTable(d);else renderCards(d)}
 
 // ── Multi-select ─────────────────────────────────────────────
-function initMultiSelect(id,ex){var w=document.getElementById(id),d=w.querySelector('.ms-display'),dd=w.querySelector('.ms-dropdown'),ph=d.dataset.placeholder;d.addEventListener('click',function(e){e.stopPropagation();var o=dd.classList.contains('open');document.querySelectorAll('.ms-dropdown.open').forEach(function(x){x.classList.remove('open');x.previousElementSibling.classList.remove('open')});if(!o){dd.classList.add('open');d.classList.add('open')}});dd.addEventListener('click',function(e){var o=e.target.closest('.ms-option');if(!o)return;if(o.dataset.value===''){dd.querySelectorAll('.ms-option').forEach(function(x){x.classList.remove('selected')});d.textContent=ph}else if(ex){dd.querySelectorAll('.ms-option').forEach(function(x){x.classList.remove('selected')});o.classList.add('selected');d.textContent=o.textContent}else{o.classList.toggle('selected');var sel=getSelected(id);d.textContent=sel.length?sel.join(', '):ph}applyFilters()})}
+function initMultiSelect(id,ex,cb){var fn=cb||applyFilters;var w=document.getElementById(id),d=w.querySelector('.ms-display'),dd=w.querySelector('.ms-dropdown'),ph=d.dataset.placeholder;d.addEventListener('click',function(e){e.stopPropagation();var o=dd.classList.contains('open');document.querySelectorAll('.ms-dropdown.open').forEach(function(x){x.classList.remove('open');x.previousElementSibling.classList.remove('open')});if(!o){dd.classList.add('open');d.classList.add('open')}});dd.addEventListener('click',function(e){var o=e.target.closest('.ms-option');if(!o)return;if(o.dataset.value===''){dd.querySelectorAll('.ms-option').forEach(function(x){x.classList.remove('selected')});d.textContent=ph}else if(ex){dd.querySelectorAll('.ms-option').forEach(function(x){x.classList.remove('selected')});o.classList.add('selected');d.textContent=o.textContent}else{o.classList.toggle('selected');var sel=getSelected(id);d.textContent=sel.length?sel.join(', '):ph}fn()})}
 function getSelected(id){return Array.from(document.querySelectorAll('#'+id+' .ms-option.selected')).map(function(o){return o.dataset.value})}
 document.addEventListener('click',function(){document.querySelectorAll('.ms-dropdown.open').forEach(function(d){d.classList.remove('open');d.previousElementSibling.classList.remove('open')})});
 
@@ -535,8 +535,8 @@ function initCompanies(data){
   Object.keys(tipos).sort().forEach(function(t){td.innerHTML+='<div class="ms-option" data-value="'+t+'">'+t+'</div>'});
   var sd=document.querySelector('#ms-comp-sector .ms-dropdown');
   Object.keys(sectores).sort().forEach(function(s){sd.innerHTML+='<div class="ms-option" data-value="'+s+'">'+s+'</div>'});
-  initMultiSelect('ms-comp-tipo',false);
-  initMultiSelect('ms-comp-sector',false);
+  initMultiSelect('ms-comp-tipo',false,renderCompanies);
+  initMultiSelect('ms-comp-sector',false,renderCompanies);
   document.getElementById('compSearchInput').addEventListener('input',renderCompanies);
   document.getElementById('resetCompFilters').addEventListener('click',function(){
     document.getElementById('compSearchInput').value='';
