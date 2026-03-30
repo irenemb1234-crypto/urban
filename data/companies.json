@@ -29,7 +29,12 @@
 "sector": "Smart Cities / Tecnología",
 "descripcion": "Plataforma open-source de interoperabilidad de datos para AEC (arquitectura, ingeniería y construcción).",
 "url": "https://www.linkedin.com/company/speckle",
-"fecha": "2026-03-14"
+"fecha": "2026-03-14",
+"herramientas": [
+"Speckle",
+"Grasshopper + Supabase + Speckle",
+"5 Workflows Grasshopper"
+]
 },
 {
 "nombre": "Harvard Urban AI",
@@ -85,7 +90,10 @@
 "sector": "GIS / Geoespacial",
 "descripcion": "Plataforma de visualización 3D geoespacial y estándares abiertos como 3D Tiles y CesiumJS.",
 "url": "https://www.linkedin.com/company/cesium",
-"fecha": "2025-12-22"
+"fecha": "2025-12-22",
+"herramientas": [
+"CesiumJS / VC Map"
+]
 },
 {
 "nombre": "Apache Sedona",
@@ -93,7 +101,11 @@
 "sector": "Datos / Analítica",
 "descripcion": "Motor de análisis geoespacial distribuido basado en Apache Spark y Flink.",
 "url": "https://www.linkedin.com/company/apache-sedona",
-"fecha": "2025-12-22"
+"fecha": "2025-12-22",
+"herramientas": [
+"Apache Sedona",
+"Ecosistema Python geoespacial"
+]
 },
 {
 "nombre": "Laboratorio de Ideas Sostenibles",
@@ -189,7 +201,11 @@
 "sector": "GIS / Geoespacial",
 "descripcion": "Plataforma de Google para APIs de mapas, rutas y datos geoespaciales.",
 "url": "https://www.linkedin.com/company/google-maps-platform",
-"fecha": "2025-11-15"
+"fecha": "2025-11-15",
+"herramientas": [
+"Google Maps Places",
+"QGIS Plugin GEE"
+]
 },
 {
 "nombre": "LA FACTORÍA, gestión y consultoría",
@@ -365,7 +381,10 @@
 "sector": "Sostenibilidad / Medio ambiente",
 "descripcion": "Plataforma de análisis de sostenibilidad y evaluación ambiental para proyectos de construcción.",
 "url": "https://www.linkedin.com/company/finch3d",
-"fecha": "2025-10-08"
+"fecha": "2025-10-08",
+"herramientas": [
+"Finch (Finch3D)"
+]
 },
 {
 "nombre": "urbanAlibi",
@@ -1221,7 +1240,11 @@
 "sector": "GIS / Geoespacial",
 "descripcion": "Plataforma española de inteligencia geoespacial y análisis de datos de localización.",
 "url": "https://www.linkedin.com/company/carto",
-"fecha": "2025-08-30"
+"fecha": "2025-08-30",
+"herramientas": [
+"CARTO Spatial",
+"RaQuet (CARTO)"
+]
 },
 {
 "nombre": "Pla Estratègic Metropolità de Barcelona (PEMB)",
@@ -1357,7 +1380,11 @@
 "sector": "GIS / Geoespacial",
 "descripcion": "Filial española de Esri, líder mundial en software GIS y ArcGIS.",
 "url": "https://www.linkedin.com/company/esri-espana",
-"fecha": "2025-08-18"
+"fecha": "2025-08-18",
+"herramientas": [
+"Esri Deep Learning Models",
+"ezesri"
+]
 },
 {
 "nombre": "MASS MADERA Built-by-nature",
@@ -1541,7 +1568,11 @@
 "sector": "Datos / Analítica",
 "descripcion": "Empresa pionera en análisis de sintaxis espacial aplicado al diseño y planificación urbana.",
 "url": "https://www.linkedin.com/company/space-syntax",
-"fecha": "2025-02-04"
+"fecha": "2025-02-04",
+"herramientas": [
+"Space Syntax",
+"UrbanXTools"
+]
 },
 {
 "nombre": "All Things Urban",
@@ -1677,7 +1708,11 @@
 "sector": "GIS / Geoespacial",
 "descripcion": "Líder mundial en software de sistemas de información geográfica (ArcGIS).",
 "url": "https://www.linkedin.com/company/esri",
-"fecha": "2024-09-22"
+"fecha": "2024-09-22",
+"herramientas": [
+"Esri Deep Learning Models",
+"ezesri"
+]
 },
 {
 "nombre": "MIT Media Lab",
@@ -1909,7 +1944,11 @@
 "sector": "Datos / Analítica",
 "descripcion": "Organización dedicada a la investigación y aplicación de IA en contextos urbanos.",
 "url": "https://www.linkedin.com/company/urban-ai",
-"fecha": "2024-03-27"
+"fecha": "2024-03-27",
+"herramientas": [
+"Reasoning-centric Urban AI",
+"Urban AI: SO ciudades"
+]
 },
 {
 "nombre": "Data Urbana",
@@ -2061,7 +2100,10 @@
 "sector": "Arquitectura",
 "descripcion": "Estudio global de Norman Foster, premio Pritzker, referente en arquitectura sostenible y tecnológica.",
 "url": "https://www.linkedin.com/company/foster-partners",
-"fecha": "2024-02-15"
+"fecha": "2024-02-15",
+"herramientas": [
+"Formas AI"
+]
 },
 {
 "nombre": "United Nations",
