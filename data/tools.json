@@ -1491,14 +1491,20 @@
   {
     "nombre": "Hektar",
     "categoria": "Generación",
-    "subcategorias": ["Planificación IA", "IA / Machine Learning"],
+    "subcategorias": [
+      "Planificación IA",
+      "IA / Machine Learning"
+    ],
     "acceso": "Empresa de pago",
     "tipo": "Empresa establecida",
     "ia": "Sí",
     "descripcion": "Plataforma SaaS sueca que genera volúmenes edificatorios y analiza normativa con LLM (GPT-4). Pilotada con municipios suecos.",
     "autor": "Hektar",
     "url": "",
-    "programas": ["Web app", "GPT-4"],
+    "programas": [
+      "Web app",
+      "GPT-4"
+    ],
     "link": "https://app.hektar.ai",
     "linkType": "website",
     "imagen": "",
@@ -1508,14 +1514,20 @@
   {
     "nombre": "Snaptrude",
     "categoria": "Generación",
-    "subcategorias": ["Planificación IA", "Interoperabilidad BIM"],
+    "subcategorias": [
+      "Planificación IA",
+      "Interoperabilidad BIM"
+    ],
     "acceso": "Mixto",
     "tipo": "Empresa establecida",
     "ia": "Sí",
     "descripcion": "Pipeline prompt-a-BIM cloud-native: genera programas arquitectónicos, asigna dimensiones normativas y exporta a Revit.",
     "autor": "Snaptrude",
     "url": "",
-    "programas": ["Web app", "Revit"],
+    "programas": [
+      "Web app",
+      "Revit"
+    ],
     "link": "https://snaptrude.com",
     "linkType": "website",
     "imagen": "",
@@ -1525,70 +1537,107 @@
   {
     "nombre": "CONSUL Democracy",
     "categoria": "Análisis",
-    "subcategorias": ["Participación ciudadana"],
+    "subcategorias": [
+      "Participación ciudadana"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Empresa establecida",
     "ia": "No",
     "descripcion": "Plataforma open source del Ayuntamiento de Madrid para participación ciudadana, presupuestos participativos y votaciones. +250 implementaciones en 35 países.",
     "autor": "Ayuntamiento de Madrid",
     "url": "",
-    "programas": ["Web app", "Ruby on Rails"],
+    "programas": [
+      "Web app",
+      "Ruby on Rails"
+    ],
     "link": "https://consuldemocracy.org",
     "linkType": "website",
-    "imagen": "",
-    "enlaces": [{"label": "GitHub", "url": "https://github.com/consuldemocracy"}],
+    "imagen": "https://opengraph.githubassets.com/0465c42580c089cbbdd479575c9fbdcf9a454b059014f49d5ffba19faedede67/consuldemocracy/consuldemocracy",
+    "enlaces": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/consuldemocracy"
+      }
+    ],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "madina",
     "categoria": "Análisis",
-    "subcategorias": ["Redes y grafos urbanos", "Movilidad y accesibilidad"],
+    "subcategorias": [
+      "Redes y grafos urbanos",
+      "Movilidad y accesibilidad"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Framework académico",
     "ia": "No",
     "descripcion": "Paquete Python del MIT City Form Lab que implementa los métodos UNA (Urban Network Analysis): accesibilidad, betweenness y flujo peatonal.",
     "autor": "MIT City Form Lab",
     "url": "",
-    "programas": ["Python"],
+    "programas": [
+      "Python"
+    ],
     "link": "https://github.com/City-Form-Lab/madina",
     "linkType": "github",
-    "imagen": "",
+    "imagen": "https://opengraph.githubassets.com/6c671c7a91809f46477b14c4565d4894cec1ae451df4918e772ef3228119a216/City-Form-Lab/madina",
     "enlaces": [
-      {"label": "Docs", "url": "https://madinadocs.readthedocs.io"},
-      {"label": "Paper", "url": "https://doi.org/10.1016/j.jtrangeo.2025.104105"}
+      {
+        "label": "Docs",
+        "url": "https://madinadocs.readthedocs.io"
+      },
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1016/j.jtrangeo.2025.104105"
+      }
     ],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "UMEP",
     "categoria": "Análisis",
-    "subcategorias": ["Simulación ambiental", "Microclima urbano"],
+    "subcategorias": [
+      "Simulación ambiental",
+      "Microclima urbano"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Framework académico",
     "ia": "No",
     "descripcion": "Plugin QGIS con el toolkit de clima urbano más completo: balance energético (SUEWS), isla de calor (UWG) y confort térmico exterior (SOLWEIG).",
     "autor": "Universidad de Gothenburg / Universidad de Reading",
     "url": "",
-    "programas": ["QGIS", "Python"],
+    "programas": [
+      "QGIS",
+      "Python"
+    ],
     "link": "https://umep-docs.readthedocs.io",
     "linkType": "docs",
-    "imagen": "",
+    "imagen": "https://opengraph.githubassets.com/dcf086a8fb5455ce8083db7bc0ab32f9ac542885daa5b945a098b49f37f7db9e/UMEP-dev/UMEP",
     "enlaces": [
-      {"label": "Paper", "url": "https://doi.org/10.1016/j.envsoft.2017.09.020"}
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1016/j.envsoft.2017.09.020"
+      }
     ],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "15min City Score Toolkit",
     "categoria": "Análisis",
-    "subcategorias": ["Movilidad y accesibilidad", "Datos abiertos"],
+    "subcategorias": [
+      "Movilidad y accesibilidad",
+      "Datos abiertos"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Herramienta nueva",
     "ia": "No",
     "descripcion": "Plugin Python para QGIS que automatiza el cálculo del '15-minute City Score' usando OSMnx. Testado en 112+ ciudades europeas.",
     "autor": "Systematica / Transform Transport",
     "url": "",
-    "programas": ["QGIS", "Python", "OSMnx"],
+    "programas": [
+      "QGIS",
+      "Python",
+      "OSMnx"
+    ],
     "link": "https://zenodo.org/records/14231353",
     "linkType": "paper",
     "imagen": "",
@@ -1598,14 +1647,19 @@
   {
     "nombre": "UrbanistAI",
     "categoria": "Ambas",
-    "subcategorias": ["Participación ciudadana", "Planificación IA"],
+    "subcategorias": [
+      "Participación ciudadana",
+      "Planificación IA"
+    ],
     "acceso": "Empresa de pago",
     "tipo": "Empresa establecida",
     "ia": "Sí",
     "descripcion": "Plataforma italiana de planificación participativa con IA para co-diseñar espacios públicos mediante campañas basadas en mapas.",
     "autor": "UrbanistAI",
     "url": "",
-    "programas": ["Web app"],
+    "programas": [
+      "Web app"
+    ],
     "link": "https://site.urbanistai.com",
     "linkType": "website",
     "imagen": "",
@@ -1615,31 +1669,42 @@
   {
     "nombre": "vCity",
     "categoria": "Ambas",
-    "subcategorias": ["Modelado 3D / Gemelos digitales", "Participación ciudadana"],
+    "subcategorias": [
+      "Modelado 3D / Gemelos digitales",
+      "Participación ciudadana"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Framework académico",
     "ia": "No",
     "descripcion": "Plataforma open source de gemelos digitales urbanos human-centric del Barcelona Supercomputing Center. Pilotos en Barcelona, Viladecans y Kobe.",
     "autor": "Barcelona Supercomputing Center",
     "url": "",
-    "programas": ["Web app", "Decidim"],
+    "programas": [
+      "Web app",
+      "Decidim"
+    ],
     "link": "https://vcity.tech",
     "linkType": "website",
-    "imagen": "",
+    "imagen": "https://opengraph.githubassets.com/ced211b4033b073318e31e2d17c919a13e3a37b2a9c1d7e5209b6c03bb24c740/VCityTeam/UD-Viz",
     "enlaces": [],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "Waypoint Transit",
     "categoria": "Generación",
-    "subcategorias": ["Planificación IA", "IA / Machine Learning"],
+    "subcategorias": [
+      "Planificación IA",
+      "IA / Machine Learning"
+    ],
     "acceso": "Empresa de pago",
     "tipo": "Empresa establecida",
     "ia": "Sí",
     "descripcion": "Startup YC W25 que usa IA para generar estudios de infraestructura civil automatizados, reduciendo costes ~30% y plazos de meses a semanas.",
     "autor": "Waypoint Transit",
     "url": "",
-    "programas": ["Web app"],
+    "programas": [
+      "Web app"
+    ],
     "link": "https://www.ycombinator.com/companies/waypoint-transit",
     "linkType": "website",
     "imagen": "",
@@ -1649,33 +1714,49 @@
   {
     "nombre": "SAGAI",
     "categoria": "Análisis",
-    "subcategorias": ["IA / Machine Learning", "Computer vision urbana"],
+    "subcategorias": [
+      "IA / Machine Learning",
+      "Computer vision urbana"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Framework académico",
     "ia": "Sí",
     "descripcion": "Workflow modular open source para evaluar escenas urbanas a nivel de calle usando VLMs (LLaVA) con geometrías OSM y Google Street View.",
     "autor": "SAGAI",
     "url": "",
-    "programas": ["Python", "LLaVA", "OpenStreetMap", "Street View"],
+    "programas": [
+      "Python",
+      "LLaVA",
+      "OpenStreetMap",
+      "Street View"
+    ],
     "link": "https://arxiv.org/abs/2504.16538",
     "linkType": "paper",
-    "imagen": "",
+    "imagen": "https://opengraph.githubassets.com/973b123cfe53bfc088542ee139518dd8c56fa2a186e160c2518c5b3964ee8228/perezjoan/SAGAI",
     "enlaces": [
-      {"label": "arXiv", "url": "https://arxiv.org/abs/2504.16538"}
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2504.16538"
+      }
     ],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "Orbital Stack",
     "categoria": "Análisis",
-    "subcategorias": ["Simulación ambiental", "Microclima urbano"],
+    "subcategorias": [
+      "Simulación ambiental",
+      "Microclima urbano"
+    ],
     "acceso": "Empresa de pago",
     "tipo": "Empresa establecida",
     "ia": "Sí",
     "descripcion": "Plataforma SaaS de CFD en la nube para análisis de microclima urbano: confort de viento, seguridad peatonal y confort térmico exterior.",
     "autor": "Orbital Stack",
     "url": "",
-    "programas": ["Web app"],
+    "programas": [
+      "Web app"
+    ],
     "link": "https://orbitalstack.com",
     "linkType": "website",
     "imagen": "",
@@ -1685,33 +1766,46 @@
   {
     "nombre": "UXsim",
     "categoria": "Análisis",
-    "subcategorias": ["Movilidad y accesibilidad"],
+    "subcategorias": [
+      "Movilidad y accesibilidad"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Herramienta nueva",
     "ia": "No",
     "descripcion": "Simulador macroscópico de tráfico 100% Python sin dependencias externas: simula 60.000 vehículos en ~30 segundos.",
     "autor": "Toru Seo",
     "url": "",
-    "programas": ["Python"],
+    "programas": [
+      "Python"
+    ],
     "link": "https://github.com/toruseo/UXsim",
     "linkType": "github",
-    "imagen": "",
+    "imagen": "https://repository-images.githubusercontent.com/674611614/850c5f8b-ce4a-4f38-8cde-0331af581910",
     "enlaces": [
-      {"label": "arXiv", "url": "https://arxiv.org/abs/2309.17114"}
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2309.17114"
+      }
     ],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "Archistar",
     "categoria": "Ambas",
-    "subcategorias": ["Planificación IA", "Análisis normativo"],
+    "subcategorias": [
+      "Planificación IA",
+      "Análisis normativo"
+    ],
     "acceso": "Empresa de pago",
     "tipo": "Empresa establecida",
     "ia": "Sí",
     "descripcion": "Plataforma australiana de feasibility urbanística que automatiza análisis normativo y genera envolventes edificables. Partner de Autodesk Forma.",
     "autor": "Archistar",
     "url": "",
-    "programas": ["Web app", "Autodesk Forma"],
+    "programas": [
+      "Web app",
+      "Autodesk Forma"
+    ],
     "link": "https://archistar.ai",
     "linkType": "website",
     "imagen": "",
@@ -1721,34 +1815,52 @@
   {
     "nombre": "3DCityDB",
     "categoria": "Análisis",
-    "subcategorias": ["Modelado 3D / Gemelos digitales", "Infraestructura de datos"],
+    "subcategorias": [
+      "Modelado 3D / Gemelos digitales",
+      "Infraestructura de datos"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Framework académico",
     "ia": "No",
     "descripcion": "Base de datos geoespacial open source (Apache 2.0) para modelos semánticos 3D de ciudades basados en CityGML y CityJSON del OGC.",
     "autor": "TU Munich",
     "url": "",
-    "programas": ["PostgreSQL", "CityGML", "CesiumJS"],
+    "programas": [
+      "PostgreSQL",
+      "CityGML",
+      "CesiumJS"
+    ],
     "link": "https://3dcitydb.org",
     "linkType": "website",
-    "imagen": "",
+    "imagen": "https://opengraph.githubassets.com/da357abb350a750d1d331d3cfca4f0cf972d8824420991d8e05aba8a14ba9ef1/3dcitydb/3dcitydb",
     "enlaces": [
-      {"label": "GitHub", "url": "https://github.com/3dcitydb"},
-      {"label": "Paper", "url": "https://doi.org/10.1186/s40965-018-0046-7"}
+      {
+        "label": "GitHub",
+        "url": "https://github.com/3dcitydb"
+      },
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1186/s40965-018-0046-7"
+      }
     ],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "ENVI-met",
     "categoria": "Análisis",
-    "subcategorias": ["Simulación ambiental", "Microclima urbano"],
+    "subcategorias": [
+      "Simulación ambiental",
+      "Microclima urbano"
+    ],
     "acceso": "Mixto",
     "tipo": "Empresa establecida",
     "ia": "No",
     "descripcion": "Gold standard mundial para simulación microclimática urbana 3D: isla de calor, confort térmico, patrones de viento y efectos de la vegetación.",
     "autor": "ENVI-met GmbH",
     "url": "",
-    "programas": ["ENVI-met"],
+    "programas": [
+      "ENVI-met"
+    ],
     "link": "https://envi-met.com",
     "linkType": "website",
     "imagen": "",
@@ -1758,14 +1870,20 @@
   {
     "nombre": "MetaMAP",
     "categoria": "Análisis",
-    "subcategorias": ["Visualización", "Diseño paramétrico"],
+    "subcategorias": [
+      "Visualización",
+      "Diseño paramétrico"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Complemento",
     "ia": "No",
     "descripcion": "Plugin gratuito y open source para Grasshopper (octubre 2025) que genera geometrías de edificios y terreno desde datos urbanos en Rhino.",
     "autor": "Rhino3D / Comunidad",
     "url": "",
-    "programas": ["Rhino3D", "Grasshopper"],
+    "programas": [
+      "Rhino3D",
+      "Grasshopper"
+    ],
     "link": "https://blog.rhino3d.com/2025/10/metamap-urban-planning-tools-for-rhino.html",
     "linkType": "website",
     "imagen": "",
@@ -1775,14 +1893,19 @@
   {
     "nombre": "EU Local Digital Twin Toolbox",
     "categoria": "Ambas",
-    "subcategorias": ["Modelado 3D / Gemelos digitales", "Planificación IA"],
+    "subcategorias": [
+      "Modelado 3D / Gemelos digitales",
+      "Planificación IA"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Herramienta nueva",
     "ia": "Sí",
     "descripcion": "Plataforma modular open source de la Comisión Europea para que ciudades construyan gemelos digitales. Cumple AI Act y Data Act.",
     "autor": "Comisión Europea",
     "url": "",
-    "programas": ["Web app"],
+    "programas": [
+      "Web app"
+    ],
     "link": "https://interoperable-europe.ec.europa.eu/collection/ldttoolbox",
     "linkType": "website",
     "imagen": "",
@@ -1792,14 +1915,19 @@
   {
     "nombre": "Arcol",
     "categoria": "Generación",
-    "subcategorias": ["Interoperabilidad BIM", "Diseño paramétrico"],
+    "subcategorias": [
+      "Interoperabilidad BIM",
+      "Diseño paramétrico"
+    ],
     "acceso": "Empresa de pago",
     "tipo": "Empresa establecida",
     "ia": "No",
     "descripcion": "Plataforma BIM browser-first y cloud-native para colaboración en tiempo real en diseño conceptual. El 'Figma del AEC'.",
     "autor": "Arcol",
     "url": "",
-    "programas": ["Web app"],
+    "programas": [
+      "Web app"
+    ],
     "link": "https://arcol.io",
     "linkType": "website",
     "imagen": "",
@@ -1809,14 +1937,20 @@
   {
     "nombre": "Planary",
     "categoria": "Análisis",
-    "subcategorias": ["Interoperabilidad BIM", "Análisis normativo"],
+    "subcategorias": [
+      "Interoperabilidad BIM",
+      "Análisis normativo"
+    ],
     "acceso": "Empresa de pago",
     "tipo": "Complemento",
     "ia": "No",
     "descripcion": "Plugin para AutoCAD y Revit que automatiza el cálculo de superficie edificable, retranqueos y verificación de cumplimiento normativo en tiempo real.",
     "autor": "Planary",
     "url": "",
-    "programas": ["AutoCAD", "Revit"],
+    "programas": [
+      "AutoCAD",
+      "Revit"
+    ],
     "link": "https://planary.com",
     "linkType": "website",
     "imagen": "",
@@ -1826,50 +1960,70 @@
   {
     "nombre": "Mapflow.AI",
     "categoria": "Análisis",
-    "subcategorias": ["Teledetección", "IA / Machine Learning"],
+    "subcategorias": [
+      "Teledetección",
+      "IA / Machine Learning"
+    ],
     "acceso": "Mixto",
     "tipo": "Empresa establecida",
     "ia": "Sí",
     "descripcion": "Plataforma de mapeo satelital con IA: extracción automática de huellas de edificios, vegetación y parcelas desde imágenes de alta resolución.",
     "autor": "Mapflow.AI",
     "url": "",
-    "programas": ["QGIS", "Python"],
+    "programas": [
+      "QGIS",
+      "Python"
+    ],
     "link": "https://mapflow.ai",
     "linkType": "website",
-    "imagen": "",
+    "imagen": "https://repository-images.githubusercontent.com/383815762/81058d80-df4e-11eb-8f75-778c399a693d",
     "enlaces": [],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "Vadere",
     "categoria": "Análisis",
-    "subcategorias": ["Movilidad y accesibilidad"],
+    "subcategorias": [
+      "Movilidad y accesibilidad"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Framework académico",
     "ia": "No",
     "descripcion": "Framework open source (LGPL) para simulación microscópica de dinámica peatonal y de multitudes. Soporta coupling con SUMO para simulaciones mixtas.",
     "autor": "Munich University of Applied Sciences",
     "url": "",
-    "programas": ["Java", "Python"],
+    "programas": [
+      "Java",
+      "Python"
+    ],
     "link": "https://www.vadere.org",
     "linkType": "website",
-    "imagen": "",
+    "imagen": "https://opengraph.githubassets.com/ca70143a4229bc991cb2c494a7fd65f11da078cb30c1f1ff02212509051671c3/pedestrian-dynamics-HM/vadere",
     "enlaces": [
-      {"label": "Paper", "url": "https://doi.org/10.17815/CD.2019.21"}
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.17815/CD.2019.21"
+      }
     ],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "AnyLogic",
     "categoria": "Análisis",
-    "subcategorias": ["Movilidad y accesibilidad", "Modelado 3D / Gemelos digitales"],
+    "subcategorias": [
+      "Movilidad y accesibilidad",
+      "Modelado 3D / Gemelos digitales"
+    ],
     "acceso": "Mixto",
     "tipo": "Empresa establecida",
     "ia": "No",
     "descripcion": "Plataforma de simulación multiparadigma (agentes, eventos discretos, dinámica de sistemas) para sistemas urbanos complejos. PLE gratuita para educación.",
     "autor": "AnyLogic",
     "url": "",
-    "programas": ["AnyLogic", "Java"],
+    "programas": [
+      "AnyLogic",
+      "Java"
+    ],
     "link": "https://anylogic.com",
     "linkType": "website",
     "imagen": "",
@@ -1879,69 +2033,99 @@
   {
     "nombre": "PySAL spaghetti",
     "categoria": "Análisis",
-    "subcategorias": ["Redes y grafos urbanos", "Estadística espacial"],
+    "subcategorias": [
+      "Redes y grafos urbanos",
+      "Estadística espacial"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Framework académico",
     "ia": "No",
     "descripcion": "Librería Python (ecosistema PySAL) para análisis de datos espaciales en redes: Moran's I y K-function restringidos a red viaria.",
     "autor": "PySAL",
     "url": "",
-    "programas": ["Python", "GeoPandas"],
+    "programas": [
+      "Python",
+      "GeoPandas"
+    ],
     "link": "https://github.com/pysal/spaghetti",
     "linkType": "github",
-    "imagen": "",
+    "imagen": "https://repository-images.githubusercontent.com/88305306/ba81ff80-860d-11ea-89c0-7559a3497874",
     "enlaces": [
-      {"label": "Paper", "url": "https://doi.org/10.21105/joss.02826"}
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.21105/joss.02826"
+      }
     ],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "tobler",
     "categoria": "Análisis",
-    "subcategorias": ["Infraestructura de datos", "Estadística espacial"],
+    "subcategorias": [
+      "Infraestructura de datos",
+      "Estadística espacial"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Framework académico",
     "ia": "No",
     "descripcion": "Librería Python (ecosistema PySAL) para interpolación areal y mapeo dasimétrico: transfiere datos entre geografías incompatibles (censo, catastro, H3).",
     "autor": "PySAL",
     "url": "",
-    "programas": ["Python", "GeoPandas"],
+    "programas": [
+      "Python",
+      "GeoPandas"
+    ],
     "link": "https://github.com/pysal/tobler",
     "linkType": "github",
-    "imagen": "",
+    "imagen": "https://opengraph.githubassets.com/71c69397217fc0330af46b09d4083cd3d8c53724548136a0109384d9e1ab4758/pysal/tobler",
     "enlaces": [],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "OS-WALK-EU",
     "categoria": "Análisis",
-    "subcategorias": ["Movilidad y accesibilidad", "Morfología urbana"],
+    "subcategorias": [
+      "Movilidad y accesibilidad",
+      "Morfología urbana"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Framework académico",
     "ia": "No",
     "descripcion": "Plugin QGIS para calcular índice de walkability europeo en 5 dimensiones sobre rejilla 500x500 m, con rutado peatonal real via OpenRouteService.",
     "autor": "ILS — Institut für Landes- und Stadtentwicklungsforschung",
     "url": "",
-    "programas": ["QGIS", "Python", "OpenRouteService"],
+    "programas": [
+      "QGIS",
+      "Python",
+      "OpenRouteService"
+    ],
     "link": "https://plugins.qgis.org/plugins/os_walk_eu_plugin",
     "linkType": "website",
     "imagen": "",
     "enlaces": [
-      {"label": "Paper", "url": "https://doi.org/10.1016/j.jth.2022.101486"}
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1016/j.jth.2022.101486"
+      }
     ],
     "fecha": "2026-04-16"
   },
   {
     "nombre": "Mapsicle / Figmap",
     "categoria": "Análisis",
-    "subcategorias": ["Visualización"],
+    "subcategorias": [
+      "Visualización"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Complemento",
     "ia": "No",
     "descripcion": "Plugins para Figma que insertan mapas Mapbox interactivos con estilos personalizados en diseños, presentaciones y paneles de proyecto.",
     "autor": "Chris Arvin / Comunidad Figma",
     "url": "",
-    "programas": ["Figma", "Mapbox"],
+    "programas": [
+      "Figma",
+      "Mapbox"
+    ],
     "link": "https://www.figma.com/community/file/1353462851736682820/mapsicle",
     "linkType": "website",
     "imagen": "",
@@ -1951,20 +2135,33 @@
   {
     "nombre": "CityPulse",
     "categoria": "Análisis",
-    "subcategorias": ["IA / Machine Learning", "Computer vision urbana"],
+    "subcategorias": [
+      "IA / Machine Learning",
+      "Computer vision urbana"
+    ],
     "acceso": "Libre acceso",
     "tipo": "Framework académico",
     "ia": "Sí",
     "descripcion": "Modelo de detección de cambios urbanos mediante series temporales de Google Street View (Stanford). Dataset abierto de 9.137 imágenes 2007-2023.",
     "autor": "Stanford — Changing Cities Research Lab",
     "url": "",
-    "programas": ["Python", "PyTorch", "Street View"],
+    "programas": [
+      "Python",
+      "PyTorch",
+      "Street View"
+    ],
     "link": "https://github.com/tianyuanhuang/citypulse",
     "linkType": "github",
-    "imagen": "",
+    "imagen": "https://opengraph.githubassets.com/d5fbd0434be9663b2610a15ea574dc562a06fd0746b1662f45e151b8fc499eb9/tianyuanhuang/citypulse",
     "enlaces": [
-      {"label": "Paper", "url": "https://doi.org/10.1609/aaai.v38i20.30216"},
-      {"label": "arXiv", "url": "https://arxiv.org/abs/2401.01107"}
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1609/aaai.v38i20.30216"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2401.01107"
+      }
     ],
     "fecha": "2026-04-16"
   }
