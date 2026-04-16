@@ -509,7 +509,7 @@ function initEventListeners(){
   document.getElementById('searchInput').addEventListener('input',applyFilters);
   document.getElementById('filterDateFrom').addEventListener('change',applyFilters);
   document.getElementById('filterDateTo').addEventListener('change',applyFilters);
-  document.getElementById('filterDateTo').value=new Date().toISOString().split('T')[0];
+  var _td=new Date();document.getElementById('filterDateTo').value=_td.getFullYear()+'-'+String(_td.getMonth()+1).padStart(2,'0')+'-'+String(_td.getDate()).padStart(2,'0');
   document.getElementById('resetFilters').addEventListener('click',function(){document.getElementById('searchInput').value='';document.getElementById('filterDateFrom').value='';document.getElementById('filterDateTo').value=new Date().toISOString().split('T')[0];['ms-categoria','ms-subcategoria','ms-acceso','ms-tipo','ms-ia','ms-programa'].forEach(function(id){document.querySelectorAll('#'+id+' .ms-option').forEach(function(o){o.classList.remove('selected')});var d=document.querySelector('#'+id+' .ms-display');d.textContent=d.dataset.placeholder});sortCol=null;sortDir='asc';document.querySelectorAll('th').forEach(function(t){t.classList.remove('sorted')});applyFilters()});
   document.querySelectorAll('th[data-col]').forEach(function(th){th.addEventListener('click',function(){var c=th.dataset.col;sortDir=sortCol===c?(sortDir==='asc'?'desc':'asc'):'asc';sortCol=c;document.querySelectorAll('th').forEach(function(t){t.classList.remove('sorted')});th.classList.add('sorted');applyFilters()})});
 }
