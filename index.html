@@ -232,7 +232,8 @@ tr.expand-row td{padding:0 14px 14px;border-bottom:1px solid var(--border);backg
 .recursos-item-thumb{display:block;width:100%;height:130px;object-fit:cover;background:var(--bg);overflow:hidden}
 .recursos-item-thumb svg.recursos-thumb-svg{display:block;width:100%;height:100%}
 .recursos-item-body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
-.recursos-item-name{font-family:var(--font-display);font-weight:700;font-size:.82rem;color:var(--text);letter-spacing:-.01em}
+.recursos-item-name{font-family:var(--font-display);font-weight:700;font-size:.82rem;color:var(--text);letter-spacing:-.01em;text-decoration:none;align-self:flex-start;cursor:pointer;transition:color var(--transition)}
+a.recursos-item-name:hover{color:var(--accent-green);text-decoration:underline}
 .recursos-item-desc{font-family:var(--font-mono);font-size:.66rem;color:var(--text-secondary);line-height:1.5;flex:1}
 .recursos-item-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
 .recursos-item-links .ext-link{font-family:var(--font-mono);font-size:.6rem;color:var(--accent-green);border:1px solid rgba(45,95,58,.3);padding:2px 8px;text-decoration:none;transition:all var(--transition)}
@@ -631,8 +632,10 @@ function renderRecursos(){
       var safeName=(it.nombre||'').replace(/"/g,'&quot;');
       var thumb=it.imagen?'<img src="'+it.imagen+'" class="recursos-item-thumb" loading="lazy" data-name="'+safeName+'" onerror="recursosImgFallback(this)">':'<div class="recursos-item-thumb">'+recursosThumbSvg(it.nombre)+'</div>';
       var links=(it.enlaces&&it.enlaces.length)?it.enlaces:(it.link?[{label:(it.linkType||'Web'),url:it.link}]:[]);
-      var linksHtml=links.map(function(e){return'<a href="'+e.url+'" target="_blank" rel="noopener" class="ext-link" onclick="event.stopPropagation()">'+e.label+' →</a>'}).join('');
-      return'<div class="recursos-item">'+thumb+'<div class="recursos-item-body"><div class="recursos-item-name">'+it.nombre+'</div><div class="recursos-item-desc">'+it.descripcion+'</div>'+(linksHtml?'<div class="recursos-item-links">'+linksHtml+'</div>':'')+'</div></div>';
+      var linksHtml=links.map(function(e){return'<a href="'+e.url+'" target="_blank" rel="noopener" class="ext-link">'+e.label+' →</a>'}).join('');
+      var primaryUrl=it.link||(links[0]&&links[0].url)||'';
+      var nameHtml=primaryUrl?'<a class="recursos-item-name" href="'+primaryUrl+'" target="_blank" rel="noopener">'+it.nombre+'</a>':'<div class="recursos-item-name">'+it.nombre+'</div>';
+      return'<div class="recursos-item">'+thumb+'<div class="recursos-item-body">'+nameHtml+'<div class="recursos-item-desc">'+it.descripcion+'</div>'+(linksHtml?'<div class="recursos-item-links">'+linksHtml+'</div>':'')+'</div></div>';
     }).join('');
     d.innerHTML='<div class="ac-card-badge"><span class="badge badge-tipo">'+count+' '+(count===1?'ítem':'ítems')+'</span></div>'
       +'<div class="ac-card-title">'+lista.titulo+'</div>'
@@ -645,7 +648,8 @@ function renderRecursos(){
       +'<div class="ac-card-toggle">▼ Ver '+count+' '+(count===1?'recurso':'recursos')+'</div>'
       +'<div class="ac-card-body recursos-body" id="recursos-body-'+idx+'"><div class="recursos-items-grid">'+itemsHtml+'</div></div>';
     d.addEventListener('click',function(e){
-      if(e.target.tagName==='A')return;
+      if(e.target.closest('a'))return;
+      if(e.target.closest('.recursos-item'))return;
       var body=document.getElementById('recursos-body-'+idx);
       var toggle=d.querySelector('.ac-card-toggle');
       body.classList.toggle('open');

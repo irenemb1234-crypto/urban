@@ -11,7 +11,7 @@
       {
         "nombre": "ELK",
         "descripcion": "Pulls OpenStreetMap directly into Grasshopper. Roads, buildings, topography. Your site model in 30 seconds without drawing a single line.",
-        "imagen": null,
+        "imagen": "recursos/grasshopper-plugins/elk.png",
         "link": "https://www.food4rhino.com/en/app/elk",
         "linkType": "food4rhino",
         "enlaces": []
@@ -19,7 +19,7 @@
       {
         "nombre": "HERON",
         "descripcion": "Shapefiles, GeoJSON, raster images, topography — all into Grasshopper. The bridge between the GIS analyst who mapped the site and the designer who shapes it.",
-        "imagen": null,
+        "imagen": "recursos/grasshopper-plugins/heron.png",
         "link": "https://www.food4rhino.com/en/app/heron",
         "linkType": "food4rhino",
         "enlaces": []
@@ -27,7 +27,7 @@
       {
         "nombre": "URBANO",
         "descripcion": "Walkability on the network. Drops amenities, computes walking catchments, shows which blocks are served and which are stranded. The plugin that answers: can you walk to it.",
-        "imagen": null,
+        "imagen": "recursos/grasshopper-plugins/urbano.png",
         "link": "https://www.food4rhino.com/en/app/urbano",
         "linkType": "food4rhino",
         "enlaces": [
@@ -38,7 +38,7 @@
       {
         "nombre": "BIOMORPHER",
         "descripcion": "Evolutionary optimization you can see. A population of designs displayed visually. You pick the ones that work. The algorithm breeds the next generation from your choices. Galapagos with eyes.",
-        "imagen": null,
+        "imagen": "recursos/grasshopper-plugins/biomorpher.png",
         "link": "https://www.food4rhino.com/en/app/biomorpher",
         "linkType": "food4rhino",
         "enlaces": []
@@ -46,7 +46,7 @@
       {
         "nombre": "LADYBUG + HONEYBEE",
         "descripcion": "Solar radiation, daylight autonomy, wind comfort, thermal analysis — the environmental simulation stack. Every competition panel with a sun diagram used this.",
-        "imagen": null,
+        "imagen": "recursos/grasshopper-plugins/ladybug%2Bhoneybee.png",
         "link": "https://www.food4rhino.com/en/app/ladybug-tools",
         "linkType": "food4rhino",
         "enlaces": [
@@ -57,7 +57,7 @@
       {
         "nombre": "KANGAROO",
         "descripcion": "Physics simulation for urban design. Relax a street grid onto terrain. Settle buildings on slopes. Find the natural paths. Not just fabric tensioning, the physics engine for site planning.",
-        "imagen": null,
+        "imagen": "recursos/grasshopper-plugins/kangaroo.png",
         "link": "https://www.food4rhino.com/en/app/kangaroo-physics",
         "linkType": "food4rhino",
         "enlaces": []
@@ -65,7 +65,7 @@
       {
         "nombre": "PUFFERFISH",
         "descripcion": "Morphs between geometries. Tween a tower into a courtyard block across a site. Grade density from center to edge. The transition tool for parametric masterplans.",
-        "imagen": null,
+        "imagen": "recursos/grasshopper-plugins/pufferfish.png",
         "link": "https://www.food4rhino.com/en/app/pufferfish",
         "linkType": "food4rhino",
         "enlaces": []
@@ -73,7 +73,7 @@
       {
         "nombre": "DECODINGSPACES",
         "descripcion": "Space syntax inside Grasshopper. Integration, choice, depth, betweenness — computed on your street network without leaving the canvas. The analytical layer most urban designers skip.",
-        "imagen": null,
+        "imagen": "recursos/grasshopper-plugins/decodingspaces.png",
         "link": "https://www.food4rhino.com/en/app/decodingspaces-toolbox",
         "linkType": "food4rhino",
         "enlaces": [
@@ -84,7 +84,7 @@
       {
         "nombre": "PANCAKE",
         "descripcion": "Exports your Grasshopper model to the web. Stakeholders view and rotate the 3D masterplan in their browser. No Rhino license needed at the presentation.",
-        "imagen": null,
+        "imagen": "recursos/grasshopper-plugins/pancake.png",
         "link": "https://www.food4rhino.com/en/app/pancake",
         "linkType": "food4rhino",
         "enlaces": []
