@@ -90,5 +90,96 @@
         "enlaces": []
       }
     ]
+  },
+  {
+    "id": "datasets-urban-designers",
+    "titulo": "Datasets for urban designers",
+    "descripcion": "Selección curada de datasets globales para análisis urbano: usos del suelo, redes, población, asentamientos, elevación, índices espaciales, radiancia nocturna e imágenes satelitales.",
+    "sourceUrl": null,
+    "sourceLabel": "Instagram · @abhinavbwj",
+    "autor": "@abhinavbwj",
+    "fecha": "2026-04-10",
+    "items": [
+      {
+        "nombre": "COPERNICUS URBAN ATLAS",
+        "descripcion": "Land use classification for 790 European cities at quarter-hectare resolution. Five levels of sealed surface density. 2006 to 2021. The dataset that knows the difference between a dense block and a loose suburb.",
+        "imagen": null,
+        "link": "https://land.copernicus.eu/local/urban-atlas",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "OPENSTREETMAP",
+        "descripcion": "Roads, buildings, transit stops, land use, turn restrictions, surface types. Routable. Queryable. The only open global dataset where network analysis and building footprints live in the same schema.",
+        "imagen": null,
+        "link": "https://www.openstreetmap.org/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "WORLDPOP",
+        "descripcion": "Gridded population at 100 metres. Disaggregated by age and sex. Tells you where children under five live, where elderly over seventy live. 242 countries. Updated annually.",
+        "imagen": null,
+        "link": "https://www.worldpop.org/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "GHSL",
+        "descripcion": "Global Human Settlement Layer. Classifies every square kilometre on earth into the same 7-tier urban-rural hierarchy. 1975 to 2030. The only dataset where Mumbai and Munich are measured the same way.",
+        "imagen": null,
+        "link": "https://ghsl.jrc.ec.europa.eu/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "SRTM",
+        "descripcion": "The Space Shuttle mapped 80 percent of earth in 11 days in February 2000. 30-metre elevation grid. Still the global baseline for slope analysis, watershed delineation, and viewshed computation.",
+        "imagen": null,
+        "link": "https://www.earthdata.nasa.gov/data/instruments/srtm",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "GLOBAL URBAN FOOTPRINT",
+        "descripcion": "Built from 180,000 radar images. Detects vertical structures, walls, roofs, not spectral signatures. The only global settlement map that works under permanent cloud cover. DLR. 2011.",
+        "imagen": null,
+        "link": "https://www.dlr.de/en/research-and-transfer/projects-and-missions/tandem-x/global-urban-footprint",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "UBER H3",
+        "descripcion": "Hexagonal spatial index. 16 resolution levels from continent down to a single building. Uniform area, uniform neighbours. The geometry that makes urban analytics composable across scales.",
+        "imagen": null,
+        "link": "https://h3geo.org/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "NASA BLACK MARBLE",
+        "descripcion": "Nighttime radiance at 500 metres. Every night since 2012. Economic activity, blackouts, refugee movements — visible from orbit. Atmospherically corrected. Daily or monthly composites.",
+        "imagen": null,
+        "link": "https://blackmarble.gsfc.nasa.gov/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "SENTINEL-2",
+        "descripcion": "10-metre multispectral imagery. Every 5 days. Free. Since 2015. ESA. The satellite that made remote sensing operational for urban analysis without commercial licensing.",
+        "imagen": null,
+        "link": "https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "ALOS WORLD 3D",
+        "descripcion": "JAXA. 30-metre digital surface model from optical stereo. Captures buildings and tree canopy, not just bare earth. Complementary to SRTM where vertical structure matters.",
+        "imagen": null,
+        "link": "https://www.eorc.jaxa.jp/ALOS/en/dataset/aw3d30/aw3d30_e.htm",
+        "linkType": "website",
+        "enlaces": []
+      }
+    ]
   }
 ]
