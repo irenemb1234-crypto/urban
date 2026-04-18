@@ -221,6 +221,23 @@ tr.expand-row td{padding:0 14px 14px;border-bottom:1px solid var(--border);backg
 .ac-card-body.open{display:block}
 .ac-card-body p{margin-bottom:12px}.ac-card-body ol{padding-left:20px;margin-bottom:12px}.ac-card-body ol li{margin-bottom:8px}.ac-card-body ol li a{color:var(--accent-green);font-size:.68rem;word-break:break-all}.ac-card-body strong{color:var(--text);font-weight:600}
 
+/* RECURSOS */
+.recursos-section{padding:8px 0 40px}
+.recursos-lists{display:flex;flex-direction:column;gap:16px}
+.recursos-lista-card .ac-card-badge{display:inline-flex;margin-bottom:8px}
+.recursos-body{padding:20px}
+.recursos-items-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.recursos-item{display:flex;flex-direction:column;background:var(--bg-secondary,var(--bg));border:1px solid var(--border);transition:transform var(--transition),border-color var(--transition)}
+.recursos-item:hover{transform:translateY(-2px);border-color:var(--accent-green)}
+.recursos-item-thumb{display:block;width:100%;height:130px;object-fit:cover;background:var(--bg);overflow:hidden}
+.recursos-item-thumb svg.recursos-thumb-svg{display:block;width:100%;height:100%}
+.recursos-item-body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.recursos-item-name{font-family:var(--font-display);font-weight:700;font-size:.82rem;color:var(--text);letter-spacing:-.01em}
+.recursos-item-desc{font-family:var(--font-mono);font-size:.66rem;color:var(--text-secondary);line-height:1.5;flex:1}
+.recursos-item-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.recursos-item-links .ext-link{font-family:var(--font-mono);font-size:.6rem;color:var(--accent-green);border:1px solid rgba(45,95,58,.3);padding:2px 8px;text-decoration:none;transition:all var(--transition)}
+.recursos-item-links .ext-link:hover{background:var(--accent-green);color:#fff}
+
 /* GLOBAL SEARCH */
 .global-search-wrap{position:relative;margin-right:4px}
 .global-search-input{background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:0;padding:6px 10px 6px 28px;font-size:.75rem;font-family:var(--font-mono);width:200px;transition:border-color var(--transition),width var(--transition),background .3s ease}
@@ -317,6 +334,7 @@ tr.expand-row td{padding:0 14px 14px;border-bottom:1px solid var(--border);backg
 <div class="topnav-dropdown" id="herrDropdown"><button class="topnav-btn" data-page="herramientas" id="herrBtn">Herramientas &#9662;</button><div class="dropdown-menu"><button class="dropdown-item" onclick="showPage('herramientas');showSection('tabla');closeMobileMenu()">Tabla</button><button class="dropdown-item" onclick="showPage('herramientas');showSection('graficos');closeMobileMenu()">Gráficos</button><button class="dropdown-item" onclick="showPage('herramientas');showSection('relaciones');closeMobileMenu()">Mapa de relaciones</button></div></div>
 <button class="topnav-btn" data-page="academico" onclick="showPage('academico');closeMobileMenu()">Académico</button>
 <button class="topnav-btn" data-page="empresas" onclick="showPage('empresas');closeMobileMenu()">Empresas</button>
+<button class="topnav-btn" data-page="recursos" onclick="showPage('recursos');closeMobileMenu()">Recursos</button>
 <button class="topnav-btn" data-page="otros" onclick="showPage('otros');closeMobileMenu()">Otros</button>
 </div>
 <div class="global-search-wrap" id="globalSearchWrap">
@@ -354,6 +372,8 @@ tr.expand-row td{padding:0 14px 14px;border-bottom:1px solid var(--border);backg
 
 <div id="page-empresas" class="tab-page"><div class="container"><div class="companies-section"><div class="section-label">Empresas y Organizaciones</div><p class="nr-description">Páginas de LinkedIn seguidas: empresas, instituciones, laboratorios, consultoras y organizaciones relacionadas con urbanismo, arquitectura y ciudades.</p><div class="companies-filters"><div class="filter-group" style="flex:1;min-width:150px"><label class="filter-label">Buscar</label><input type="text" class="search-input" id="compSearchInput" placeholder="Buscar empresa..."></div><div class="filter-group"><label class="filter-label">Tipo de entidad</label><div class="multi-select-wrap" id="ms-comp-tipo"><div class="ms-display" data-placeholder="Todos">Todos</div><div class="ms-dropdown"><div class="ms-option all-opt" data-value="">Todos</div></div></div></div><div class="filter-group"><label class="filter-label">Sector</label><div class="multi-select-wrap" id="ms-comp-sector"><div class="ms-display" data-placeholder="Todos">Todos</div><div class="ms-dropdown"><div class="ms-option all-opt" data-value="">Todos</div></div></div></div><button class="filter-reset" id="resetCompFilters">Limpiar</button></div><div class="companies-count" id="companiesCount"></div><div class="companies-grid" id="companiesGrid"></div></div></div></div>
 
+<div id="page-recursos" class="tab-page"><div class="container"><div class="recursos-section"><div class="section-label">Recursos</div><p class="nr-description">Listas curadas de recursos agrupadas por tema: plugins, datasets, tutoriales y más.</p><div class="recursos-lists" id="recursosLists"></div></div></div></div>
+
 <div id="page-otros" class="tab-page"><div class="container"><div class="nr-section"><div class="section-label">Otros</div><p class="nr-description">Posts descartados por no contener herramientas de análisis o diseño urbano.</p><div class="nr-list" id="nrList"></div></div></div></div>
 </div>
 <footer class="footer">Repositorio de herramientas de análisis y diseño urbano &middot; Actualizado: <span id="footerDate"></span></footer>
@@ -368,6 +388,7 @@ tr.expand-row td{padding:0 14px 14px;border-bottom:1px solid var(--border);backg
 var tools = [];           // se llena con fetch
 var academicItems = [];   // se llena con fetch + tools académicos
 var otrosItems = [];      // se llena con fetch
+var recursosData = [];    // se llena con fetch
 var sortCol = null, sortDir = 'asc';
 var currentLevel = 'all';
 
@@ -418,12 +439,14 @@ Promise.all([
   fetch(BASE + 'tools.json').then(function(r){return r.json()}),
   fetch(BASE + 'academic.json').then(function(r){return r.json()}),
   fetch(BASE + 'otros.json').then(function(r){return r.json()}),
-  fetch(BASE + 'companies.json').then(function(r){return r.json()})
+  fetch(BASE + 'companies.json').then(function(r){return r.json()}),
+  fetch(BASE + 'recursos.json').then(function(r){return r.json()}).catch(function(){return []})
 ]).then(function(results){
   var rawTools = results[0];
   var rawAcademic = results[1];
   var rawOtros = results[2];
   var rawCompanies = results[3];
+  var rawRecursos = results[4] || [];
 
   // Normalizar campos opcionales
   rawTools.forEach(function(t){
@@ -453,6 +476,7 @@ Promise.all([
   initOtros(rawOtros);
   initAcademico();
   initCompanies(rawCompanies);
+  initRecursos(rawRecursos);
 
 }).catch(function(err){
   console.error('Error cargando datos:', err);
@@ -571,6 +595,80 @@ function renderCompanies(){
 }
 function goToTool(name){showPage('herramientas');showSection('tabla');setTimeout(function(){var rows=document.querySelectorAll('#toolsBody tr.data-row');for(var i=0;i<rows.length;i++){var a=rows[i].querySelector('.tool-name a');if(a&&a.textContent===name){rows[i].click();rows[i].scrollIntoView({behavior:'smooth',block:'center'});break}}},200)}
 
+// ── Recursos ─────────────────────────────────────────────────
+function initRecursos(data){
+  recursosData=data||[];
+  renderRecursos();
+}
+function recursosSlug(s){return(s||'').toString().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
+function recursosThumbSvg(name){
+  var n=(name||'').toString().trim();
+  var initials=n.split(/[\s+]+/).filter(Boolean).map(function(w){return w.charAt(0).toUpperCase()}).slice(0,2).join('');
+  var palette=['#2A5298','#C4621D','#6B3FA0','#2D5F3A','#8B6914','#B91C1C','#1a1a1a','#4A6FA5','#D4A03C'];
+  var h=0;for(var i=0;i<n.length;i++)h=(h*31+n.charCodeAt(i))>>>0;
+  var bg=palette[h%palette.length];
+  return'<svg class="recursos-thumb-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="100" height="100" fill="'+bg+'"/><g opacity=".18" stroke="#fff" stroke-width="1" fill="none"><path d="M0 72 L100 60"/><path d="M0 82 L100 70"/><path d="M0 92 L100 80"/><rect x="12" y="14" width="14" height="18"/><rect x="30" y="10" width="18" height="22"/><rect x="52" y="16" width="12" height="16"/><rect x="68" y="12" width="20" height="20"/></g><text x="50" y="56" text-anchor="middle" font-family="Space Mono, monospace" font-size="22" font-weight="700" fill="#fff" letter-spacing="1">'+initials+'</text></svg>';
+}
+window.recursosImgFallback=function(img){
+  var wrap=document.createElement('div');
+  wrap.className='recursos-item-thumb';
+  wrap.innerHTML=recursosThumbSvg(img.getAttribute('data-name')||'');
+  if(img.parentNode)img.parentNode.replaceChild(wrap,img);
+};
+function renderRecursos(){
+  var g=document.getElementById('recursosLists');if(!g)return;
+  g.innerHTML='';
+  if(!recursosData.length){g.innerHTML='<div class="nr-description" style="font-style:italic">No hay listas de recursos todavía.</div>';return}
+  recursosData.forEach(function(lista,idx){
+    var listaId=lista.id||recursosSlug(lista.titulo)||'lista-'+idx;
+    var d=document.createElement('div');
+    d.className='ac-card recursos-lista-card';
+    d.style.cursor='pointer';
+    d.setAttribute('data-lista-id',listaId);
+    var count=(lista.items||[]).length;
+    var srcLink=lista.sourceUrl?'<a href="'+lista.sourceUrl+'" target="_blank" rel="noopener" class="ac-card-link" onclick="event.stopPropagation()">'+(lista.sourceLabel||'Fuente')+' →</a>':'';
+    var itemsHtml=(lista.items||[]).map(function(it){
+      var safeName=(it.nombre||'').replace(/"/g,'&quot;');
+      var thumb=it.imagen?'<img src="'+it.imagen+'" class="recursos-item-thumb" loading="lazy" data-name="'+safeName+'" onerror="recursosImgFallback(this)">':'<div class="recursos-item-thumb">'+recursosThumbSvg(it.nombre)+'</div>';
+      var links=(it.enlaces&&it.enlaces.length)?it.enlaces:(it.link?[{label:(it.linkType||'Web'),url:it.link}]:[]);
+      var linksHtml=links.map(function(e){return'<a href="'+e.url+'" target="_blank" rel="noopener" class="ext-link" onclick="event.stopPropagation()">'+e.label+' →</a>'}).join('');
+      return'<div class="recursos-item">'+thumb+'<div class="recursos-item-body"><div class="recursos-item-name">'+it.nombre+'</div><div class="recursos-item-desc">'+it.descripcion+'</div>'+(linksHtml?'<div class="recursos-item-links">'+linksHtml+'</div>':'')+'</div></div>';
+    }).join('');
+    d.innerHTML='<div class="ac-card-badge"><span class="badge badge-tipo">'+count+' '+(count===1?'ítem':'ítems')+'</span></div>'
+      +'<div class="ac-card-title">'+lista.titulo+'</div>'
+      +'<div class="ac-card-desc">'+(lista.descripcion||'')+'</div>'
+      +'<div class="ac-card-meta">'
+        +(lista.autor?'<span class="ac-card-author">'+lista.autor+'</span>':'')
+        +(lista.fecha?'<span class="ac-card-author">Añadido: '+formatDate(lista.fecha)+'</span>':'')
+        +srcLink
+      +'</div>'
+      +'<div class="ac-card-toggle">▼ Ver '+count+' '+(count===1?'recurso':'recursos')+'</div>'
+      +'<div class="ac-card-body recursos-body" id="recursos-body-'+idx+'"><div class="recursos-items-grid">'+itemsHtml+'</div></div>';
+    d.addEventListener('click',function(e){
+      if(e.target.tagName==='A')return;
+      var body=document.getElementById('recursos-body-'+idx);
+      var toggle=d.querySelector('.ac-card-toggle');
+      body.classList.toggle('open');
+      toggle.textContent=body.classList.contains('open')?'▲ Ocultar recursos':'▼ Ver '+count+' '+(count===1?'recurso':'recursos');
+    });
+    g.appendChild(d);
+  });
+}
+function openRecursosList(listaId){
+  showPage('recursos');
+  setTimeout(function(){
+    var card=document.querySelector('.recursos-lista-card[data-lista-id="'+listaId+'"]');
+    if(!card)return;
+    var body=card.querySelector('.recursos-body');
+    var toggle=card.querySelector('.ac-card-toggle');
+    if(body&&!body.classList.contains('open')){
+      body.classList.add('open');
+      if(toggle)toggle.textContent='▲ Ocultar recursos';
+    }
+    card.scrollIntoView({behavior:'smooth',block:'center'});
+  },100);
+}
+
 // ── Global Search ─────────────────────────────────────────────
 (function(){
   var input=document.getElementById('globalSearchInput');
@@ -654,6 +752,26 @@ function goToTool(name){showPage('herramientas');showSection('tabla');setTimeout
       html+='</div>';
     }
 
+    // Search recursos (flatten lists + items)
+    var recHits=[];
+    (recursosData||[]).forEach(function(lista){
+      (lista.items||[]).forEach(function(it){
+        var hay=[it.nombre,it.descripcion,lista.titulo].join(' ').toLowerCase();
+        if(hay.indexOf(q)!==-1)recHits.push({lista:lista,item:it});
+      });
+    });
+    recHits=recHits.slice(0,6);
+    if(recHits.length){
+      html+='<div class="gsr-section"><div class="gsr-section-title">Recursos ('+recHits.length+')</div>';
+      recHits.forEach(function(hit){
+        var listaId=hit.lista.id||'';
+        html+='<div class="gsr-item" data-type="recurso" data-lista-id="'+listaId.replace(/"/g,'&quot;')+'">'
+          +'<div class="gsr-item-title">'+highlight(hit.item.nombre,q)+' <span style="color:var(--text-muted);font-weight:400">· '+escHtml(hit.lista.titulo)+'</span></div>'
+          +'<div class="gsr-item-desc">'+highlight(hit.item.descripcion,q)+'</div></div>';
+      });
+      html+='</div>';
+    }
+
     if(!html)html='<div class="gsr-empty">Sin resultados para &ldquo;'+escHtml(q)+'&rdquo;</div>';
     results.innerHTML=html;
     results.classList.add('open');
@@ -689,6 +807,8 @@ function goToTool(name){showPage('herramientas');showSection('tabla');setTimeout
         }else if(type==='otros'){
           showPage('otros');
           window.open(el.dataset.url,'_blank');
+        }else if(type==='recurso'){
+          openRecursosList(el.dataset.listaId);
         }
       });
     });
