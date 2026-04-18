@@ -2164,5 +2164,31 @@
       }
     ],
     "fecha": "2026-04-16"
+  },
+  {
+    "nombre": "D5 Render",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Renderizado IA",
+      "Visualización 3D"
+    ],
+    "acceso": "Freemium",
+    "tipo": "Herramienta nueva",
+    "ia": "Sí",
+    "descripcion": "Real-time 3D rendering software for architecture and design with AI-powered features, supporting direct sync with SketchUp, Rhino, Revit, and 3ds Max.",
+    "autor": "D5 Render Team",
+    "url": "https://www.d5render.com",
+    "fecha": "2026-04-18",
+    "programas": [
+      "Windows",
+      "SketchUp",
+      "Rhino",
+      "Revit",
+      "3ds Max"
+    ],
+    "link": "https://www.d5render.com",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": []
   }
 ]
