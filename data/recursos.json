@@ -181,5 +181,96 @@
         "enlaces": []
       }
     ]
+  },
+  {
+    "id": "python-libraries-urban-analysis",
+    "titulo": "Python libraries for urban analysis",
+    "descripcion": "Selección curada de librerías Python para análisis urbano: redes de calles, morfología, geometría, estadística espacial, mallas 3D, nubes de puntos, visualización y mapas interactivos.",
+    "sourceUrl": "https://www.instagram.com/p/DW6RDjziCxE/",
+    "sourceLabel": "Instagram · @abhinavbwj",
+    "autor": "@abhinavbwj",
+    "fecha": "2026-04-09",
+    "items": [
+      {
+        "nombre": "OSMnx",
+        "descripcion": "Downloads the street network of any city on earth in one line. Nodes, edges, geometry, topology. Geoff Boeing built it so you never digitise a road again.",
+        "imagen": null,
+        "link": "https://osmnx.readthedocs.io/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "MOMEPY",
+        "descripcion": "Six categories of morphological metrics: compactness, elongation, orientation, alignment, adjacency. Martin Fleischmann wrote the library that quantifies urban form.",
+        "imagen": null,
+        "link": "http://docs.momepy.org/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "NETWORKX",
+        "descripcion": "Betweenness, closeness, eigenvector centrality. The graph theory library that tells you which intersection matters before anyone counts a car.",
+        "imagen": null,
+        "link": "https://networkx.org/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "GEOPANDAS",
+        "descripcion": "Spatial joins, dissolves, overlays, choropleths. Reads shapefiles, writes GeoJSON, plots maps. The dataframe of geography — the workhorse.",
+        "imagen": null,
+        "link": "https://geopandas.org/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "PySAL",
+        "descripcion": "Moran's I tells you if there is clustering. LISA tells you where. Spatial autocorrelation, spatial regression, cluster detection. The statistics library that treats geography as a variable.",
+        "imagen": null,
+        "link": "https://pysal.org/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "TRIMESH",
+        "descripcion": "Loads meshes, computes cross-sections, calculates volumes and surface areas. The 3D geometry library that treats a city model as data you can slice, measure, and query.",
+        "imagen": null,
+        "link": "https://trimesh.org/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "OPEN3D",
+        "descripcion": "Point cloud segmentation, plane detection, clustering, mesh reconstruction. Takes raw LiDAR and separates ground from buildings from trees. The bridge between a scanner and a model.",
+        "imagen": null,
+        "link": "http://www.open3d.org/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "MATPLOTLIB",
+        "descripcion": "The plotting library behind every figure-ground you have seen in a Python urbanist's feed. PatchCollection draws footprints. Polar plots draw street orientations. The renderer for spatial arguments.",
+        "imagen": null,
+        "link": "https://matplotlib.org/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "FOLIUM",
+        "descripcion": "Interactive maps that open in a browser. Heatmaps, choropleths, marker clusters, layer toggles. The map you send to someone who does not have Python installed.",
+        "imagen": null,
+        "link": "https://python-visualization.github.io/folium/",
+        "linkType": "website",
+        "enlaces": []
+      },
+      {
+        "nombre": "SHAPELY",
+        "descripcion": "Buffer, intersection, union, difference, convex hull. The geometry engine underneath everything. If you have done spatial analysis in Python, Shapely was running whether you knew it or not.",
+        "imagen": null,
+        "link": "https://shapely.readthedocs.io/",
+        "linkType": "website",
+        "enlaces": []
+      }
+    ]
   }
 ]
