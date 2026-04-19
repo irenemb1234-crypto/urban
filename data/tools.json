@@ -203,6 +203,7 @@
     "ia": "No",
     "descripcion": "Motor geoespacial distribuido para Spark/Flink/Snowflake.",
     "autor": "Apache Sedona",
+    "empresa": "Apache Sedona",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7289815215720853504",
     "programas": [
       "Apache Spark",
@@ -331,6 +332,7 @@
     "ia": "No",
     "descripcion": "Análisis de redes viarias para reglas urbanísticas algorítmicas.",
     "autor": "Artem Stepanov",
+    "empresa": "Space Syntax",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7393995471410855936",
     "programas": [
       "Space Syntax"
@@ -760,6 +762,7 @@
     "ia": "Sí",
     "descripcion": "Plataforma de datos abierta para AEC. Conecta Rhino, Revit, GH, Archicad, Power BI.",
     "autor": "AEC Systems Ltd.",
+    "empresa": "Speckle",
     "url": "https://speckle.systems/",
     "programas": [
       "Rhino3D",
