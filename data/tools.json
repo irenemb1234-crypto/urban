@@ -2193,5 +2193,538 @@
     "linkType": "website",
     "imagen": "https://i.ytimg.com/vi/VVPICjKO41w/maxresdefault.jpg",
     "enlaces": []
+  },
+  {
+    "nombre": "ifcSQL_Tools for QGIS",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Interoperabilidad BIM",
+      "Plataformas GIS"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Plugin QGIS para interactuar con modelos IFC almacenados en ifcSQL: carga georreferenciada 2D/3D, filtrado por clases IFC y gestión de la base de datos.",
+    "autor": "Michele Berlato",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452250353271558144",
+    "programas": [
+      "QGIS",
+      "IFC",
+      "SQL"
+    ],
+    "link": "https://lnkd.in/eUU-zkEx",
+    "linkType": "github",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "SIM by lTS",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Inteligencia territorial",
+      "Infraestructura de datos"
+    ],
+    "acceso": "En desarrollo",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Plataforma espacial para modelar ciudades como sistemas vivos y específicos por contexto, usando datos reales de migración y planificación.",
+    "autor": "Ursula Cardenas Vignes",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451989173932249088",
+    "programas": [
+      "Python",
+      "Web"
+    ],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7451989173932249088",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Graphify",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Herramientas de desarrollo",
+      "IA / Machine Learning"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "Sí",
+    "descripcion": "Grafo de conocimiento persistente del código fuente para agentes IA (Claude Code, Codex, Cursor). 71.5x menos tokens por consulta. 23 lenguajes. Local vía tree-sitter.",
+    "autor": "Dr. Alvaro Cintas",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449857516051693568",
+    "programas": [
+      "Claude",
+      "Claude AI",
+      "Python"
+    ],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7449857516051693568",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "BubbleBIM",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Interoperabilidad BIM",
+      "Diseño paramétrico"
+    ],
+    "acceso": "En desarrollo",
+    "tipo": "Workflow",
+    "ia": "No",
+    "descripcion": "Workflow que modela el BIM como un grafo neuronal: los cambios en interejes, aperturas o estilo se propagan elásticamente por geometría, mediciones y costes.",
+    "autor": "Ionut Ciuntuc",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7451140063591141376",
+    "programas": [
+      "GraphML",
+      "BIM"
+    ],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7451140063591141376",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Cal-Adapt STAC Catalog",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Datos abiertos",
+      "Teledetección",
+      "Infraestructura de datos"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Catálogo STAC reconstruido y web app para buscar y descargar las 11 colecciones públicas de datos climáticos de Cal-Adapt (metadatos, DOIs, licencias).",
+    "autor": "Nicole Keeney",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450944603240697857",
+    "programas": [
+      "Python",
+      "STAC",
+      "AWS"
+    ],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7450944603240697857",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Claude Skills for Architects (18)",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Planificación IA",
+      "Análisis normativo"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Workflow",
+    "ia": "Sí",
+    "descripcion": "Sistema de 18 skills predefinidos para Claude (código/normativa, materiales, envolvente, pensamiento espacial, sostenibilidad) + 7 calculadoras Python para arquitectos.",
+    "autor": "Abhinav Bhardwaj",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450088695828787200",
+    "programas": [
+      "Claude AI",
+      "Python"
+    ],
+    "link": "https://lnkd.in/dMcS7tYA",
+    "linkType": "github",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Lorem Mapsum",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Herramientas de desarrollo",
+      "Visualización"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Servicio de imágenes placeholder de mapas a partir de una URL con dimensiones. Renderizado desde OSM con Osmium, Planetiler, MapLibre y Puppeteer. Sin API key.",
+    "autor": "Chinmay Shaligram",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447612145443364864",
+    "programas": [
+      "OpenStreetMap",
+      "MapLibre",
+      "Cloudflare"
+    ],
+    "link": "https://mapsum.dev",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Gh-Watch",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Herramientas de desarrollo",
+      "Visualización 3D"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Complemento",
+    "ia": "No",
+    "descripcion": "Plugin Grasshopper inspirado en el nodo Watch de Dynamo: visor 3D Three.js embebido en el canvas para inspeccionar geometría en directo.",
+    "autor": "Om Bhagwat",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7449850525430370305",
+    "programas": [
+      "Grasshopper",
+      "Rhino3D",
+      "Three.js"
+    ],
+    "link": "https://lnkd.in/eS2JHus8",
+    "linkType": "github",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Swallow (Rhino 8)",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Diseño paramétrico"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Complemento",
+    "ia": "No",
+    "descripcion": "Herramienta de escultura/pintado de mallas dentro de Rhino 8 con brochas, máscaras y más. Disponible en Package Manager y Food4Rhino.",
+    "autor": "Hossein Maghami",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448369110574379008",
+    "programas": [
+      "Rhino3D"
+    ],
+    "link": "https://lnkd.in/d5yNSqxc",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Mapa global de manuales de ciclovías",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Movilidad y accesibilidad",
+      "Datos abiertos"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Mapa georreferenciado que agrupa y permite descargar más de 500 guías y manuales (PDF) de diseño de ciclovías de distintas ciudades y países.",
+    "autor": "César González",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447130460729548800",
+    "programas": [
+      "Web"
+    ],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7447130460729548800",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Generative GIS (ComfyUI)",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Renderizado IA",
+      "Modelado 3D / Gemelos digitales"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Workflow",
+    "ia": "Sí",
+    "descripcion": "Pipeline ComfyUI que usa modelos 3D GIS (huellas + alturas) como guía estructural para Stable Diffusion, generando escenas urbanas fotorrealistas sobre datos geoespaciales.",
+    "autor": "Srinivas Kolla",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448958084267294721",
+    "programas": [
+      "ComfyUI",
+      "Stable Diffusion",
+      "ArcGIS Pro",
+      "ControlNet"
+    ],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7448958084267294721",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Urban Wind ML (SUS Lab)",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Simulación ambiental",
+      "IA / Machine Learning",
+      "Microclima urbano"
+    ],
+    "acceso": "En desarrollo",
+    "tipo": "Framework académico",
+    "ia": "Sí",
+    "descripcion": "Modelo de machine learning de acceso abierto para predicción de viento urbano en tiempo real. SSIM 0.96–1.00, R² 0.95. Se publicará como plugin gratuito para AEC.",
+    "autor": "Ilker Karadag",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448757195875422208",
+    "programas": [
+      "Python"
+    ],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7448757195875422208",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "TerraBit",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Teledetección",
+      "Visualización"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "Sí",
+    "descripcion": "App de visualización geoespacial de Taylor Geospatial, ahora open source. Incluye skill geospatial-frontend (SKILL.md) extraído de conversaciones con Claude.",
+    "autor": "Isaac Corley",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448064352378597376",
+    "programas": [
+      "Claude",
+      "JavaScript",
+      "Python"
+    ],
+    "link": "https://lnkd.in/g-fVaAzC",
+    "linkType": "github",
+    "imagen": "",
+    "enlaces": [
+      {
+        "label": "Demo TerraBit",
+        "url": "https://lnkd.in/gTa-pdVp"
+      },
+      {
+        "label": "geospatial-skills",
+        "url": "https://lnkd.in/gR7PHqJN"
+      }
+    ],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "LandArchGrade",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Diseño paramétrico",
+      "Generación CAD"
+    ],
+    "acceso": "Mixto",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Plugin Rhino para grading paisajista con motor geométrico propio enfocado a velocidad y triangulación de terreno. Versión Beta disponible; release completa en mayo.",
+    "autor": "Thomas Chapman",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447176688297328640",
+    "programas": [
+      "Rhino3D"
+    ],
+    "link": "https://lnkd.in/e2B-ZSbQ",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "geofiles.cloud",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Infraestructura de datos",
+      "Visualización"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Pipeline 'any-to-pmtiles-to-url': se sube un archivo geoespacial en cualquier formato y se obtiene un mapa interactivo compartible mediante enlace.",
+    "autor": "Javier Sáez Gallego",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445747118868393984",
+    "programas": [
+      "PMTiles",
+      "Web"
+    ],
+    "link": "https://geofiles.cloud",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Visibility Manager (Fennec)",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Herramientas de desarrollo",
+      "Diseño paramétrico"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Complemento",
+    "ia": "No",
+    "descripcion": "Componente Grasshopper para gestionar visibilidad de objetos/componentes en el canvas, de la familia Fennec.",
+    "autor": "Seghier Mohamed Abdelaziz",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445878510197444608",
+    "programas": [
+      "Grasshopper",
+      "Rhino3D"
+    ],
+    "link": "https://lnkd.in/dUXXPbeZ",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Geocode Earth Geometry API",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Infraestructura de datos",
+      "Datos abiertos"
+    ],
+    "acceso": "Mixto",
+    "tipo": "Empresa establecida",
+    "ia": "No",
+    "descripcion": "API de geometrías (polígonos) de países, ciudades, barrios, etc., en tres niveles de detalle adaptados a analítica o UI móvil. Acceso beta bajo petición.",
+    "autor": "Peter Johnson",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445841450950373376",
+    "programas": [
+      "API"
+    ],
+    "link": "https://lnkd.in/dzd3PtJe",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "15-Minute City Dashboard Alicante",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Movilidad y accesibilidad",
+      "Inteligencia territorial",
+      "Visualización"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Dashboard interactivo que evalúa Alicante contra la lógica de accesibilidad a 5, 10 y 15 minutos del white paper '15-minute City Model' (Chaire ETI – IAE Paris Sorbonne).",
+    "autor": "Alejandro Quinto Ferrández",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445872058904756224",
+    "programas": [
+      "Web"
+    ],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7445872058904756224",
+    "linkType": "demo",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "asciimap",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Visualización"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Cartografía tipográfica en el navegador: MapLibre GL JS + Pretext convierten tiles vectoriales en caracteres ASCII (IBM Plex Mono). Demo con posiciones de aeronaves de OpenSky.",
+    "autor": "André Lindenberg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445353964369395712",
+    "programas": [
+      "MapLibre",
+      "SvelteKit",
+      "JavaScript"
+    ],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7445353964369395712",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Centralidad Red Viaria y Transporte Público — España",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Redes y grafos urbanos",
+      "Movilidad y accesibilidad",
+      "Datos abiertos"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Cálculos de centralidad tipo space syntax para toda España, sobre grafo de red viaria y grafo de transporte público a distintas distancias. Visor QWV + datos descargables.",
+    "autor": "trescientosmil",
+    "empresa": "trescientosmil",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445019033151700992",
+    "programas": [
+      "QWV",
+      "QGIS"
+    ],
+    "link": "https://lab.300000.eu/scp/",
+    "linkType": "demo",
+    "imagen": "",
+    "enlaces": [
+      {
+        "label": "Datos",
+        "url": "https://lnkd.in/ePiUWD3h"
+      }
+    ],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Architecture Studio (Claude Code)",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Planificación IA",
+      "Análisis normativo",
+      "Herramientas de desarrollo"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Workflow",
+    "ia": "Sí",
+    "descripcion": "Plugin MIT de Claude Code con 36 skills y agentes especializados para arquitectos: Site Planner (clima, inundación, sísmica, tránsito), Product & Materials, Sustainability (EPDs, EC3, LEED).",
+    "autor": "Federico Negro",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444738249421430784",
+    "programas": [
+      "Claude",
+      "Claude AI"
+    ],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7444738249421430784",
+    "linkType": "github",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Simulador Estratégico de Ciudad — Madrid",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Inteligencia territorial",
+      "Datos abiertos",
+      "Visualización"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Fase I (Visor Diagnóstico) del primer Plan Estratégico nativo digital de Madrid: 190 indicadores, 134 datasets y 37 fuentes oficiales; vista multiescalar del municipio a la parcela.",
+    "autor": "Javier Morales Puerta",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443000459100983296",
+    "programas": [
+      "Web",
+      "GIS"
+    ],
+    "link": "https://lnkd.in/eXFN3reW",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [
+      {
+        "label": "Nota de prensa",
+        "url": "https://lnkd.in/eF78QpWw"
+      }
+    ],
+    "fecha": "2026-04-22"
   }
 ]

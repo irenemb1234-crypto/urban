@@ -142,5 +142,77 @@
     "linkUrl": "http://data.gov.sg",
     "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7439235684986482688",
     "body": "<p>Educational guide written in 2020 on open data in Singapore relevant for urbanism, cartography, and geospatial analysis. Includes references to data.gov.sg and Open Government Products.</p>"
+  },
+  {
+    "title": "Percolación estacional en redes de ciudades árticas — Applied Network Science",
+    "desc": "Estudio open access sobre cómo cambios estacionales de temperatura reconfiguran la red de servicios y accesibilidad en aglomeraciones urbanas remotas del Ártico.",
+    "autor": "George Kontsevik",
+    "fecha": "2026-04-22",
+    "cat": "Redes y grafos urbanos",
+    "badges": "",
+    "paperUrl": "https://lnkd.in/eszzCH5S",
+    "linkUrl": "https://lnkd.in/ecdBDe-X",
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7450682132408156160",
+    "body": "<p>Publicado en Applied Network Science (Open Access). En aglomeraciones urbanas remotas, la accesibilidad se mide en horas o días. El artículo muestra cómo estas pequeñas redes son vulnerables a percolaciones ambientales: incluso el cambio estacional de temperatura puede reconfigurar la red completa, con efectos distintos según la distribución de servicios y el sistema de transporte.</p>"
+  },
+  {
+    "title": "Open data-based urban models — assessment for Canadian cities",
+    "desc": "Evaluación de la infraestructura de datos abiertos municipales en Canadá y su viabilidad para construir modelos urbanos (ODUMs). Caso aplicado: City of Winnipeg.",
+    "autor": "Yuhao Lu",
+    "fecha": "2026-04-22",
+    "cat": "Datos abiertos",
+    "badges": "",
+    "paperUrl": "https://lnkd.in/gQZgtZmJ",
+    "linkUrl": "https://lnkd.in/gryJ9m2z",
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7447713110272106497",
+    "body": "<p>El paper compara 11 portales de datos abiertos norteamericanos (Toronto, Montréal, Vancouver, Winnipeg…) y 3 referencias internacionales (Helsinki, Singapur, Zúrich) en oportunidad, accesibilidad y calidad de metadatos. Los datos de vegetación y transporte son consistentes, pero los de edificios, energía y socioeconómicos presentan lagunas. Propone una metodología replicable para municipios con recursos limitados y aboga por un estándar nacional canadiense de datos abiertos.</p>"
+  },
+  {
+    "title": "Impacto de regulaciones de uso del suelo en sistemas distribuidos de energía solar",
+    "desc": "Framework integrado que conecta regulación de uso del suelo con optimización de sistemas energéticos. Caso: distrito One-North, Singapur.",
+    "autor": "Chenyi Cai",
+    "fecha": "2026-04-22",
+    "cat": "Simulación ambiental",
+    "badges": "",
+    "paperUrl": "https://lnkd.in/gXuWRyrU",
+    "linkUrl": null,
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7439890428969246720",
+    "body": "<p>Publicado en Sustainable Cities and Society. El artículo (1) propone un framework integrado que enlaza regulaciones de uso del suelo con optimización de sistemas energéticos; (2) cuantifica el impacto de esas regulaciones sobre el rendimiento de sistemas distribuidos de energía solar (DSES); (3) identifica parámetros esenciales de planeamiento. El análisis de efectos marginales muestra que el rendimiento de los DSES es sensible al GFA permitido, especialmente en zonas mixtas.</p>"
+  },
+  {
+    "title": "¿La 'ciudad de 15 minutos' oculta segregación urbana? — PLOS ONE",
+    "desc": "Análisis multi-escala de 81 ciudades combinando accesibilidad (POIs) y conectividad (closeness centrality) en redes urbanas, con detección de comunidades vía Infomap.",
+    "autor": "Giancarlo Ruffo",
+    "fecha": "2026-04-22",
+    "cat": "Morfología urbana",
+    "badges": "",
+    "paperUrl": "https://lnkd.in/dcCHHKVa",
+    "linkUrl": "https://lnkd.in/dDaxPyWU",
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7445752732902154240",
+    "body": "<p>El estudio 'Understanding the interplay between urban segregation and accessibility to services with network analysis' muestra que alta accesibilidad no implica alta conectividad: París lidera en accesibilidad (99,7%) pero cae al puesto 71 en conectividad; Río de Janeiro invierte el patrón. En ciudades italianas, los barrios de menor renta sufren doble penalización (baja accesibilidad y conectividad), mientras zonas ricas de Nápoles, Bolonia y Turín muestran 'aislamiento voluntario'. La hiperproximidad por sí sola no garantiza inclusividad.</p>"
+  },
+  {
+    "title": "Beyond Mapping — Location Intelligence & Site Optimisation (UK New Towns)",
+    "desc": "Análisis espacial de los emplazamientos preseleccionados por el UK New Towns Taskforce con lente de asequibilidad, privación (IoD25) y necesidad de vivienda social.",
+    "autor": "Leyla Saadi",
+    "fecha": "2026-04-22",
+    "cat": "Inteligencia territorial",
+    "badges": "",
+    "paperUrl": "https://lnkd.in/dw_4kQXR",
+    "linkUrl": null,
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7445007153125531648",
+    "body": "<p>Primer paper de una serie de tres por Urban Col.labs, en colaboración con Okana y Ryder Architecture, sobre el desafío habitacional del Reino Unido. Mapea la concentración de presión habitacional y caracteriza los emplazamientos en función de su grado de privación de origen para distinguir perfiles de riesgo y prioridades tempranas. Próximas partes: Place y Performance.</p>"
+  },
+  {
+    "title": "Mapeo de barrios informales con huellas de edificios públicas",
+    "desc": "Clasificación a nivel de edificio de áreas slum/no-slum a partir de métricas morfológicas derivadas de huellas públicas (tamaño, distancia a vecinos, irregularidad).",
+    "autor": "Jasper van Vliet",
+    "fecha": "2026-04-22",
+    "cat": "Morfología urbana",
+    "badges": "",
+    "paperUrl": "https://lnkd.in/eeN4-Vck",
+    "linkUrl": null,
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7444282459321552897",
+    "body": "<p>Como alternativa al mapeo basado en imágenes satelitales de muy alta resolución (caro y poco escalable), el estudio usa características morfológicas derivadas de datasets abiertos de huellas de edificios para clasificar áreas informales. F1 de 0,987 en validación cruzada K-means y F1 de 0,742 en ciudades completamente nuevas, evidenciando transferibilidad. Imagen: porcentaje de edificios identificados como slum a 100m en cuatro ciudades de Kenia.</p>"
   }
 ]

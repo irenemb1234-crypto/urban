@@ -268,5 +268,77 @@
     "razon": "Análisis de demanda retail por localización",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439551098153078784",
     "fecha": "2026-03-22"
+  },
+  {
+    "autor": "Isma Sanz",
+    "razon": "Lanzamiento de comunidad global para diseñadores computacionales en AEC",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452344609445212160",
+    "fecha": "2026-04-22"
+  },
+  {
+    "autor": "Thomas Chapman",
+    "razon": "Tests de estrés de 8h/día sobre LandArchGrade antes de release",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7452219622541586433",
+    "fecha": "2026-04-22"
+  },
+  {
+    "autor": "Mariano Salas",
+    "razon": "Ejemplo compartiendo resultados QGIS via QGIS Cloud",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7450215682815868928",
+    "fecha": "2026-04-22"
+  },
+  {
+    "autor": "Lodovico Bruno",
+    "razon": "Nuevo feature IA en Swordfish 3D para Rhino",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448290367244025856",
+    "fecha": "2026-04-22"
+  },
+  {
+    "autor": "Dora Zouboukos",
+    "razon": "Diseño de motor de accesibilidad OSM para parcelas (OSRM + Shapely)",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448061206919213057",
+    "fecha": "2026-04-22"
+  },
+  {
+    "autor": "Susana Saiz Alcazar",
+    "razon": "Guía UE para descarbonización de edificios (Arup)",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447381445326721025",
+    "fecha": "2026-04-22"
+  },
+  {
+    "autor": "Isaac Xiao",
+    "razon": "Grafo urbano de Singapur con GeoPandas + NetworkX + PyTorch Geometric",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7447833887248080896",
+    "fecha": "2026-04-22"
+  },
+  {
+    "autor": "Jeroen van Lith",
+    "razon": "Reflexión sobre representaciones para generación de plantas (PlanFinder)",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442159707559051264",
+    "fecha": "2026-04-22"
+  },
+  {
+    "autor": "Haripriya Baskaran",
+    "razon": "Experimentos integrando Claude con QGIS y OSM",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445816899558416384",
+    "fecha": "2026-04-22"
+  },
+  {
+    "autor": "Google Maps Platform",
+    "razon": "Maps Demo Key para validar feasibility sin aprobaciones",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7445492745491603456",
+    "fecha": "2026-04-22"
+  },
+  {
+    "autor": "Luis Antonio Andaluz Burgos",
+    "razon": "Grasshopper como entorno de datos fuera de la geometría (química/biología)",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444857552426749952",
+    "fecha": "2026-04-22"
+  },
+  {
+    "autor": "Marijn Luijmes",
+    "razon": "Elefront + bloques Rhino como BIM ligero con datos",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444634512153608192",
+    "fecha": "2026-04-22"
   }
 ]
