@@ -5,11 +5,18 @@ Catálogo curado de software, plugins, frameworks y workflows geoespaciales para
 ## Estructura
 
 ```
-├── index.html          ← Código base (interfaz completa)
+├── index.html              ← Código base (interfaz completa, SPA)
 ├── data/
-│   ├── tools.json      ← Herramientas (tabla principal)
-│   ├── academic.json   ← Contenido académico adicional
-│   └── otros.json      ← Posts descartados
+│   ├── tools.json          ← Herramientas (tabla principal)
+│   ├── academic.json       ← Contenido académico adicional
+│   ├── companies.json      ← Empresas del sector
+│   ├── recursos.json       ← Listas de recursos (plug-ins, datasets, etc.)
+│   └── otros.json          ← Posts descartados
+├── csv/                    ← Fuentes originales sin procesar
+│   ├── Company Follows.csv
+│   ├── linkedin_saved_posts.csv
+│   └── linkedin-saved-posts-2026-03-22 (2).csv
+├── recursos/               ← Imágenes locales para listas de recursos
 └── README.md
 ```
 
@@ -60,6 +67,14 @@ Edita `data/tools.json` directamente en GitHub (botón de lápiz) y añade un nu
 
 Edita `data/academic.json` con la misma lógica.
 
+### Añadir empresas
+
+Edita `data/companies.json`. Si una empresa también aparece como herramienta en `tools.json`, se enlazan automáticamente entre las dos pestañas.
+
+### Añadir listas de recursos
+
+Edita `data/recursos.json`. Cada lista tiene `titulo`, `descripcion`, opcional `sourceUrl`/`sourceLabel`, y un array `items` con objetos `{nombre, descripcion, imagen?, link?, enlaces?}`.
+
 ### Añadir posts descartados
 
 Edita `data/otros.json`:
@@ -71,6 +86,20 @@ Edita `data/otros.json`:
   "url": "https://linkedin.com/..."
 }
 ```
+
+## Pestañas de la interfaz
+
+- **Herramientas** → Tabla, Gráficos y Mapa de relaciones sobre `tools.json`.
+- **Académico** → Frameworks académicos (de `tools.json`) + papers extra (`academic.json`).
+- **Empresas** → Directorio clasificado a partir de `companies.json`.
+- **Recursos** → Listas temáticas desde `recursos.json` (plug-ins, datasets, librerías…).
+- **Otros** → Posts no catalogados (`otros.json`).
+
+La barra superior incluye un buscador global que indexa las cinco secciones.
+
+## Fuentes originales (CSV)
+
+La carpeta `csv/` guarda los exports en crudo desde LinkedIn que sirvieron de origen para poblar `data/*.json`. No los consume la web directamente; se conservan como trazabilidad de las fuentes.
 
 ## Desarrollo local
 
