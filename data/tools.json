@@ -2726,5 +2726,28 @@
       }
     ],
     "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Swordfish 3D",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Diseño paramétrico",
+      "IA / Machine Learning"
+    ],
+    "acceso": "Empresa de pago",
+    "tipo": "Empresa establecida",
+    "ia": "Sí",
+    "descripcion": "Plugin paramétrico para Rhino con nuevo feature de IA para generación y optimización de formas arquitectónicas y paisajistas.",
+    "autor": "Lodovico Bruno",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7448290367244025856",
+    "programas": [
+      "Rhino3D",
+      "Grasshopper"
+    ],
+    "link": "",
+    "linkType": "",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-04-22"
   }
 ]

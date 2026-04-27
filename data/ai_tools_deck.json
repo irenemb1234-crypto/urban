@@ -1,0 +1,1140 @@
+{
+  "meta": {
+    "total": 44,
+    "generado": "2026-04-27",
+    "fuente": "tools.json + otros.json",
+    "descripcion": "Herramientas de IA para diseño urbano y análisis geoespacial, organizadas por categoría temática para presentación"
+  },
+  "resumen_categorias": [
+    {
+      "id": "renderizado",
+      "titulo": "Renderizado e Imagen IA",
+      "total": 8,
+      "color": "#C4621D"
+    },
+    {
+      "id": "generacion-cad",
+      "titulo": "Generación CAD y Planimetría IA",
+      "total": 7,
+      "color": "#8B3FA0"
+    },
+    {
+      "id": "planificacion-urbana",
+      "titulo": "Planificación Urbana con IA",
+      "total": 8,
+      "color": "#2A5298"
+    },
+    {
+      "id": "teledeteccion",
+      "titulo": "Teledetección e Imagen Satelital IA",
+      "total": 4,
+      "color": "#2D5F3A"
+    },
+    {
+      "id": "analisis-geoespacial",
+      "titulo": "Análisis Geoespacial e Inteligencia Territorial IA",
+      "total": 6,
+      "color": "#1a6b6b"
+    },
+    {
+      "id": "computer-vision-simulacion",
+      "titulo": "Computer Vision Urbana y Simulación Ambiental ML",
+      "total": 5,
+      "color": "#5A3A7A"
+    },
+    {
+      "id": "ecosistema-ia-dev",
+      "titulo": "Ecosistema IA para Diseño y Desarrollo",
+      "total": 6,
+      "color": "#1a1a1a"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "renderizado",
+      "titulo": "Renderizado e Imagen IA",
+      "descripcion": "Herramientas que generan visualizaciones arquitectónicas y urbanas mediante IA generativa. Van desde plugins integrados en software profesional hasta pipelines ComfyUI/Stable Diffusion.",
+      "color": "#C4621D",
+      "total": 8,
+      "herramientas": [
+        {
+          "nombre": "NanoBanana Pro",
+          "descripcion": "IA generativa integrada en ArcGIS Pro y Rhino 8.",
+          "acceso": "Empresa de pago",
+          "tipo": "Complemento",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Renderizado IA"
+          ],
+          "programas": [
+            "ArcGIS Pro",
+            "Rhino3D",
+            "Nano Banana"
+          ],
+          "link": "https://mapryx.geoforger.com",
+          "linkType": "website",
+          "imagen": "https://dms.licdn.com/playlist/vid/v2/D5605AQFCqEe7uO0ySQ/thumbnail-with-play-button-overlay-high/B56ZxveL2WH8DU-/0/1771396719830?e=2147483647&v=beta&t=Z6ZlVW6ndqA6VocQI8GIIQcFoSYFKRlE3B8wm4Ea_BU",
+          "enlaces": [],
+          "autor": "Mika Dinnus",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7429838208693075968",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "FastRender.ai",
+          "descripcion": "AI tool for fast architectural rendering from 3D models.",
+          "acceso": "Empresa de pago",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Renderizado IA"
+          ],
+          "programas": [
+            "Web app"
+          ],
+          "link": "https://fastrender.ai",
+          "linkType": "website",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4E22AQHrDRRVc7esOg/feedshare-shrink_800/B4EZzU.Kn4JEAc-/0/1773099593024?e=1775692800&v=beta&t=iiIUx3vjBsV9g33CP7swMgqME8Lg0yGXlfhoW0uoWvI",
+          "enlaces": [],
+          "autor": "Arie-Willem de Jongh",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7437282062660841472",
+          "fecha": "2026-03-22"
+        },
+        {
+          "nombre": "D5 Render",
+          "descripcion": "Real-time 3D rendering software for architecture and design with AI-powered features, supporting direct sync with SketchUp, Rhino, Revit, and 3ds Max.",
+          "acceso": "Freemium",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Renderizado IA",
+            "Visualización 3D"
+          ],
+          "programas": [
+            "Windows",
+            "SketchUp",
+            "Rhino",
+            "Revit",
+            "3ds Max"
+          ],
+          "link": "https://www.d5render.com",
+          "linkType": "website",
+          "imagen": "https://i.ytimg.com/vi/VVPICjKO41w/maxresdefault.jpg",
+          "enlaces": [],
+          "autor": "D5 Render Team",
+          "url_linkedin": "https://www.d5render.com",
+          "fecha": "2026-04-18"
+        },
+        {
+          "nombre": "Automatización paneles arq.",
+          "descripcion": "Workflow automatizado para boards de competiciones.",
+          "acceso": "Libre acceso",
+          "tipo": "Workflow",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Renderizado IA"
+          ],
+          "programas": [
+            "Claude AI"
+          ],
+          "link": "",
+          "linkType": "",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4D22AQHTuYFjYyOsiA/feedshare-shrink_800/B4DZyOtYsHIwAg-/0/1771920788607?e=2147483647&v=beta&t=HezAwTtEa2mH0nEVsLu_1Om_gIPMnfD1VAP2NkEua6g",
+          "enlaces": [],
+          "autor": "Abhinav Bhardwaj",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7431974456173973504",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Google Earth+NanoBanana+WAN2.2",
+          "descripcion": "Pipeline IA: captura → patrones → fachadas → interiores.",
+          "acceso": "Libre acceso",
+          "tipo": "Workflow",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Renderizado IA"
+          ],
+          "programas": [
+            "Google Earth",
+            "Nano Banana",
+            "ComfyUI",
+            "WAN 2.2"
+          ],
+          "link": "",
+          "linkType": "",
+          "imagen": "https://dms.licdn.com/playlist/vid/v2/D5605AQFJnptlTmvp4w/thumbnail-with-play-button-overlay-high/B56ZkFNfYbHkD0-/0/1756729070986?e=2147483647&v=beta&t=BPHmFf5k2To9FH2-k_XNlsBKQP6x2wsd6CrNfHAz-BE",
+          "enlaces": [],
+          "autor": "Kedar Undale",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7368255788458389505",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "NestingMushrooms GH+ComfyUI",
+          "descripcion": "Animación paramétrica con generación de diseño mediante ComfyUI.",
+          "acceso": "Libre acceso",
+          "tipo": "Workflow",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Renderizado IA",
+            "Diseño paramétrico"
+          ],
+          "programas": [
+            "Rhino3D",
+            "Grasshopper",
+            "ComfyUI",
+            "Nano Banana Pro"
+          ],
+          "link": "https://www.kedarundale.com",
+          "linkType": "website",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4E22AQGbXYuI7Zfklg/feedshare-shrink_2048_1536/B4EZzYhvogJ0Ak-/0/1773159254529?e=2147483647&v=beta&t=TYtS29HDMsJ-fdegvHgXmMsxClOi00aKAf-bQW5kDl4",
+          "enlaces": [],
+          "autor": "Kedar Undale",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7437169049853296641",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Generative GIS (ComfyUI)",
+          "descripcion": "Pipeline ComfyUI que usa modelos 3D GIS (huellas + alturas) como guía estructural para Stable Diffusion, generando escenas urbanas fotorrealistas sobre datos geoespaciales.",
+          "acceso": "Libre acceso",
+          "tipo": "Workflow",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Renderizado IA",
+            "Modelado 3D / Gemelos digitales"
+          ],
+          "programas": [
+            "ComfyUI",
+            "Stable Diffusion",
+            "ArcGIS Pro",
+            "ControlNet"
+          ],
+          "link": "https://www.linkedin.com/feed/update/urn:li:activity:7448958084267294721",
+          "linkType": "website",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Srinivas Kolla",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7448958084267294721",
+          "fecha": "2026-04-22"
+        },
+        {
+          "nombre": "Nano Banana Prompt Pack",
+          "descripcion": "Pack de prompts para diseñadores urbanos.",
+          "acceso": "Libre acceso",
+          "tipo": "Educativo/Workflow",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Renderizado IA"
+          ],
+          "programas": [
+            "Nano Banana"
+          ],
+          "link": "https://urbandesignlab.in/",
+          "linkType": "website",
+          "imagen": "https://media.licdn.com/dms/image/v2/D561FAQEYeOHWihbKpg/feedshare-document-cover-images_480/B56Zy3cmvsG4BA-/0/1772604263703?e=2147483647&v=beta&t=V32D1rOxSe-hY3D2YDc47pK0WdpGpXFgS1zJkJiKlnY",
+          "enlaces": [],
+          "autor": "Urban Design Lab",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7434841246604603392",
+          "fecha": "2026-03-16"
+        }
+      ]
+    },
+    {
+      "id": "generacion-cad",
+      "titulo": "Generación CAD y Planimetría IA",
+      "descripcion": "Plataformas que convierten texto o parámetros en geometría CAD, plantas arquitectónicas o volúmenes edificatorios. Incluyen herramientas SaaS y plugins paramétricos con IA.",
+      "color": "#8B3FA0",
+      "total": 7,
+      "herramientas": [
+        {
+          "nombre": "Raven (raven.build)",
+          "descripcion": "Text-to-CAD: geometría CAD desde prompts textuales.",
+          "acceso": "Empresa de pago",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Generación CAD",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "Grasshopper",
+            "Rhino3D"
+          ],
+          "link": "https://www.raven.build/",
+          "linkType": "website",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4E22AQF0ZiHPDRaA9A/feedshare-shrink_800/B4EZwVzEZbJ8Ag-/0/1769892235315?e=2147483647&v=beta&t=xHpRpuDK3X3kAnwFMnFEhfO0yBfHsyXyO2sD_Wyf7CA",
+          "enlaces": [],
+          "autor": "Duann Scott",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7423466088144883712",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Finch (Finch3D)",
+          "descripcion": "Generación y optimización de plantas arquitectónicas.",
+          "acceso": "Empresa de pago",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Generación de plantas",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "Finch3D"
+          ],
+          "link": "https://www.finch3d.com",
+          "linkType": "website",
+          "imagen": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHXxdbvmvyeoQ/thumbnail-with-play-button-overlay-high/B4DZkP5ennGkD0-/0/1756908354514?e=2147483647&v=beta&t=dHO0BtmZvZQs2XLWeLkq2K6_A2xf4o-gniKMdbvP8R8",
+          "enlaces": [],
+          "autor": "Jesper Wallgren",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7369008200479653888",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Hektar",
+          "descripcion": "Plataforma SaaS sueca que genera volúmenes edificatorios y analiza normativa con LLM (GPT-4). Pilotada con municipios suecos.",
+          "acceso": "Empresa de pago",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Planificación IA",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "Web app",
+            "GPT-4"
+          ],
+          "link": "https://app.hektar.ai",
+          "linkType": "website",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Hektar",
+          "url_linkedin": "",
+          "fecha": "2026-04-16"
+        },
+        {
+          "nombre": "Snaptrude",
+          "descripcion": "Pipeline prompt-a-BIM cloud-native: genera programas arquitectónicos, asigna dimensiones normativas y exporta a Revit.",
+          "acceso": "Mixto",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Planificación IA",
+            "Interoperabilidad BIM"
+          ],
+          "programas": [
+            "Web app",
+            "Revit"
+          ],
+          "link": "https://snaptrude.com",
+          "linkType": "website",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Snaptrude",
+          "url_linkedin": "",
+          "fecha": "2026-04-16"
+        },
+        {
+          "nombre": "Formas AI",
+          "descripcion": "AI tool for architectural form generation and optimization, developed at Foster + Partners.",
+          "acceso": "En desarrollo",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Planificación IA",
+            "Diseño paramétrico"
+          ],
+          "programas": [],
+          "link": "",
+          "linkType": "",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4E22AQEstO08MewtgQ/feedshare-shrink_800/B4EZ0AT0kVHEAc-/0/1773826689778?e=1775692800&v=beta&t=ShsnnnYTAv0B-Kv5UON-8mUAp8wQFtQXiXwii1TiaNw",
+          "enlaces": [],
+          "autor": "Yasir Agha",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7439968393761329152",
+          "fecha": "2026-03-22"
+        },
+        {
+          "nombre": "Codex Interactive Scripts (Rhino/GH)",
+          "descripcion": "Interactive scripts with AI-generated event listeners (Codex) for automating tasks in Rhino and Grasshopper.",
+          "acceso": "Libre acceso",
+          "tipo": "Workflow",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Diseño paramétrico",
+            "Herramientas de desarrollo"
+          ],
+          "programas": [
+            "Grasshopper",
+            "Rhino3D",
+            "Python"
+          ],
+          "link": "",
+          "linkType": "",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4E05AQGvVk6jj8e77Q/videocover-low/B4EZyz9jE9H0BU-/0/1772545783438?e=1774821600&v=beta&t=46_osxkT-NWCLatOSEAg-RFb_eFlW9xvky745VmnVFI",
+          "enlaces": [],
+          "autor": "Timo Harboe Zollner",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7434595897080217601",
+          "fecha": "2026-03-22"
+        },
+        {
+          "nombre": "Swordfish 3D",
+          "descripcion": "Plugin paramétrico para Rhino con nuevo feature de IA para generación y optimización de formas arquitectónicas y paisajistas.",
+          "acceso": "Empresa de pago",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Diseño paramétrico",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "Rhino3D",
+            "Grasshopper"
+          ],
+          "link": "",
+          "linkType": "",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Lodovico Bruno",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7448290367244025856",
+          "fecha": "2026-04-22"
+        }
+      ]
+    },
+    {
+      "id": "planificacion-urbana",
+      "titulo": "Planificación Urbana con IA",
+      "descripcion": "Frameworks, plataformas y plugins que aplican LLMs y agentes de IA a la planificación urbana: generación de masterplans, análisis normativo automatizado y participación ciudadana.",
+      "color": "#2A5298",
+      "total": 8,
+      "herramientas": [
+        {
+          "nombre": "LLM-driven Planning (MIT)",
+          "descripcion": "Framework de planificación urbana impulsado por LLM. MIT.",
+          "acceso": "Libre acceso",
+          "tipo": "Framework académico",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Planificación IA"
+          ],
+          "programas": [
+            "LLM",
+            "Python"
+          ],
+          "link": "https://lnkd.in/dQFFYn7e",
+          "linkType": "paper",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4D22AQFOOzLSHs1bVA/feedshare-shrink_800/B4DZlR1DasJgAk-/0/1758014487768?e=2147483647&v=beta&t=XT1PITQaCzT0NXw5nZAli1EasFnTqjHOEjB-NH1GexU",
+          "enlaces": [
+            {
+              "label": "Paper",
+              "url": "https://lnkd.in/dQFFYn7e"
+            }
+          ],
+          "autor": "Damiano Cerrone",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7373647201618583553",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Reasoning-centric Urban AI",
+          "descripcion": "Framework para IA de planificación urbana centrada en razonamiento.",
+          "acceso": "Libre acceso",
+          "tipo": "Framework académico",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Planificación IA"
+          ],
+          "programas": [
+            "LLM"
+          ],
+          "link": "https://arxiv.org/abs/2511.05375",
+          "linkType": "paper",
+          "imagen": "https://media.licdn.com/dms/image/v2/D5622AQG75AwAm-RmcQ/feedshare-shrink_800/B56Zqbd3awJ8Ag-/0/1763544890997?e=2147483647&v=beta&t=l7poJ7R1qZdHcdxL_DNhkSkgSOgt80AJt73qPDo5pk0",
+          "enlaces": [
+            {
+              "label": "Paper",
+              "url": "https://arxiv.org/abs/2511.05375"
+            }
+          ],
+          "autor": "Sijie Yang",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7396843394754465792",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Urban AI: SO ciudades",
+          "descripcion": "Capa de inteligencia compartida para planificación urbana.",
+          "acceso": "Libre acceso",
+          "tipo": "Conceptual",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Planificación IA",
+            "Modelado 3D / Gemelos digitales"
+          ],
+          "programas": [
+            "IoT",
+            "Digital Twin"
+          ],
+          "link": "",
+          "linkType": "",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4D05AQECk5Duj5xbyA/videocover-low/B4DZr6aTAqH0BY-/0/1765137790562?e=1774821600&v=beta&t=Nk2m5KYt3aBVlAbKy9L7Wn21GNJr0lAo3doc1yquGs8",
+          "enlaces": [],
+          "autor": "Serjoscha Düring",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7403524512459296768",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Claude Urban Design Plugin",
+          "descripcion": "Plugin de diseño urbano para Claude AI.",
+          "acceso": "Libre acceso",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Planificación IA"
+          ],
+          "programas": [
+            "Claude AI"
+          ],
+          "link": "https://github.com/Amanbh997/Urban-Design-Skills-Claude",
+          "linkType": "github",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4D22AQHu8VSKjzxJsQ/feedshare-shrink_800/B4DZy39V5oG8Ag-/0/1772612837284?e=2147483647&v=beta&t=o_f8wC9kSTT0lIIwjQ9VXFmoh7WACo4mQEEZy8eLxSo",
+          "enlaces": [],
+          "autor": "Abhinav Bhardwaj",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7434877118661971970",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Claude Urban Design — Ampl.",
+          "descripcion": "Actualización del plugin con regeneración urbana y movilidad.",
+          "acceso": "Libre acceso",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Planificación IA"
+          ],
+          "programas": [
+            "Claude AI"
+          ],
+          "link": "https://github.com/Amanbh997/Urban-Design-Skills-Claude",
+          "linkType": "github",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4D22AQGCvI6YKPlNqg/feedshare-shrink_2048_1536/B4DZzg_wueH4Ag-/0/1773301337240?e=2147483647&v=beta&t=UVGCeiGy_Vp-u181NP2yRwTQpOGDEz2BRBoyJ_UK6fI",
+          "enlaces": [],
+          "autor": "Abhinav Bhardwaj",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7437764897653837824",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Waypoint Transit",
+          "descripcion": "Startup YC W25 que usa IA para generar estudios de infraestructura civil automatizados, reduciendo costes ~30% y plazos de meses a semanas.",
+          "acceso": "Empresa de pago",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Planificación IA",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "Web app"
+          ],
+          "link": "https://www.ycombinator.com/companies/waypoint-transit",
+          "linkType": "website",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Waypoint Transit",
+          "url_linkedin": "",
+          "fecha": "2026-04-16"
+        },
+        {
+          "nombre": "UrbanistAI",
+          "descripcion": "Plataforma italiana de planificación participativa con IA para co-diseñar espacios públicos mediante campañas basadas en mapas.",
+          "acceso": "Empresa de pago",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Ambas",
+          "subcategorias": [
+            "Participación ciudadana",
+            "Planificación IA"
+          ],
+          "programas": [
+            "Web app"
+          ],
+          "link": "https://site.urbanistai.com",
+          "linkType": "website",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "UrbanistAI",
+          "url_linkedin": "",
+          "fecha": "2026-04-16"
+        },
+        {
+          "nombre": "Archistar",
+          "descripcion": "Plataforma australiana de feasibility urbanística que automatiza análisis normativo y genera envolventes edificables. Partner de Autodesk Forma.",
+          "acceso": "Empresa de pago",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Ambas",
+          "subcategorias": [
+            "Planificación IA",
+            "Análisis normativo"
+          ],
+          "programas": [
+            "Web app",
+            "Autodesk Forma"
+          ],
+          "link": "https://archistar.ai",
+          "linkType": "website",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Archistar",
+          "url_linkedin": "",
+          "fecha": "2026-04-16"
+        }
+      ]
+    },
+    {
+      "id": "teledeteccion",
+      "titulo": "Teledetección e Imagen Satelital IA",
+      "descripcion": "Herramientas que aplican deep learning y visión por computador a imágenes satelitales: super-resolución, segmentación automática y extracción de huellas de edificios.",
+      "color": "#2D5F3A",
+      "total": 4,
+      "herramientas": [
+        {
+          "nombre": "Gamma Earth S2DR4",
+          "descripcion": "Super-resolución IA sobre Sentinel-2 (1m/pixel).",
+          "acceso": "Libre acceso",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Teledetección",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "Google Colab",
+            "Python"
+          ],
+          "link": "https://colab.research.google.com/drive/1BwoTptkQ8W11J66lgq7xy-WISbhPL9-2",
+          "linkType": "demo",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4E22AQHzn0fWsEUsLA/feedshare-shrink_1280/B4EZzNaU2KKIAM-/0/1772972756752?e=2147483647&v=beta&t=sj5Lcz4eJy6qmX0aR0DCdVzxAuiLUsrzjqOebicK0YA",
+          "enlaces": [
+            {
+              "label": "Arxiv",
+              "url": "https://arxiv.org/abs/1201.1809"
+            }
+          ],
+          "autor": "Mario García Peces",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7436386729194000384",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Mundi (SAM)",
+          "descripcion": "Segmentación IA (Meta SAM) online para datos geoespaciales.",
+          "acceso": "Libre acceso",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Teledetección",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "Web app"
+          ],
+          "link": "https://app.mundi.ai/tools/segment-anything/airplanes",
+          "linkType": "demo",
+          "imagen": "https://media.licdn.com/dms/image/v2/D5605AQEdcT_3EUPWYA/videocover-high/B56ZnOmYLkJ8B8-/0/1760107802425?e=2147483647&v=beta&t=0D_Ol7A_ZxNatYubP51bUI3yhvBzcGnpwAKa1ZQs4F4",
+          "enlaces": [
+            {
+              "label": "Docs",
+              "url": "https://docs.mundi.ai/guides/segment-anything/"
+            }
+          ],
+          "autor": "Michael Egan",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7382427243697983488",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Esri Deep Learning Models",
+          "descripcion": "Esri's collection of pretrained deep learning models for object detection and classification in geospatial imagery.",
+          "acceso": "Mixto",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Teledetección",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "ArcGIS Pro",
+            "Python"
+          ],
+          "link": "",
+          "linkType": "",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4D22AQG6RynbIBLerw/feedshare-shrink_800/B4DZzrIoFuKgAc-/0/1773471433407?e=1775692800&v=beta&t=fjlk-4SubiC0v1PUVIbEA8osTIH7up87uu_wVyPnIy4",
+          "enlaces": [],
+          "autor": "Milan Janosov",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7440400442318016512",
+          "fecha": "2026-03-22"
+        },
+        {
+          "nombre": "Mapflow.AI",
+          "descripcion": "Plataforma de mapeo satelital con IA: extracción automática de huellas de edificios, vegetación y parcelas desde imágenes de alta resolución.",
+          "acceso": "Mixto",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Teledetección",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "QGIS",
+            "Python"
+          ],
+          "link": "https://mapflow.ai",
+          "linkType": "website",
+          "imagen": "https://repository-images.githubusercontent.com/383815762/81058d80-df4e-11eb-8f75-778c399a693d",
+          "enlaces": [],
+          "autor": "Mapflow.AI",
+          "url_linkedin": "",
+          "fecha": "2026-04-16"
+        }
+      ]
+    },
+    {
+      "id": "analisis-geoespacial",
+      "titulo": "Análisis Geoespacial e Inteligencia Territorial IA",
+      "descripcion": "Plataformas y herramientas que integran modelos fundacionales y agentes IA en flujos de trabajo geoespaciales: desde plataformas GIS comerciales hasta plugins de asistencia analítica.",
+      "color": "#1a6b6b",
+      "total": 6,
+      "herramientas": [
+        {
+          "nombre": "CARTO Spatial",
+          "descripcion": "Plataforma de inteligencia espacial con modelos fundacionales.",
+          "acceso": "Empresa de pago",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Plataformas GIS",
+            "Inteligencia territorial",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "CARTO",
+            "Google PDFM"
+          ],
+          "link": "https://carto.com",
+          "linkType": "website",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4D12AQHsjCMjV13vag/article-cover_image-shrink_720_1280/B4DZiJUO_wHsAI-/0/1754650441415?e=2147483647&v=beta&t=yYc9rAXoPkoBrvemJw7G-e53kclgs-CwwQunxUCrzEQ",
+          "enlaces": [],
+          "autor": "CARTO",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7359564092774268928",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Google Maps Places",
+          "descripcion": "Datos de +250M lugares globales combinados con BigQuery.",
+          "acceso": "Empresa de pago",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Inteligencia territorial",
+            "Plataformas GIS"
+          ],
+          "programas": [
+            "Google BigQuery",
+            "Google Maps API"
+          ],
+          "link": "https://goo.gle/47Xf3Tg",
+          "linkType": "website",
+          "imagen": "https://media.licdn.com/dms/image/v2/D4D10AQFLebugRY-AtQ/image-shrink_800/B4DZqD1DG4IAAc-/0/1763148314910?e=2147483647&v=beta&t=oUBICsHCZ5hZvCrnXOitElyCR_s60twxvV9v89wakTg",
+          "enlaces": [],
+          "autor": "Google Maps Platform",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7395180074200813568",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Navi",
+          "descripcion": "Plataforma IA para aplicaciones espaciales.",
+          "acceso": "En desarrollo",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Plataformas GIS",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "Web app"
+          ],
+          "link": "https://navi.atlas.co",
+          "linkType": "website",
+          "imagen": "https://dms.licdn.com/playlist/vid/v2/D4D05AQGaE_4jpgkY0Q/thumbnail-with-play-button-overlay-high/B4DZnNDVIzHYDU-/0/1760081853005?e=2147483647&v=beta&t=DCHQS0DPRmj3OGZgiKaBR1O0oWy_nK_89fYrjtw7-XE",
+          "enlaces": [],
+          "autor": "Vegard J. Løwe",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7382318428088352768",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "AI Agents for Urban Data",
+          "descripcion": "AI agents applied to urban data analysis: automation of geospatial workflows.",
+          "acceso": "En desarrollo",
+          "tipo": "Conceptual",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "IA / Machine Learning",
+            "Inteligencia territorial"
+          ],
+          "programas": [],
+          "link": "",
+          "linkType": "",
+          "imagen": "https://media.licdn.com/dms/image/v2/D5605AQFknFbSs2n1nw/videocover-low/B56ZzSulQ0H8BU-/0/1773061954278?e=1774821600&v=beta&t=EJiE9-EP70Yr1ATeDZe52ADGqJGv9shHfolJGlVOzkc",
+          "enlaces": [],
+          "autor": "Urban Design Lab",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7436760892970610688",
+          "fecha": "2026-03-22"
+        },
+        {
+          "nombre": "AI Analyst (Claude Plugin)",
+          "descripcion": "Claude Cowork plugin for AI-assisted data analysis directly in the working environment.",
+          "acceso": "En desarrollo",
+          "tipo": "Complemento",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "IA / Machine Learning",
+            "Herramientas de desarrollo"
+          ],
+          "programas": [
+            "Claude"
+          ],
+          "link": "",
+          "linkType": "",
+          "imagen": "https://media.licdn.com/dms/image/v2/D5622AQHgHH-tEQgu4g/feedshare-shrink_800/B56Zz07SiHKcAc-/0/1773635709858?e=1775692800&v=beta&t=mk31f47xiq8yrbw_MNBUo9E1MsyyLNzhU7ECf0v9kQY",
+          "enlaces": [],
+          "autor": "Hai Guan",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7439320838539210754",
+          "fecha": "2026-03-22"
+        },
+        {
+          "nombre": "TerraBit",
+          "descripcion": "App de visualización geoespacial de Taylor Geospatial, ahora open source. Incluye skill geospatial-frontend (SKILL.md) extraído de conversaciones con Claude.",
+          "acceso": "Libre acceso",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Teledetección",
+            "Visualización"
+          ],
+          "programas": [
+            "Claude",
+            "JavaScript",
+            "Python"
+          ],
+          "link": "https://lnkd.in/g-fVaAzC",
+          "linkType": "github",
+          "imagen": "",
+          "enlaces": [
+            {
+              "label": "Demo TerraBit",
+              "url": "https://lnkd.in/gTa-pdVp"
+            },
+            {
+              "label": "geospatial-skills",
+              "url": "https://lnkd.in/gR7PHqJN"
+            }
+          ],
+          "autor": "Isaac Corley",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7448064352378597376",
+          "fecha": "2026-04-22"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision-simulacion",
+      "titulo": "Computer Vision Urbana y Simulación Ambiental ML",
+      "descripcion": "Herramientas que usan modelos de visión (VLMs, Street View) para evaluar cambios urbanos a escala de calle, y modelos ML para predicción de confort ambiental (viento, temperatura, iluminación).",
+      "color": "#5A3A7A",
+      "total": 5,
+      "herramientas": [
+        {
+          "nombre": "CityPulse",
+          "descripcion": "Modelo de detección de cambios urbanos mediante series temporales de Google Street View (Stanford). Dataset abierto de 9.137 imágenes 2007-2023.",
+          "acceso": "Libre acceso",
+          "tipo": "Framework académico",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "IA / Machine Learning",
+            "Computer vision urbana"
+          ],
+          "programas": [
+            "Python",
+            "PyTorch",
+            "Street View"
+          ],
+          "link": "https://github.com/tianyuanhuang/citypulse",
+          "linkType": "github",
+          "imagen": "https://opengraph.githubassets.com/d5fbd0434be9663b2610a15ea574dc562a06fd0746b1662f45e151b8fc499eb9/tianyuanhuang/citypulse",
+          "enlaces": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1609/aaai.v38i20.30216"
+            },
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2401.01107"
+            }
+          ],
+          "autor": "Stanford — Changing Cities Research Lab",
+          "url_linkedin": "",
+          "fecha": "2026-04-16"
+        },
+        {
+          "nombre": "SAGAI",
+          "descripcion": "Workflow modular open source para evaluar escenas urbanas a nivel de calle usando VLMs (LLaVA) con geometrías OSM y Google Street View.",
+          "acceso": "Libre acceso",
+          "tipo": "Framework académico",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "IA / Machine Learning",
+            "Computer vision urbana"
+          ],
+          "programas": [
+            "Python",
+            "LLaVA",
+            "OpenStreetMap",
+            "Street View"
+          ],
+          "link": "https://arxiv.org/abs/2504.16538",
+          "linkType": "paper",
+          "imagen": "https://opengraph.githubassets.com/973b123cfe53bfc088542ee139518dd8c56fa2a186e160c2518c5b3964ee8228/perezjoan/SAGAI",
+          "enlaces": [
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2504.16538"
+            }
+          ],
+          "autor": "SAGAI",
+          "url_linkedin": "",
+          "fecha": "2026-04-16"
+        },
+        {
+          "nombre": "GenAI Day-to-Night",
+          "descripcion": "Modelo IA que transforma imágenes diurnas en nocturnas para auditoría de seguridad.",
+          "acceso": "Libre acceso",
+          "tipo": "Framework académico",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Simulación ambiental",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "Python",
+            "Street View"
+          ],
+          "link": "https://doi.org/10.1016/j.ufug.2026.129350",
+          "linkType": "paper",
+          "imagen": "https://media.licdn.com/dms/image/v2/D5622AQEcJEcjZ3N-tA/feedshare-shrink_1280/B56Zx2iVNuJ4Ag-/0/1771515239980?e=2147483647&v=beta&t=FlY66U6twON7X9zQ0o0tXS8Lp8-tjuQIza0ZmxPnQaw",
+          "enlaces": [
+            {
+              "label": "Paper",
+              "url": "https://doi.org/10.1016/j.ufug.2026.129350"
+            }
+          ],
+          "autor": "Waishan QIU",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7430273464223145984",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "Orbital Stack",
+          "descripcion": "Plataforma SaaS de CFD en la nube para análisis de microclima urbano: confort de viento, seguridad peatonal y confort térmico exterior.",
+          "acceso": "Empresa de pago",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Simulación ambiental",
+            "Microclima urbano"
+          ],
+          "programas": [
+            "Web app"
+          ],
+          "link": "https://orbitalstack.com",
+          "linkType": "website",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Orbital Stack",
+          "url_linkedin": "",
+          "fecha": "2026-04-16"
+        },
+        {
+          "nombre": "Urban Wind ML (SUS Lab)",
+          "descripcion": "Modelo de machine learning de acceso abierto para predicción de viento urbano en tiempo real. SSIM 0.96–1.00, R² 0.95. Se publicará como plugin gratuito para AEC.",
+          "acceso": "En desarrollo",
+          "tipo": "Framework académico",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Simulación ambiental",
+            "IA / Machine Learning",
+            "Microclima urbano"
+          ],
+          "programas": [
+            "Python"
+          ],
+          "link": "https://www.linkedin.com/feed/update/urn:li:activity:7448757195875422208",
+          "linkType": "website",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Ilker Karadag",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7448757195875422208",
+          "fecha": "2026-04-22"
+        }
+      ]
+    },
+    {
+      "id": "ecosistema-ia-dev",
+      "titulo": "Ecosistema IA para Diseño y Desarrollo",
+      "descripcion": "Herramientas de la capa de desarrollo: skills de Claude para arquitectos, gemelos digitales open source, interoperabilidad BIM con IA y grafos de conocimiento para agentes de código.",
+      "color": "#1a1a1a",
+      "total": 6,
+      "herramientas": [
+        {
+          "nombre": "Claude Skills for Architects (18)",
+          "descripcion": "Sistema de 18 skills predefinidos para Claude (código/normativa, materiales, envolvente, pensamiento espacial, sostenibilidad) + 7 calculadoras Python para arquitectos.",
+          "acceso": "Libre acceso",
+          "tipo": "Workflow",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Planificación IA",
+            "Análisis normativo"
+          ],
+          "programas": [
+            "Claude AI",
+            "Python"
+          ],
+          "link": "https://lnkd.in/dMcS7tYA",
+          "linkType": "github",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Abhinav Bhardwaj",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7450088695828787200",
+          "fecha": "2026-04-22"
+        },
+        {
+          "nombre": "Architecture Studio (Claude Code)",
+          "descripcion": "Plugin MIT de Claude Code con 36 skills y agentes especializados para arquitectos: Site Planner (clima, inundación, sísmica, tránsito), Product & Materials, Sustainability (EPDs, EC3, LEED).",
+          "acceso": "Libre acceso",
+          "tipo": "Workflow",
+          "categoria_original": "Generación",
+          "subcategorias": [
+            "Planificación IA",
+            "Análisis normativo",
+            "Herramientas de desarrollo"
+          ],
+          "programas": [
+            "Claude",
+            "Claude AI"
+          ],
+          "link": "https://www.linkedin.com/feed/update/urn:li:activity:7444738249421430784",
+          "linkType": "github",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Federico Negro",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7444738249421430784",
+          "fecha": "2026-04-22"
+        },
+        {
+          "nombre": "5 Workflows Grasshopper",
+          "descripcion": "Five scalable workflows for Grasshopper integrating Notion, Miro, Speckle, GitHub, and Claude.",
+          "acceso": "Libre acceso",
+          "tipo": "Educativo/Workflow",
+          "categoria_original": "Ambas",
+          "subcategorias": [
+            "Diseño paramétrico",
+            "Interoperabilidad BIM",
+            "Herramientas de desarrollo"
+          ],
+          "programas": [
+            "Grasshopper",
+            "Rhino3D",
+            "Notion",
+            "Miro",
+            "Speckle",
+            "GitHub",
+            "Claude"
+          ],
+          "link": "",
+          "linkType": "",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Marijn Luijmes",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7437029981962129408",
+          "fecha": "2026-03-22"
+        },
+        {
+          "nombre": "Graphify",
+          "descripcion": "Grafo de conocimiento persistente del código fuente para agentes IA (Claude Code, Codex, Cursor). 71.5x menos tokens por consulta. 23 lenguajes. Local vía tree-sitter.",
+          "acceso": "Libre acceso",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Análisis",
+          "subcategorias": [
+            "Herramientas de desarrollo",
+            "IA / Machine Learning"
+          ],
+          "programas": [
+            "Claude",
+            "Claude AI",
+            "Python"
+          ],
+          "link": "https://www.linkedin.com/feed/update/urn:li:activity:7449857516051693568",
+          "linkType": "website",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Dr. Alvaro Cintas",
+          "url_linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7449857516051693568",
+          "fecha": "2026-04-22"
+        },
+        {
+          "nombre": "Speckle",
+          "descripcion": "Plataforma de datos abierta para AEC. Conecta Rhino, Revit, GH, Archicad, Power BI.",
+          "acceso": "Mixto",
+          "tipo": "Empresa establecida",
+          "categoria_original": "Ambas",
+          "subcategorias": [
+            "Interoperabilidad BIM",
+            "Infraestructura de datos"
+          ],
+          "programas": [
+            "Rhino3D",
+            "Grasshopper",
+            "Revit",
+            "Power BI",
+            "Archicad"
+          ],
+          "link": "https://speckle.systems/",
+          "linkType": "website",
+          "imagen": "https://speckle.systems/.netlify/images?w=2402&h=1352&q=85&url=%2Fassets%2Fimages%2Fintelligence%2Fvalidation.webp",
+          "enlaces": [
+            {
+              "label": "Docs",
+              "url": "https://docs.speckle.systems/"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/specklesystems"
+            }
+          ],
+          "autor": "AEC Systems Ltd.",
+          "url_linkedin": "https://speckle.systems/",
+          "fecha": "2026-03-16"
+        },
+        {
+          "nombre": "EU Local Digital Twin Toolbox",
+          "descripcion": "Plataforma modular open source de la Comisión Europea para que ciudades construyan gemelos digitales. Cumple AI Act y Data Act.",
+          "acceso": "Libre acceso",
+          "tipo": "Herramienta nueva",
+          "categoria_original": "Ambas",
+          "subcategorias": [
+            "Modelado 3D / Gemelos digitales",
+            "Planificación IA"
+          ],
+          "programas": [
+            "Web app"
+          ],
+          "link": "https://interoperable-europe.ec.europa.eu/collection/ldttoolbox",
+          "linkType": "website",
+          "imagen": "",
+          "enlaces": [],
+          "autor": "Comisión Europea",
+          "url_linkedin": "",
+          "fecha": "2026-04-16"
+        }
+      ]
+    }
+  ]
+}
