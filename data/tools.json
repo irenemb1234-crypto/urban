@@ -2749,5 +2749,40 @@
     "imagen": "",
     "enlaces": [],
     "fecha": "2026-04-22"
+  },
+  {
+    "nombre": "Giraffe",
+    "categoria": "Ambas",
+    "subcategorias": [
+      "Plataformas GIS",
+      "Modelado 3D / Gemelos digitales",
+      "Planificación IA",
+      "IA / Machine Learning"
+    ],
+    "acceso": "Freemium",
+    "tipo": "Empresa establecida",
+    "ia": "Sí",
+    "descripcion": "Plataforma web colaborativa para diseño urbano y desarrollo inmobiliario que unifica GIS, modelado 3D y analítica en tiempo real, con generación de masas asistida por IA (AiM) y diseño algorítmico para evaluar escenarios y métricas (zonificación, costes, soleamiento, viento) en minutos.",
+    "autor": "Giraffe Technology",
+    "url": "https://www.giraffe.build/",
+    "programas": [
+      "Web app",
+      "GIS",
+      "Mapbox"
+    ],
+    "link": "https://www.giraffe.build/",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [
+      {
+        "label": "Pricing",
+        "url": "https://www.giraffe.build/pricing/"
+      },
+      {
+        "label": "AiM",
+        "url": "https://www.giraffe.software/aim"
+      }
+    ],
+    "fecha": "2026-04-29"
   }
 ]
