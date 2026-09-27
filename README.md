@@ -17,8 +17,33 @@ Catálogo curado de software, plugins, frameworks y workflows geoespaciales para
 │   ├── linkedin_saved_posts.csv
 │   └── linkedin-saved-posts-2026-03-22 (2).csv
 ├── recursos/               ← Imágenes locales para listas de recursos
+├── inbox/
+│   ├── linkedin_inbox.json ← Posts enviados desde LinkedIn (pendientes de clasificar)
+│   └── descartados.json    ← Posts del inbox revisados y no incluidos en la web
+├── scripts/
+│   ├── linkedin-to-urban.user.js ← Userscript de Tampermonkey
+│   └── pending_inbox.py    ← Lista los posts del inbox aún no catalogados
+├── CLAUDE.md               ← Instrucciones para la rutina que clasifica el inbox
 └── README.md
 ```
+
+## Enviar posts de LinkedIn al repositorio
+
+Claude no puede entrar en LinkedIn (requiere tu sesión y su API no da acceso a los posts guardados), así que el flujo tiene dos pasos:
+
+1. **Captura (tú, un clic):** un userscript recoge los posts desde tu propio navegador y los guarda en `inbox/linkedin_inbox.json` (rama `main`).
+2. **Clasificación (rutina de Claude):** la rutina diaria lee los posts pendientes, los clasifica en herramientas, académico u otros y abre un único pull request para que lo revises. Las instrucciones que sigue están en `CLAUDE.md`.
+
+**Instalación (una sola vez):**
+
+1. Instala la extensión [Tampermonkey](https://www.tampermonkey.net/) en tu navegador.
+2. Abre `scripts/linkedin-to-urban.user.js` en GitHub, pulsa **Raw** y Tampermonkey ofrecerá instalarlo.
+3. Crea un token en GitHub → Settings → Developer settings → **Fine-grained tokens**: acceso solo al repositorio `urban`, permiso **Contents: Read and write**.
+4. La primera vez que pulses el botón, el script te pedirá el token (se guarda en Tampermonkey; para cambiarlo usa el menú de Tampermonkey → *Cambiar token de GitHub*).
+
+**Uso:** abre https://www.linkedin.com/my-items/saved-posts/ (o el feed) y pulsa el botón azul **Enviar a urban** abajo a la derecha. El script carga toda la lista, extrae autor, URL, enlaces y los primeros 500 caracteres del texto de cada post (el repositorio es público) y añade solo los nuevos al inbox. Si el botón indica «0 posts vistos», LinkedIn ha cambiado su HTML y hay que actualizar los selectores del script.
+
+**Procesado:** `python3 scripts/pending_inbox.py` imprime los posts del inbox cuyo ID aún no aparece en `data/*.json` ni en `inbox/descartados.json`. Cada post revisado se añade a `tools.json`, `academic.json` u `otros.json` (con su URL de LinkedIn) o, si no es relevante, a `inbox/descartados.json` como `{"id": "...", "razon": "..."}`, así que deja de aparecer como pendiente.
 
 ## Configuración en GitHub Pages
 
