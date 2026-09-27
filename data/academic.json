@@ -214,5 +214,41 @@
     "linkUrl": null,
     "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7444282459321552897",
     "body": "<p>Como alternativa al mapeo basado en imágenes satelitales de muy alta resolución (caro y poco escalable), el estudio usa características morfológicas derivadas de datasets abiertos de huellas de edificios para clasificar áreas informales. F1 de 0,987 en validación cruzada K-means y F1 de 0,742 en ciudades completamente nuevas, evidenciando transferibilidad. Imagen: porcentaje de edificios identificados como slum a 100m en cuatro ciudades de Kenia.</p>"
+  },
+  {
+    "title": "Spatial Data Management with DuckDB — Libro",
+    "desc": "Guía práctica de 446 páginas sobre analítica geoespacial escalable con DuckDB: desde fundamentos SQL hasta análisis avanzado con la extensión espacial y GDAL.",
+    "autor": "Qiusheng Wu",
+    "fecha": "2026-09-25",
+    "cat": "Herramientas de desarrollo",
+    "badges": "",
+    "paperUrl": "https://duckdb.gishub.org/",
+    "linkUrl": "https://www.amazon.com/Spatial-Data-Management-DuckDB-Geospatial/dp/B0G2JFMFFC",
+    "liUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7395531098128031744",
+    "body": "<p>Libro publicado por Qiusheng Wu (Univ. Tennessee / Amazon Scholar) que cubre desde SQL básico hasta analítica geoespacial avanzada con DuckDB. Incluye procesamiento de Shapefiles, GeoJSON, GeoParquet y formatos cloud-native como PMTiles, así como integración con la extensión espacial de DuckDB y GDAL. Todos los ejemplos de código están disponibles en open source. Disponible en más de 14 idiomas.</p>"
+  },
+  {
+    "title": "Filip Biljecki — 2026 Gill Memorial Award (Royal Geographical Society)",
+    "desc": "El Prof. Filip Biljecki (NUS Urban Analytics Lab) recibe el premio Gill Memorial 2026 de la Royal Geographical Society por contribuciones excepcionales en urban analytics, geospatial data science y digital twins.",
+    "autor": "NUS CDE",
+    "fecha": "2026-06-21",
+    "cat": "Reconocimiento académico",
+    "badges": "",
+    "paperUrl": null,
+    "linkUrl": "https://news.nus.edu.sg/asst-prof-filip-biljecki-awarded-the-2026-gill-memorial-award",
+    "liUrl": "https://www.linkedin.com/posts/nus-cde_cde-nus-forgingnewfrontiers-activity-7460264571744817152-0HSl",
+    "body": "<p>El premio reconoce contribuciones tempranas sobresalientes a la ciencia geográfica. La investigación de Biljecki abarca urban analytics, geospatial data science y digital twins, creando nuevas formas de percibir, analizar y representar ciudades mediante datos urbanos a gran escala, con aplicaciones en planificación urbana, transporte, clima y sostenibilidad.</p>"
+  },
+  {
+    "title": "GeoAI Toolkit for Urban Planners — UN-Habitat",
+    "desc": "Guía de 12 pasos para integrar Inteligencia Artificial Geoespacial (GeoAI) en planificación urbana, con herramientas, casos prácticos y framework de implementación.",
+    "autor": "UN-Habitat / ICLEI",
+    "fecha": "2026-08-24",
+    "cat": "Planificación IA",
+    "badges": "",
+    "paperUrl": "https://unhabitat.org/sites/default/files/2025/12/ai_for_spatial_mapping_and_analysis.pdf",
+    "linkUrl": "https://unhabitat.org/ai-for-spatial-mapping-and-analysis-geoai-toolkit-for-urban-planners",
+    "liUrl": null,
+    "body": "<p>Publicación de UN-Habitat presentada en el 4th Global Expert Group Meeting on People-Centered Smart Cities (Bakú, diciembre 2025). Combina IA con datos geoespaciales, imágenes satelitales, registros administrativos y redes de sensores para fortalecer la toma de decisiones en planificación de uso del suelo, vivienda, movilidad, monitoreo ambiental y gobernanza urbana. Elaborada en colaboración con ICLEI South Asia e ICLEI Europe.</p>"
   }
 ]
