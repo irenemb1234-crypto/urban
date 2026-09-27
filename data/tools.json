@@ -232,7 +232,7 @@
     "ia": "No",
     "descripcion": "Motor SQL ligero para análisis geoespacial escalable.",
     "autor": "Qiusheng Wu",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7395531098128031794",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7395531098128031744",
     "programas": [
       "DuckDB",
       "SQL",
@@ -2784,5 +2784,166 @@
       }
     ],
     "fecha": "2026-04-29"
+  },
+  {
+    "nombre": "GeoLibre",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Plataformas GIS",
+      "Visualización"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Plataforma GIS cloud-native, ligera y open-source (~30 MB) que corre en navegador, escritorio, móvil y Jupyter. Construida con Tauri v2, MapLibre GL JS, DuckDB-WASM Spatial y deck.gl.",
+    "autor": "Qiusheng Wu",
+    "url": "https://www.linkedin.com/posts/giswqs_gis-opensource-geospatial-activity-7471543211002503168--_AB",
+    "programas": [
+      "Python",
+      "TypeScript",
+      "Jupyter"
+    ],
+    "link": "https://github.com/opengeos/GeoLibre",
+    "linkType": "github",
+    "imagen": "",
+    "enlaces": [
+      {
+        "label": "Web app",
+        "url": "https://gishub.org/geolibre"
+      },
+      {
+        "label": "Blog",
+        "url": "https://gishub.org/blog/geolibre/"
+      }
+    ],
+    "fecha": "2026-06-19"
+  },
+  {
+    "nombre": "URA ePlanner",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Planificación urbana",
+      "Gemelo digital",
+      "Visualización 3D"
+    ],
+    "acceso": "Acceso restringido",
+    "tipo": "Empresa establecida",
+    "ia": "No",
+    "descripcion": "Plataforma de planificación urbana integrada de la Urban Redevelopment Authority de Singapur. Centraliza datos 2D GIS, modelos 3D de edificios, árboles y vías, point clouds, BIM y simulaciones de volumetría urbana sobre ArcGIS Enterprise. Ganadora del Geospatial World Excellence Award 2026 en Smart City & Urban Planning.",
+    "autor": "URA Singapore",
+    "url": "https://www.linkedin.com/posts/urasingapore_smartcities-urbanplanning-singapore-activity-7456225039735107584-X7q1",
+    "programas": [
+      "ArcGIS Enterprise",
+      "Web"
+    ],
+    "link": "https://www.ura.gov.sg/Corporate/Planning/Our-Planning-Process/Smart-Planning",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-06-21"
+  },
+  {
+    "nombre": "MORPHINT",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Morfología urbana",
+      "Intensidad de desarrollo",
+      "Indicadores urbanos"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Plugin QGIS Processing para analizar morfología urbana e intensidad de desarrollo a partir de huellas de edificios y datos raster. Calcula BCR, FAR, OSR y métricas morfológicas (compacidad, elongación, convexidad, dimensión fractal). Genera parcelas mediante Voronoi, grid o teselación Momepy.",
+    "autor": "Firman Afrianto, Maya Safira",
+    "url": "",
+    "programas": [
+      "QGIS"
+    ],
+    "link": "https://plugins.qgis.org/plugins/morphint_morphology_intensity_analyzer/",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-06-21"
+  },
+  {
+    "nombre": "CityStockID",
+    "categoria": "Análisis",
+    "subcategorias": [
+      "Stock de edificios",
+      "Diagnóstico urbano",
+      "Densificación"
+    ],
+    "acceso": "Libre acceso",
+    "tipo": "Herramienta nueva",
+    "ia": "No",
+    "descripcion": "Plugin QGIS para diagnóstico urbano automatizado a partir de datos de stock de edificios. Analiza crecimiento edilicio, densificación y presión morfológica, traduciendo datos espaciales en indicadores prácticos para la planificación.",
+    "autor": "Firman Afrianto, Maya Safira",
+    "url": "",
+    "programas": [
+      "QGIS"
+    ],
+    "link": "",
+    "linkType": "",
+    "imagen": "",
+    "enlaces": [],
+    "fecha": "2026-06-21"
+  },
+  {
+    "nombre": "Ant AI (Grasshopper)",
+    "categoria": "Ambas",
+    "subcategorias": [
+      "IA / Machine Learning",
+      "Diseño paramétrico"
+    ],
+    "acceso": "Empresa de pago",
+    "tipo": "Herramienta nueva",
+    "ia": "Sí",
+    "descripcion": "Copiloto IA para Grasshopper: genera, modifica y explica definiciones mediante prompts de texto. Modos Ask (debug), Edit (diseño por lenguaje natural) y Script (código Python/C# sin programar).",
+    "autor": "Ant AI",
+    "url": "https://blog.rhino3d.com/2026/02/ant-your-ai-copilot-for-grasshopper-new.html",
+    "programas": [
+      "Grasshopper",
+      "Rhino3D"
+    ],
+    "link": "https://www.food4rhino.com/en/app/ant-ai",
+    "linkType": "website",
+    "imagen": "",
+    "enlaces": [
+      {
+        "label": "Webinar food4Rhino",
+        "url": "https://events.food4rhino.com/event/food4rhino-webinar-effective-ai-copilot-workflows-with-ant-for-grasshopper/"
+      }
+    ],
+    "fecha": "2026-08-24"
+  },
+  {
+    "nombre": "ArcGIS CityEngine for Rhino",
+    "categoria": "Generación",
+    "subcategorias": [
+      "Modelado 3D / Gemelos digitales",
+      "Plataformas GIS"
+    ],
+    "acceso": "Empresa de pago",
+    "tipo": "Empresa establecida",
+    "ia": "No",
+    "descripcion": "Plugin de Esri que permite ejecutar reglas CGA de CityEngine directamente en Rhino/Grasshopper. Los modelos permanecen procedimentales durante todo el flujo de diseño sin exportar/importar.",
+    "autor": "Esri",
+    "url": "https://esri.github.io/cityengine/rhino",
+    "programas": [
+      "Rhino3D",
+      "Grasshopper",
+      "ArcGIS CityEngine"
+    ],
+    "link": "https://github.com/Esri/cityengine_for_rhino",
+    "linkType": "github",
+    "imagen": "",
+    "enlaces": [
+      {
+        "label": "Release 1.2.0",
+        "url": "https://community.esri.com/t5/arcgis-cityengine-blog/new-release-1-2-0-of-arcgis-cityengine-for-rhino/ba-p/1553175"
+      }
+    ],
+    "fecha": "2026-08-24",
+    "empresa": "Esri"
   }
 ]
